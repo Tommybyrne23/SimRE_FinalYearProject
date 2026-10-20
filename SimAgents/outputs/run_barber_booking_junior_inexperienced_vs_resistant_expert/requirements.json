@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers must be able to pick a service when booking an appointment",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers must be able to choose a barber when booking an appointment",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers must be able to see available times for appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers must be able to manage their own appointments (change or cancel) without needing to call",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must not complicate the existing workflow of the barbershop",
+      "type": "NonFunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must include reminders for appointments to help reduce no-shows",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

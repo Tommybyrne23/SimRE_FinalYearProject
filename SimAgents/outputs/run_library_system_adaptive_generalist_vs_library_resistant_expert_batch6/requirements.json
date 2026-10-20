@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students can check book availability and manage their loans online, including borrowing and returning items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students can book study rooms online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system provides librarians with quick access to student loan histories and fine details for effective support.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Reporting tools are available for librarians to identify usage patterns and proactively manage issues.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must allow for personal interactions, especially for handling exceptions and fines.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

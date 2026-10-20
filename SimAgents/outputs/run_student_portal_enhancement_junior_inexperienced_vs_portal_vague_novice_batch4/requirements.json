@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Colour-coding for different modules and study blocks in the timetable for easier navigation.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Push notifications for grade updates, with an option for email notifications as a backup.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A feedback system where students can comment on the content, lecturer delivery, and resource helpfulness.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements should be easy to use and not require creating new accounts.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Reminders for assignment deadlines and exam dates to help students stay organized.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

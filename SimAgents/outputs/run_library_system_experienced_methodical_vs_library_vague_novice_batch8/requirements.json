@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to check book availability online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to borrow and return books digitally.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should have access to a list of borrowed items with due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The room booking system should allow students to select a date, choose a time slot, and see the room capacity.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Notifications about book due dates should be sent to students via a mobile app, with email as an alternative.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

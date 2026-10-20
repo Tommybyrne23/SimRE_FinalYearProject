@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management allowing users to assign different colours to classes based on type (lectures, tutorials, important events) with the option to select their own colours.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications delivered as push notifications on users’ phones, including the module name and the actual grade.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system that allows students to provide feedback on content quality, lecture delivery, and resource usefulness, using a simple form with specific questions and a rating scale from 1 to 5.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements should be seamlessly integrated into the existing portal, ensuring that the current login and access processes remain unchanged.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The focus should be on making the new features user-friendly and easy to access.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

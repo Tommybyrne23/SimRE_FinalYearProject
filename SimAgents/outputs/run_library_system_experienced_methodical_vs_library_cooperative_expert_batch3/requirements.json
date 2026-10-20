@@ -1,0 +1,110 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 17,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to search the library catalogue with real-time availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to borrow, return, and renew items online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to book study rooms online, selecting date, time slot, and room capacity.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should have access to their account information to view current loans, due dates, and outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should receive automated email reminders before due dates and notifications when fines are applied.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should provide a robust tool for managing book inventory, including adding, updating, and retiring items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should generate insightful usage reports on loan volumes, item popularity, and study room utilization.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should allow placing holds or restrictions on student accounts based on outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system should automatically calculate fines for overdue items based on a configurable daily rate.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Students should be able to view their outstanding fines in their account.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The system should automatically send email notifications to students when fines are applied.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Students with outstanding fines exceeding a certain threshold should be automatically blocked from making new loans or room bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system must seamlessly integrate with the existing student record system for real-time access to student data.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The system must implement strong data protection measures for storing and processing student data.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Students should have the ability to access their data and request corrections.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Clearly defined processes for data retention and deletion must be in place.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Students must be informed about how their data is being used and have the option to consent to data processing.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

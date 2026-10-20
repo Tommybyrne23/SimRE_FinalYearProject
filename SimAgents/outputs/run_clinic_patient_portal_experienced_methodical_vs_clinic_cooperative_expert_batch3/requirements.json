@@ -1,0 +1,146 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 23,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, or reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to see available time slots for both GP and nurse appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to filter their search by the type of appointment they need.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients should be able to flag urgent symptoms for prioritization.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Patients should receive confirmation of appointments through their preferred communication method.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "GPs and nurses should be able to manage their availability easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Patients should log into their account to navigate to a section for repeat prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Patients should see a list of their current medications that are eligible for repeat prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Patients should have the option to add comments or notes with their prescription requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The system should notify the relevant clinician when a repeat prescription request is submitted.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Repeat prescription requests should be completed only after clinician authorization.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Patients should receive notifications when their prescription is ready.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Patients should log into their portal account and access a dedicated section for test results.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Patients should see a summary of their recent tests with status indicators for availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Patients should receive notifications when their test results are available for viewing.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Detailed test results along with clinician comments should be accessible in a secure area.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Any test results that require follow-up or discussion should be clearly flagged for the patient.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The portal must be cost-effective, demonstrating a clear return on investment.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "The new portal must seamlessly integrate with the existing practice management system.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "The portal must comply with GDPR and relevant Irish data protection legislation.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "The portal should cater to patients with low digital literacy and meet accessibility standards.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Adequate training must be planned for staff to ensure proficiency in using the new system.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "The portal needs to maintain high availability, ideally 99.9%, to avoid patient frustration.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A feature for patients to view and book or change their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A system for patients to access test results online, post-approval by a doctor.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A user-friendly layout that is easy for all patients to navigate.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A secure login system to protect patient data.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Consideration for compliance with data protection regulations and integration with existing systems.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Send reminders about appointments, like a day or two before.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

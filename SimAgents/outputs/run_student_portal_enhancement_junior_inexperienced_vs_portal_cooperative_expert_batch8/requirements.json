@@ -1,0 +1,98 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 15,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students can color-code modules in their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students can hide cancelled classes from their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students can add personal study blocks to their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students can manage their notification preferences for grades and deadlines via a dedicated section in the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students can choose their preferred channels for notifications (email, SMS, in-app alerts).",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Students can set how often they receive notifications for grades and deadlines.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The module feedback system should include questions about content quality.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The module feedback system should include questions about teaching delivery.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The module feedback system should include questions about resources provided.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The module feedback system should include a rating scale for overall satisfaction.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Feedback submitted by students must be completely anonymous.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Module coordinators should only access feedback after grades are submitted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "All new features must integrate with the existing portal's authentication system.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The existing student records database schema must not be modified.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "All enhancements must comply with GDPR and the university's data retention policy.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

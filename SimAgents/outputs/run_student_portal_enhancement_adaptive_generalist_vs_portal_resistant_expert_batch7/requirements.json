@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should have a user-friendly interface to customize their timetable, including options for color-coding modules, hiding canceled classes, and adding personal study blocks without affecting system performance.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should receive timely notifications for new grades, upcoming assignment deadlines, and exam reminders, with options for delivery via email, in-app alerts, or push notifications, ensuring flexibility without adding complexity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to provide feedback on module content quality, delivery, and resources via a straightforward and anonymous process after the teaching period, without disrupting grading or existing workflows.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Any enhancements to the portal should not disrupt the current system's performance or create extra maintenance work.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The feedback process should be straightforward and encourage participation without complicating existing workflows.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

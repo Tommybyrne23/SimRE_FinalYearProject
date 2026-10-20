@@ -1,0 +1,44 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management should allow students to color-code classes, hide cancelled ones, and add study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications should inform students when grades are posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Deadline notifications should remind students of assignment due dates and exam schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A structured module feedback system should enable students to provide feedback on content quality, delivery, and resources while ensuring anonymity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "All enhancements must fit within the current portal infrastructure without causing major changes.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Stability must be maintained throughout the implementation of new features.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

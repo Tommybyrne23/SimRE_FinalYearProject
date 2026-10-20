@@ -1,0 +1,98 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 15,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients must be able to book, cancel, and reschedule appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients must be able to request repeat prescriptions online without calling",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients must have secure online access to test results after clinician approval",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "System must allow GPs and nurses to manage their appointment schedules",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "System must have a feature to flag urgent cases for same-day appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Portal must have a clean and straightforward design with clear labels",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Portal must provide step-by-step guidance for booking appointments",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Portal must adhere to accessibility guidelines for all users",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Portal must offer larger text options, voice commands, and video tutorials",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Portal must be mobile-friendly for use on smartphones",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "System must be cost-effective and provide good value for money",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Portal must integrate seamlessly with existing practice management software",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "System must comply with GDPR and relevant data protection laws",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "System must be easy to train staff with minimal additional training required",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Portal must accommodate varying levels of digital literacy among patients",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

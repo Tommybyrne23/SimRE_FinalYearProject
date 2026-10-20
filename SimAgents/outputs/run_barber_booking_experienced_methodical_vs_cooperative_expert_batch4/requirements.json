@@ -1,0 +1,104 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 16,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online at their convenience.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automatic reminders should be sent out 24 hours and 1 hour before appointments to reduce no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Barbers should be able to manage their schedules individually, setting hours and marking time off.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should provide an overview of bookings, cancellations, no-shows, and peak times.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Customers should be able to select from different services when booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Customers should have the option to choose their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Real-time availability of each barber should be displayed during booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should have a user-friendly interface that works well on mobile devices.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Customers should be able to create accounts to save personal details and preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Barbers should be able to log in to their own section of the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "A feature should allow barbers to view upcoming appointments at a glance.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The system should provide visual representations of metrics, such as graphs or charts.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Budget constraints should be considered in the design and implementation of the system.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The system should be easy to implement and maintain for a small independent business.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "The interface must be user-friendly for both customers and staff to minimize training requirements.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The system should comply with data protection regulations when handling customer data.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

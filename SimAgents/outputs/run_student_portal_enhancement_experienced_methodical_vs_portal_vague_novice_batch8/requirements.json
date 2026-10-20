@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management should allow students to select different colours for various types of classes (lectures, tutorials) and hide cancelled classes to reduce clutter.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications should be sent primarily via email, with the option for push notifications through the portal, providing immediate updates when grades are released.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system should include a simple form that allows students to provide feedback on course content and delivery, focusing on the helpfulness of materials and clarity of lectures.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements must integrate seamlessly with the existing portal infrastructure to avoid significant disruption or hassle.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should be able to use the personalised timetable weekly for tracking classes, receive timely grade notifications via email, and fill out feedback forms quickly and easily after modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

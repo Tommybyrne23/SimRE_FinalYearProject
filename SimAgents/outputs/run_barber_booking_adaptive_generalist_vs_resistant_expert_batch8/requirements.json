@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online at any time.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow customers to choose a service, select their barber, and view available times.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers need the ability to cancel or change their appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should send SMS reminders to customers before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The solution must integrate smoothly with the current workflow without complicating processes.",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

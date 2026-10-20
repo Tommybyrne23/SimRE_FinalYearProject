@@ -1,0 +1,146 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 23,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, and reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request repeat prescriptions online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should have secure access to their test results after clinician review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "System must effectively flag urgent cases for same-day appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must be user-friendly, especially for elderly patients and those less familiar with technology.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients should be able to see available time slots for appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Patients should have the option to book appointments with either GPs or nurses.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system must allow patients to reschedule or cancel appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "GPs and nurses should be able to manage their availability directly in the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "There should be an easy way for patients to indicate if they need a same-day appointment due to urgent symptoms.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Patients should be able to see a clear list of their current prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The system should allow patients to request refills directly from their list of active prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system should send reminders to patients when they are due for a refill.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Prescription requests must be securely processed with safeguards in place to prevent unauthorized requests.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Patients should receive notifications when their test results are ready to be viewed.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Test results must be presented in a clear and understandable format, avoiding medical jargon.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "There must be a secure login process for accessing test results, including a verification step.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "All patient data must be encrypted and secure to comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Patients should have a clear option to indicate they have urgent symptoms when booking an appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Urgent cases should be routed to the reception team for immediate review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "The system should automatically prioritize urgent requests in the appointment scheduling view.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "GPs and nurses should have a dedicated section in their calendars for managing urgent appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "Patients should receive communication throughout the process, including confirmation of their urgent appointment request.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

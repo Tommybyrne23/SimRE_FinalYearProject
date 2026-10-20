@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow students to manage loans and bookings online, ensuring good service while maintaining a personal touch for exceptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to check availability, borrow items, book study rooms, and view their current loans and fines online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Librarians should have the ability to manage inventory easily, including adding or updating items, and to place holds or restrictions on accounts for students with outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "There should be a way for librarians to handle unique circumstances and make context-based decisions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should balance new features with the need for manual oversight when exceptions arise.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

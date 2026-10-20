@@ -1,0 +1,92 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to personalize their timetables with color-coding options for different modules and activities.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should have a drag-and-drop functionality for arranging their modules and study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to hide cancelled classes and toggle their visibility.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should be able to add personal study blocks with annotations for specific tasks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must provide an export feature for personalized timetables to sync with external calendar apps like Google Calendar or Outlook.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must send individual notifications for grades as soon as they are posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must send automated reminders for assignment deadlines a few days in advance.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system must provide a weekly summary of all upcoming assignment deadlines.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Students should be able to customize their notification preferences, including options for email, SMS, or in-app notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The feedback submission process must be straightforward and user-friendly.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The feedback form should include questions about the quality of content, delivery by instructors, and sufficiency of resources provided.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The feedback form must include an open-ended comments section for additional thoughts.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The feedback form must not collect any identifying information to maintain student anonymity.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Feedback should be presented to module coordinators in an aggregated, anonymized format after grades are finalized.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

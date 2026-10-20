@@ -1,0 +1,32 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online, selecting a service, barber, and available time slot.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Barbers should have the ability to set their own hours and update their availability to avoid double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should send automated reminders to customers one day and one hour before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The implementation should integrate smoothly into the existing workflow of the barbershop to minimize disruption.",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

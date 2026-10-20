@@ -1,0 +1,140 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 22,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The online catalog should feature a user-friendly interface that allows students to search for materials using various filters (author, genre, publication date) and see real-time availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to place holds on checked-out items and receive notifications when they become available.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A clear view of current loans, including due dates and outstanding fines, should be available, along with the ability to renew items online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Access to reservation history should be included so students can track past borrowing.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "An online booking feature for study rooms, allowing students to select date, time, and room capacity.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Automated email reminders for upcoming due dates and fine notifications should be implemented.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should automatically calculate fines based on a configurable daily rate for overdue items, allowing flexibility to adjust rates by item type (e.g., textbooks versus general reading materials).",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "When a student returns an item late, the fine should be applied immediately and their account updated in real-time, providing visibility of outstanding fines when checking loan status.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Automated email reminders should be sent a few days before due dates to prompt students to return or renew items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "When a fine is applied, another automated email should notify the student of the charge, detailing the item, the amount, and steps to resolve it.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "A mechanism should be in place to block students from borrowing new items or booking study rooms if their outstanding fines exceed a certain threshold.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Librarians should have an intuitive interface to easily add new items, update existing records, and retire items no longer in circulation.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system should include bulk upload capabilities for efficiently entering large shipments of new books or materials.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Key reporting metrics should include loan volumes to track frequently borrowed items, aiding in purchasing decisions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Room utilization should be tracked to understand booking frequency and peak times for study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Insights into fine revenue should be provided to assess the effectiveness of current policies.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Reports on overdue items and outstanding fines should be generated to identify patterns and proactively manage late returns.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The system must integrate with the university's student record system to verify student enrolment status before allowing borrowing or room bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "This verification should occur seamlessly in the background to avoid delays in the borrowing process.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "The system must handle student data with caution, retaining only necessary information related to borrowing and fines, with secure and encrypted storage of personal data.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Clear data retention policies should be established to determine how long borrowing history and fine records are kept, with processes for securely deleting or anonymizing data once students graduate or leave the university.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Students should be informed about how their data will be used, with clear privacy notices and easy access to their rights under GDPR, including the ability to request changes or deletions.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

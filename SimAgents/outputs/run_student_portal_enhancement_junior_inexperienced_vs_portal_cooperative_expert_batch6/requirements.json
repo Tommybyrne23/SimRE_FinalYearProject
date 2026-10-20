@@ -1,0 +1,92 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students must be able to personalise their timetables by colour-coding modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students must have the option to hide cancelled classes from their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students must be able to add their own study blocks to their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students must have the option to export or sync their personalised timetable with external calendar applications like Google Calendar or Outlook.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must send instant notifications to students when new grades are posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must send automated reminders to students about upcoming assignment deadlines and exam dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students must be able to configure their notification preferences regarding the method of delivery (email, SMS, in-app messages) and frequency.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The feedback submission process must be straightforward and structured to guide students in providing meaningful feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Feedback submissions must be anonymous to encourage honest responses from students.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Feedback must be accessible to module coordinators only after the grade submission deadline to maintain integrity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Module coordinators must be able to view aggregated, anonymised feedback results.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Academic administrators must have the ability to generate reports on module feedback trends across departments and semesters.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The enhancements must integrate seamlessly with the current portal without creating additional hurdles for students.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The system must adhere to data protection regulations such as GDPR.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

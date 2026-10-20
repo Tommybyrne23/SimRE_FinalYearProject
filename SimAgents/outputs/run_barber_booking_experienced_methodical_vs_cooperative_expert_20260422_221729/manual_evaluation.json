@@ -1,0 +1,12 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_20260422_221729",
+  "evaluated_at": "2026-04-23T15:38:55.666595",
+  "evaluator": "anonymous",
+  "ratings": {
+    "completeness": 5,
+    "coherence": 5,
+    "relevance": 5,
+    "naturalness": 5,
+    "requirement_quality": 5
+  }
+}

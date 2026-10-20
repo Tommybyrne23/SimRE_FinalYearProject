@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow customers to book appointments online at their convenience.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should be able to select services (haircuts, beard trims, styling options), choose a preferred barber, and view available times.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system needs to enable customers to cancel or change appointments online without needing to call the shop.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Barbers should be able to set their own working hours and update their availability, preventing double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must be cost-effective.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must ensure the security of customer information while complying with relevant regulations.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

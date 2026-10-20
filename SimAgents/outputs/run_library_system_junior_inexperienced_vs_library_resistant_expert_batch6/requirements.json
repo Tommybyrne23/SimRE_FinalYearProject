@@ -1,0 +1,44 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Online tools for students to manage loans, including searching for items, checking availability, borrowing, returning, renewing items, and booking study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Prevent students from making new loans or booking rooms if they have outstanding fines.",
+      "type": "Constraint",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automate the fine calculation process while maintaining personal interaction for edge cases and exceptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Reports for librarians on loan volumes, popular items, and study room usage.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should be straightforward for students to use.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Manage edge cases and exceptions carefully in the fine calculation process.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

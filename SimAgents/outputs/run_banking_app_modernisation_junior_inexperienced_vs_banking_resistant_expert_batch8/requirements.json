@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "All new features must comply with existing regulations and frameworks.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement real-time notifications for transactions to enhance transparency and help customers manage their finances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow customers to freeze and unfreeze their cards directly within the app for greater control.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide a spending breakdown to help customers understand their financial habits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure seamless integration of new features with the current systems while maintaining compliance.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

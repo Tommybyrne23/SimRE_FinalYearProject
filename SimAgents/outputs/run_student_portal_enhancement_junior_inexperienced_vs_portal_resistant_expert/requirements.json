@@ -1,0 +1,44 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management with features like color-coding, hiding canceled sessions, and adding personal study times.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications sent immediately via email, SMS, or in-app notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system for students to give feedback on course content, delivery, and resources while maintaining anonymity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements must integrate smoothly with the existing login process.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The current database structure cannot be altered.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Feedback must only be available to coordinators after grades are submitted.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

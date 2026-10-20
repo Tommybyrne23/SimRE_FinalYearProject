@@ -1,0 +1,56 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Real-time notifications for transactions, including amount, merchant name, and remaining balance, delivered within five seconds of the transaction being authorized.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "An instant card freezing and unfreezing feature that allows users to block and restore access to their card through an intuitive interface within the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automated monthly spending breakdowns that categorize expenses and provide users the ability to set personalized budgets with alerts for approaching limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Visualizations like graphs or charts to show spending trends over time.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "System must comply with PSD2's Strong Customer Authentication requirements.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "System must comply with GDPR regulations, ensuring data privacy by storing data within the EEA.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Integrate new features with the existing core banking system without requiring changes to the mainframe.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Maintain backwards compatibility with the existing app during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

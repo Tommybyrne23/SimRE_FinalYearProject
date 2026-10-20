@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Online borrowing and returning of books without needing to visit the desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A real-time search function for book availability, with filtering options by title, author, genre, and format.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A simple study room booking system that allows selection of date and time slots and provides room capacity information.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Email reminders for book due dates, with an option for push notifications through a mobile app.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must ensure a user-friendly and convenient experience for students.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

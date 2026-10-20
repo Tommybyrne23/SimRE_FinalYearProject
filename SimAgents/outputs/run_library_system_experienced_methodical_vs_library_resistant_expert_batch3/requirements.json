@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow students to check the availability of materials and manage loans online, including borrowing and returning items without needing to visit the desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should receive email reminders a few days before items are due, as well as immediate notifications when fines are added to their accounts.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Librarians must have the ability to easily add and update inventory items, track availability, and generate usage reports to understand checkout trends.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should provide librarians with tools to manage student accounts, including placing holds on accounts with outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The design of the system must support the personal service currently provided at the desk, ensuring that staff can still offer assistance for questions and issues.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 13,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Full compliance with regulations such as PSD2, GDPR, and Central Bank consumer protection rules is paramount.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement real-time transaction notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Implement card freezing and unfreezing functionality.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide automated spending breakdowns.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Establish a structured compliance review process at each stage of development.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Conduct a risk assessment to identify potential compliance issues for each feature.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Ensure legal and compliance teams review features prior to development.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Have regular check-ins with compliance experts during the development phase.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Obtain final compliance sign-off before any feature goes live.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Ensure new features integrate smoothly with the existing core banking system.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Maintain backward compatibility with the existing app during a transition period.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The app must be user-friendly and accessible.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Incorporate biometric authentication to enhance security and simplify the login process.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

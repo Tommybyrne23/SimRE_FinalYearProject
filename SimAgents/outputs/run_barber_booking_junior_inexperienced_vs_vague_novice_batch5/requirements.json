@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online easily, choosing a service and time.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system needs to help manage barbers' schedules, allowing them to set availability and manage breaks.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should be able to change or cancel appointments online without calling.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should send reminders to customers before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "There should be a 24-hour notice for cancellations.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should be user-friendly and not complicated.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

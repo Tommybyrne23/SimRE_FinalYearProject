@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management should allow students to customize their schedules with features like color-coding modules, hiding canceled classes, and adding study blocks, while keeping the interface straightforward and stable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade and deadline notifications should offer students the choice between email and in-app alerts to receive updates, ensuring no added complexity to the existing system.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The structured module feedback system should allow students to provide feedback on module quality and resources while maintaining confidentiality, with feedback collection occurring only after grades have been submitted to ensure integrity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "All new features must integrate smoothly with the existing setup to avoid any disruption to current functionalities.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The overall design should prioritize stability and simplicity to enhance the user experience without complicating the existing portal.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

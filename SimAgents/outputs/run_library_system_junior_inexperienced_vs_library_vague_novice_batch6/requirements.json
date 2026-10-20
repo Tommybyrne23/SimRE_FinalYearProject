@@ -1,0 +1,44 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow students to borrow and return books online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable checking of available books instantly.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide functionality for booking study rooms by selecting date, time, and number of users.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Ensure the system is user-friendly and straightforward for students.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Send reminders for due dates via email or phone notifications a few days in advance.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Allow students to view their checked-out items, due dates, and any fines in one place.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

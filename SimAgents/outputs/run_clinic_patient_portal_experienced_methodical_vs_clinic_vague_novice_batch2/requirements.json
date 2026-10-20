@@ -1,0 +1,74 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, change, or cancel appointments easily online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The portal should display available appointment times for patients to choose from.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to indicate if they require urgent appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients should be able to request repeat prescriptions online easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal should display patients' current prescriptions for selection when requesting refills.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients should have the option to leave notes or questions when requesting repeat prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Test results should only be accessible after clinician review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "A notification system should inform patients when their test results are ready for viewing.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The portal must prioritize security, ensuring safe access to patient information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The design of the portal must be user-friendly for both patients and staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The portal must comply with relevant regulations regarding patient data and privacy.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

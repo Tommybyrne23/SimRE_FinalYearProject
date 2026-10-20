@@ -1,0 +1,68 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Online borrowing and returning functionalities with notifications for due dates and fines",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Ensure personal service is available for complex situations",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "An online booking system for students to select dates and times for study rooms",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Calendar view for librarians to monitor bookings",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ability to manually adjust reservations to resolve conflicts",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Clear overview of outstanding fines and due dates",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Automated calculations for overdue fines",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Engagement capability for librarians to discuss fines with students",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Feature allowing students to view their loan history",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Facilitate personal interactions between librarians and students in complex situations",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online, selecting services, barbers, and available time slots without overlaps.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should have the option to easily change or cancel their appointments online through a simple interface.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "An automated reminder system should send notifications to customers one day and one hour before their appointments via SMS and email to reduce no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers should have the option to create accounts to save their details and booking history for faster future bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

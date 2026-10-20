@@ -1,0 +1,180 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch8",
+  "evaluated_at": "2026-04-23T12:05:08.168173",
+  "dialogue_turns": 11,
+  "metrics": {
+    "coherence": {
+      "mean": 0.6117,
+      "std": 0.0764,
+      "pairs_evaluated": 10,
+      "scores": [
+        0.4966,
+        0.6685,
+        0.5416,
+        0.686,
+        0.5722,
+        0.7079,
+        0.6618,
+        0.6454,
+        0.4872,
+        0.6502
+      ],
+      "interpretation": "High — turns are semantically consistent"
+    },
+    "re_informativeness": {
+      "mean": 0.2536,
+      "std": 0.0144,
+      "turns_evaluated": 6,
+      "per_turn": [
+        0.25,
+        0.2381,
+        0.2614,
+        0.2346,
+        0.2761,
+        0.2615
+      ],
+      "interpretation": "High — dense, content-rich turns"
+    },
+    "user_informativeness": {
+      "mean": 0.2535,
+      "std": 0.0322,
+      "turns_evaluated": 5,
+      "per_turn": [
+        0.2233,
+        0.2432,
+        0.2475,
+        0.2376,
+        0.3158
+      ],
+      "interpretation": "High — dense, content-rich turns"
+    },
+    "requirement_coverage": {
+      "score": 0.8667,
+      "covered": [
+        {
+          "id": "Clinic_FunctionalRequirement_1",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow patients to book, cancel, and reschedule GP and nurse appointments online.",
+          "max_similarity": 0.6633
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_2",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow patients to submit repeat prescription requests online without a phone call.",
+          "max_similarity": 0.6878
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_3",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow patients to securely view their test results online once authorised by a clinician.",
+          "max_similarity": 0.5798
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_4",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall authenticate patients using a secure identity verification process before granting access to any personal health data.",
+          "max_similarity": 0.6706
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_5",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow GPs and nurses to manage their appointment schedules, including setting availability and blocking time slots.",
+          "max_similarity": 0.5348
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_6",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall provide an escalation pathway for patients with urgent symptoms to be flagged for same-day or emergency appointments.",
+          "max_similarity": 0.5287
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_7",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall integrate with the clinic's existing practice management software to synchronise appointment and patient data.",
+          "max_similarity": 0.5305
+        },
+        {
+          "id": "Clinic_FunctionalRequirement_8",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall send automated reminders to patients before upcoming appointments via their preferred communication channel.",
+          "max_similarity": 0.664
+        },
+        {
+          "id": "Clinic_NonFunctionalRequirement_2",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall ensure all patient data is encrypted in transit and at rest.",
+          "max_similarity": 0.5664
+        },
+        {
+          "id": "Clinic_NonFunctionalRequirement_4",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall be operable by reception staff with minimal additional training beyond a short onboarding session.",
+          "max_similarity": 0.4425
+        },
+        {
+          "id": "Clinic_Constraint_1",
+          "type": "Constraint",
+          "statement": "The system must comply with GDPR and applicable Irish data protection legislation for the storage and processing of patient health data.",
+          "max_similarity": 0.4572
+        },
+        {
+          "id": "Clinic_Constraint_2",
+          "type": "Constraint",
+          "statement": "The system must not allow patients to view test results before a clinician has reviewed and authorised their release.",
+          "max_similarity": 0.4604
+        },
+        {
+          "id": "Clinic_Constraint_3",
+          "type": "Constraint",
+          "statement": "The system must integrate with the clinic's existing practice management software without requiring full data migration.",
+          "max_similarity": 0.4352
+        }
+      ],
+      "not_covered": [
+        {
+          "id": "Clinic_NonFunctionalRequirement_1",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall be accessible to patients with low digital literacy, including elderly users, conforming to WCAG 2.1 AA accessibility guidelines.",
+          "max_similarity": 0.366
+        },
+        {
+          "id": "Clinic_NonFunctionalRequirement_3",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall remain available 99.9% of the time during clinic operating hours.",
+          "max_similarity": 0.374
+        }
+      ],
+      "total_expected": 15,
+      "by_type": {
+        "FunctionalRequirement": 1.0,
+        "NonFunctionalRequirement": 0.5,
+        "Constraint": 1.0
+      },
+      "similarity_threshold": 0.4,
+      "interpretation": "High — nearly all ground truth requirements addressed"
+    },
+    "requirement_specificity": {
+      "mean": 0.3177,
+      "std": 0.0606,
+      "requirements_evaluated": 7,
+      "per_req": [
+        0.3333,
+        0.3333,
+        0.25,
+        0.4,
+        0.3636,
+        0.3333,
+        0.2105
+      ],
+      "interpretation": "High — concrete, entity-rich requirement statements",
+      "skipped": false
+    }
+  },
+  "summary": {
+    "coherence_mean": 0.6117,
+    "re_informativeness_mean": 0.2536,
+    "user_informativeness_mean": 0.2535,
+    "requirement_coverage": 0.8667,
+    "requirement_specificity_mean": 0.3177
+  }
+}

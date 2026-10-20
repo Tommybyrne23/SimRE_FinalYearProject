@@ -1,0 +1,110 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 17,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book appointments online at any time",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Send automatic reminders to customers via SMS and email 24 hours and 1 hour before their appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Manage individual barber schedules independently",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Prevent double bookings in real time",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Provide clear visibility into daily and weekly bookings, cancellations, and no-shows",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Include a list of services with descriptions and prices for customers to select",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Display a list of barbers with bios and specialties for customer selection",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Allow customers to filter services and barbers based on preferences",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Ensure the booking process is user-friendly and intuitive",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Maintain budget constraints for implementation and ongoing costs",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Ensure compliance with data protection regulations for storing customer personal information",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Enforce a 24-hour notice period for cancellations with flexibility for first-time customers",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Send immediate confirmation messages after booking",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Provide daily and weekly summary reports on bookings, cancellations, and no-shows",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Track customer no-show history to identify patterns",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Analyze which services are booked the most to understand customer preferences",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Provide insights to help make informed decisions regarding staffing and service offerings",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

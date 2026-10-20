@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to customize their timetable by color-coding modules, hiding cancelled classes, and adding study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should receive automatic notifications for new grades as soon as they are posted for their enrolled modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The module feedback system should allow students to evaluate content quality, delivery, and resources in a structured way.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements must integrate smoothly with the existing authentication system.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The current student login process should remain undisturbed.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

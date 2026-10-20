@@ -1,0 +1,92 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to search the catalogue easily with filtering options by title, author, or subject, and see real-time availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students must be able to borrow, return, and renew items online without needing to stand in line at the library desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should have a personal dashboard displaying current loans, outstanding fines, reservation history, alerts, and quick actions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should provide automated email reminders for upcoming due dates and outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should be able to book study rooms online, view available slots, choose the size of the room, and confirm bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Staff should have tools to add, update, and retire catalogue items easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Staff should have advanced search functionalities to locate specific items or groups within the inventory.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should allow for bulk actions to update the status of multiple items at once.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Staff should have access to detailed usage reports providing insights into loan volumes, popular items, and room utilization.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The system should notify staff when items are running low or frequently checked out.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The library management system must integrate smoothly with the university’s existing systems, like the student record system.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The system must handle the volume of users effectively, especially during peak times.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system must provide robust security measures to comply with GDPR regarding the handling of student data.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "There should be training and support provided for both staff and students during the transition to the new system.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

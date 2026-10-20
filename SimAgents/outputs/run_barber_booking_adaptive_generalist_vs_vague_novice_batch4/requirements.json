@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to easily select a service, a barber, and a time slot online, at any time.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Each barber should have the ability to manage their own schedule and time off within the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should receive appointment reminders a day before and an hour before their scheduled appointment, via text or email based on their preference.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should prevent double bookings and ensure that the schedules are organized and clear.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must be user-friendly and cost-effective, suitable for a small barbershop environment.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

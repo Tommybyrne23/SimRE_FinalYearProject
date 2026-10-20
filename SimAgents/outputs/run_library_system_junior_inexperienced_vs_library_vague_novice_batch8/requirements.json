@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "An online system for managing study room bookings and book loans to avoid long lines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A straightforward study room booking feature that allows selecting date, time, and checking availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Easy online borrowing and returning of books, with tracking for due dates and reminders.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "User-friendly design to ensure accessibility for all students.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Clear visibility of fines for overdue books, with notifications to help prevent them.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

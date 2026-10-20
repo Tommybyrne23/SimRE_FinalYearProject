@@ -1,0 +1,68 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to cancel appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients should be able to request repeat prescriptions online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Patients should be able to see their current prescriptions online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The portal should feel secure, ensuring patient information is protected.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Test results should only be accessible to patients after a doctor’s review.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The portal should be easy for patients to use.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The portal should not be complicated for the staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The portal should include automatic appointment reminders for patients.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 15,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should have the ability to colour-code modules",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to hide cancelled classes",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to add personal study blocks",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students must receive notifications for new grades",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students must receive reminders for upcoming assignment deadlines",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Students must receive notifications for exam dates",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Notifications should be delivered via email, in-app, and SMS",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Feedback system must allow for anonymous student feedback",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Feedback should be on content quality and delivery",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Aggregated feedback results should be available to module coordinators only after grades are submitted",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Enhancements must integrate with the existing authentication system",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The student login process must not be changed",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Current database schema must not be modified",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Enhancements should improve user-friendliness and provide a better experience for students",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "System stability must be maintained during enhancements",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

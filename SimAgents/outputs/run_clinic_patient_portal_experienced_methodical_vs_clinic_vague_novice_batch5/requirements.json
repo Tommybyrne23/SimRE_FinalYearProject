@@ -1,0 +1,68 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to view available appointment time slots",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to book appointments directly",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to cancel or reschedule their appointments without contacting the clinic",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal should have a simple and straightforward navigation system",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "There should be minimal complicated steps for managing appointments",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "A short training session for staff should be provided to help them get familiar with the portal",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Patients should have access to a list of their current medications",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Patients should be able to request refills by selecting from their current medications list",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "There should be a secure login or verification process to access patient information",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The system should protect the confidentiality and privacy of patient data",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

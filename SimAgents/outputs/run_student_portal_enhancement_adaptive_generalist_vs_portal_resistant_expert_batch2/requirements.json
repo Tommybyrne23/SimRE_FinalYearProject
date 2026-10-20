@@ -1,0 +1,50 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow students to customize their timetables with color-coding, hide cancelled classes, and add study blocks",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Ensure seamless integration of new features with the existing system without requiring changes to the login process or database structure",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Maintain current performance levels when implementing new features",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Implement reliable notifications for grade postings, assignment deadlines, and exam dates",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure the system can handle additional demands from notifications without performance issues",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Enable students to submit anonymous feedback on module content and delivery after the modules end",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Restrict access to feedback for module coordinators until grades are finalized",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

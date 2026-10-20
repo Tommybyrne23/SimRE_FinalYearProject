@@ -1,0 +1,134 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 21,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to search the library catalogue and see real-time availability for books and materials.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should have the option to place a hold on checked-out items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The borrowing process should allow students to borrow books online without needing to physically come to the library.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should receive notifications about their loan status, including due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should be able to view their current loans, due dates, and renew items if they haven't been requested by others.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Automated email reminders before due dates are essential.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should be able to view available study rooms and their capacities online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Students should have the flexibility to select the date and time they want to book study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Staff should have a user-friendly interface to add new items, update existing information, and retire outdated materials.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The system should track inventory levels in real-time, reflecting checked-out statuses and the availability of multiple copies.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The system needs robust reporting capabilities to generate insights on loan volumes, room utilisation metrics, and revenue from overdue fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Staff should be able to set restrictions on student accounts with outstanding fines above a certain threshold.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system should automatically calculate overdue fines based on a configurable daily rate for overdue items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Students should have visibility into their fines, current loans, and due dates in their account.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "If a student's fines exceed a certain threshold, the system should automatically block them from borrowing new items or booking study rooms until the fines are cleared.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The system should send automated email reminders to students a few days before their due dates and notify them of any fines applied.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "The system must comply with GDPR for customer data storage, including borrowing history and fines.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The new system must seamlessly integrate with the current student record system to verify student enrolment statuses for loans and room bookings.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Budget constraints must be considered for both initial setup and ongoing maintenance costs.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "The system must be accessible via Single Sign-On (SSO), mobile-friendly, and adhere to accessibility standards.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "There must be a plan in place to successfully migrate existing loan and student account data from the legacy system to the new system.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

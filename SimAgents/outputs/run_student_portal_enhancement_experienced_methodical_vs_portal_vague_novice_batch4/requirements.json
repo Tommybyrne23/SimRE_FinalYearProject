@@ -1,0 +1,50 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system must allow users to colour-code different types of classes in the timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must allow users to hide classes that are cancelled in the timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must allow users to add custom study blocks to their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must send immediate alerts via pop-up or email when a new grade is posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must provide a simple feedback form for students to rate content and teaching quality.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The feedback form must allow students to share which resources were helpful or not.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The new features must integrate smoothly with the existing portal infrastructure.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

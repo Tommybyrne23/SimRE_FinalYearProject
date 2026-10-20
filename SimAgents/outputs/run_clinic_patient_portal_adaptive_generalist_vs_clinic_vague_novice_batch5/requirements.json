@@ -1,0 +1,44 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, change, or cancel appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should have a straightforward way to request repeat prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should only see test results after a doctor has reviewed them, with a notification system to inform them when results are ready.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "There should be a secure login process to verify patient identities before accessing personal information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must comply with regulations regarding patient data privacy and security.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should be user-friendly for clinic staff, minimizing complications in learning to use it.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

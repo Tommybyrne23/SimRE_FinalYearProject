@@ -1,0 +1,92 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement push notifications for every transaction, including details like the amount spent, the merchant name, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Provide personalized budgeting tools that allow users to set monthly budgets for various categories and receive automated monthly spending breakdowns.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Create a guided walkthrough for users to set up their budgets, allowing customization and providing suggestions based on historical spending.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Introduce biometric login options such as fingerprint and facial recognition for account access.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Allow users to freeze and unfreeze their debit or credit cards instantly through the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Enable users to set daily, weekly, or monthly spending limits on their cards.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide transaction notifications for any card activity over a user-defined amount.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Allow users to request a replacement card directly through the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Implement merchant controls that allow users to restrict their cards for certain categories or merchants.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Ensure that new app features can be integrated within the constraints of the existing API of the legacy core banking system.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Ensure smooth data synchronization between the app and the core banking system to support real-time notifications and spending insights.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Maintain compliance with PSD2, GDPR, and Central Bank regulations for all new features.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Ensure backward compatibility with the existing app version for at least six months during the rollout of new features.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Optimize app performance to minimize downtime and latency during data processing.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

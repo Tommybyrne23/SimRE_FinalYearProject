@@ -1,0 +1,140 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 22,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Enhance user experience to compete with fintech apps.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Provide real-time notifications for transactions including details such as amount, merchant name, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Implement automated spending breakdowns that categorize expenses by type and allow users to set personalized monthly spending limits with alerts.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Implement biometric authentication as a primary login method.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Provide instant card controls to freeze or unfreeze cards easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Provide a unified view of all customer accounts on a single home screen.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Integrate in-app live chat and AI-assisted support for common queries.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ensure compliance with PSD2, GDPR, and Central Bank regulations.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Navigate the integration challenges posed by the legacy core banking system.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Maintain backwards compatibility with the existing app version for at least six months.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Ensure Strong Customer Authentication (SCA) in compliance with PSD2.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Store and process customer data within the European Economic Area to comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Implement strong data encryption measures for all data transmission, such as using TLS 1.3 or higher.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Ensure fairness and responsibility in lending products in compliance with Central Bank regulations.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Enhance existing APIs to support real-time data processing for instant transaction notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Ensure APIs can handle complex functionalities like in-app lending applications and detailed spending categorization.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Aggregate data from different account types to provide a unified view of all customer accounts.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Provide automated monthly breakdowns of expenses categorized by type with visual representation.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Allow users to set specific monthly budgets for different categories and send notifications as limits approach or exceed.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Provide tailored suggestions based on users' spending patterns.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Implement a goal-setting feature for users to track financial goals with visual progress trackers.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Balance project constraints including legacy system limitations, budget, timeline, and compliance requirements during implementation.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

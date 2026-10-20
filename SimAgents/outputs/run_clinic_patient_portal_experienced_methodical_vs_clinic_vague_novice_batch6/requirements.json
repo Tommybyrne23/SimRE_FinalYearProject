@@ -1,0 +1,44 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal must allow patients to view available appointment slots in real-time and book their appointments directly.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The portal must provide a simple online process for patients to request prescription refills without needing to call the clinic.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The portal must include identity verification measures to ensure that only authorized patients can access their personal information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Strong data protection protocols must be implemented to safeguard sensitive health information and maintain patient privacy.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must include appointment reminders, which could be sent via text or email to help patients remember their upcoming appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients should have the ability to view their test results online after they have been reviewed by a doctor.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

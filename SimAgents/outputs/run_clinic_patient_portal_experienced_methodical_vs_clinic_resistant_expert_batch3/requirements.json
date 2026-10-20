@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal should allow patients to book, cancel, and reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request repeat prescriptions online without needing to call the clinic.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "There must be a clear pathway for patients to contact support staff for assistance with any issues or questions that arise while using the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Security measures must be implemented to protect patient information and ensure that only authorized personnel can access it.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must comply with data protection regulations to maintain patient privacy and foster trust in the online system.",
+      "type": "Constraint",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

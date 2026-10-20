@@ -1,0 +1,62 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, or reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "There should be a dedicated phone line for direct communication with clinic staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "There should be a feature to flag urgent appointments for timely responses.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Repeat prescription requests should be submitted online in a secure manner.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "There must be a review process for repeat prescription requests before approval.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Test results should be securely displayed only after clinician authorization.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "There must be a clear process for managing the flow of information regarding test results.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The portal must ensure patient safety and secure handling of personal information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system must be user-friendly for all patients, especially older ones.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

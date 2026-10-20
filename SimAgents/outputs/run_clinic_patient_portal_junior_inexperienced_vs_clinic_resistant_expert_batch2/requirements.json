@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book and cancel appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "There should be a feature that allows patients to indicate urgent needs when using the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The portal must have a way for patients to communicate directly with the clinic for urgent concerns.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patient data security and privacy should be a top priority in the design of the portal.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The appointment booking process should be straightforward, with an option for patients to reach out for assistance when needed.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

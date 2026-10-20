@@ -1,0 +1,74 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow students to search for items and check availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to borrow and return items online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to book study rooms online without needing to visit the desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must automatically calculate late fines for overdue items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should be able to view their current loans, due dates, and any fines they have.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should send email notifications to students about fines immediately after they are applied.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should restrict borrowing and room booking capabilities for students with outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Librarians should have the ability to intervene in cases of fines and discuss issues with students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Students should be able to select room capacity when booking study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Librarians should manage issues such as double bookings and special requests for study room bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The system must ensure that students with outstanding fines cannot make study room bookings.",
+      "type": "Constraint",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

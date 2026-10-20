@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Users should receive real-time notifications for every transaction, including the amount spent, the merchant or location, and the updated account balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app should provide an easily accessible 'Freeze Card' button, allowing users to freeze or unfreeze their card with a single tap and a confirmation action.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Users should be able to set monthly spending limits for various categories (e.g., groceries, dining out) and receive alerts when approaching or exceeding those limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app must maintain a modern and user-friendly interface similar to fintech competitors like Revolut, facilitating a smooth user experience.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Budgeting tools should be integrated into the app to help users manage their finances effectively, with features that allow for tracking spending and setting financial goals.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

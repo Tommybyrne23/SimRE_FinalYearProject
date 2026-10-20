@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book and change appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should have the ability to request repeat prescriptions online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to check their test results online after a doctor has reviewed them.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal should have a simple and uncluttered design with large buttons and clear options.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Staff training and onboarding should be minimal and straightforward to avoid overwhelming busy staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

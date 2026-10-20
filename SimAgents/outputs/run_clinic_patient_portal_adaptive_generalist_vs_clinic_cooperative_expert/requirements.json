@@ -1,0 +1,80 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 12,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, and reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to filter appointment types and see clinician summaries.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A dedicated section for repeat prescriptions must be provided, allowing patients to see current medications and select multiple renewals.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients must be able to provide notes or comments with their prescription requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The test results section must provide a list of recent tests with user-friendly explanations of results.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Automated notifications must be sent to patients when their test results are available.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The portal must have a clean and straightforward design with intuitive navigation.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "A tutorial or guided walkthrough for first-time users must be included.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The portal must include a help or FAQ section to address common issues and questions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Multiple support channels including chat, phone, and email must be available for assistance.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Accessibility features such as text resizing and screen reader compatibility must be included.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The system must comply with GDPR for customer data storage.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

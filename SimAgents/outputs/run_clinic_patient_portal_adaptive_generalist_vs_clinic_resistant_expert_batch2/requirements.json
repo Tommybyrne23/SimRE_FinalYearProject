@@ -1,0 +1,44 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal should allow patients to book, cancel, or reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request repeat prescriptions through the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A verification process is necessary to confirm patients' identities before accessing their health information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "There should be a way to flag urgent cases for immediate attention.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Test results should be available online only after a clinician has reviewed them, to prevent misunderstandings.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Support options, such as contact methods and tutorials, should be available for patients needing assistance.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

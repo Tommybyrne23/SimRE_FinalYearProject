@@ -1,0 +1,50 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to view their checked-out materials and due dates online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to renew items online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should receive reminders about due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should be able to book study rooms online, selecting date, time, and number of people.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Library staff should have oversight to manage study room bookings and address issues.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should automatically calculate fines for overdue items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should allow for manual checks for edge cases in fine calculations.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow students to manage book loans online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow students to book study rooms online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Email reminders for due dates should be sent to students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Renewing books should be simple, with an easy online process.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Rules regarding the number of renewals or holds on books should apply.",
+      "type": "Constraint",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Fines for overdue books should be automatically calculated and displayed in the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should receive notifications when fines are incurred.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Librarians should have tools to track available books.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Librarians should be able to manage inventory updates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Librarians should have the ability to generate reports on popular items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

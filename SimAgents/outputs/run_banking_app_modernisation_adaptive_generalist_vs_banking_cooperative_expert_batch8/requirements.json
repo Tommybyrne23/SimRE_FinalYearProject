@@ -1,0 +1,104 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 16,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Enhance the customer experience significantly and bring the app in line with leading fintech competitors.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Deliver real-time push notifications for every transaction, including details like the amount spent, merchant name, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide automated monthly spending breakdowns categorized by merchant types.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Enable customers to set personalized budgets and receive alerts when they are nearing or exceeding those budgets.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Implement biometric authentication using both fingerprint and facial recognition methods.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Provide in-app applications for overdrafts, personal loans, and credit limit changes.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Include an eligibility check using existing account data to determine qualification for lending services.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Provide a simplified application form for users to fill out for lending services.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Allow easy documentation uploads via photo or file selection for lending applications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Enable a review step before the submission of lending applications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Provide instant decision notifications upon application submission for lending services.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Ensure all new functionalities integrate with the existing core banking system via its current API layer.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Adhere to PSD2 regulations, particularly the Strong Customer Authentication requirements for all payment initiations and sensitive account access.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Ensure new lending features comply with the Central Bank of Ireland's consumer protection and responsible lending regulations.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Store and process customer financial data within the European Economic Area to comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Maintain backwards compatibility with the existing app version for at least six months during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

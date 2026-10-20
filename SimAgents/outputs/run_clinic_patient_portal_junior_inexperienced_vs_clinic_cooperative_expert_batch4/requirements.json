@@ -1,0 +1,62 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients must be able to book, cancel, or reschedule appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients must be able to request repeat prescriptions online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients must have secure access to their test results online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "System must implement secure identity verification for patient login and actions",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must provide users with clear instructions or prompts during the appointment management process",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients cannot view their test results until a clinician has reviewed and authorized them",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The portal must integrate smoothly with existing practice management software",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The portal must meet accessibility guidelines for all patients",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The portal must have 99.9% uptime during clinic hours",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

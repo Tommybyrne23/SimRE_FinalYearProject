@@ -1,0 +1,92 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book appointments online at any time.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Provide a clear list of services offered.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow customers to select their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Show real-time availability of time slots to prevent double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Allow customers to cancel or reschedule appointments without needing to call.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Send automatic reminders via SMS and email 24 hours and 1 hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Send a confirmation message immediately after booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Each barber must have their own login to manage their schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Barbers must be able to update their availability in real time.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Ensure instant updates to customer-facing availability based on barber changes.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Provide a cost-effective solution that fits within the budget of a small business.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Ensure smooth integration with existing tools, like the point-of-sale system.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Comply with data protection regulations regarding customer information.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Provide a user-friendly interface that minimizes training for staff and customers.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow students to manage loans online, including borrowing and returning items, and viewing due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should automatically calculate fines and display outstanding fines in student accounts.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "There should be a way for librarians to intervene in disputes regarding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should enable students to book study rooms online, selecting date, time, and number of users.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should show real-time availability of study rooms to prevent overbooking.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "There should be a way for librarians to oversee bookings and handle any special requests or conflicts.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

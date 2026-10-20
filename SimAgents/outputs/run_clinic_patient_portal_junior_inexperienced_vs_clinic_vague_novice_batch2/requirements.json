@@ -1,0 +1,44 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book or cancel appointments easily with just a few clicks.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "There should be a clear confirmation message after booking or cancelling an appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to request repeat prescriptions with a simple option, like a button.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "There should be a way for patients to check the status of their prescription requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must ensure patient data is secure and private.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The portal must be user-friendly, especially for patients who may not be very tech-savvy.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

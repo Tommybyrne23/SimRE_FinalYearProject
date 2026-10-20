@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A simple calendar for study room bookings that allows students to select a date, time, and room size easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A feature for managing loans that displays all borrowed books, due dates, and allows online renewals.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Reminders for due dates through both phone notifications and emails to help students keep track of their returns.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Automatic notifications for any fines related to late returns, along with a clear list of outstanding fines when checking loans.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should be user-friendly and beneficial for students without adding complexity.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

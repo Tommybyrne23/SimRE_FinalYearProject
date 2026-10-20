@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to customise their timetable views, including options for colour-coding modules, hiding cancelled classes, and adding personal study blocks, all while maintaining integration with the existing system.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should receive alerts within a few minutes of new grades being posted, via email and in-app notifications, with a simple mechanism for preference settings regarding frequency and method.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The feedback mechanism should allow students to provide input on content quality, delivery, and resources through a straightforward rating system with optional comments, ensuring ease of use.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Enhancements must not disrupt the current login process or require changes to the existing database to preserve the stability of the current portal.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The mechanism for collecting feedback must ensure that it is available at appropriate times, particularly after grades are submitted.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

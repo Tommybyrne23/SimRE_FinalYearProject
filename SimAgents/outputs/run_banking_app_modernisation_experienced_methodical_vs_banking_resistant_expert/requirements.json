@@ -1,0 +1,50 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement strong customer authentication methods, such as biometric authentication, in compliance with PSD2 requirements.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Ensure data handling practices align with GDPR to protect sensitive customer information while developing new features.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide real-time transaction updates to enhance customer experience while ensuring compliance with regulatory standards.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Develop budgeting tools and transaction categorization features that offer insights into spending habits, adhering to GDPR and Central Bank regulations on responsible lending.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Collaborate closely with legal and compliance teams throughout the development process to minimize regulatory risks and ensure adherence to all relevant standards.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Implement robust security measures for data storage and transmission.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Conduct a thorough impact assessment for any feature involving user data.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

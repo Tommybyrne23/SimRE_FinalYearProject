@@ -1,0 +1,183 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice",
+  "evaluated_at": "2026-04-16T14:22:33.600807",
+  "dialogue_turns": 11,
+  "metrics": {
+    "coherence": {
+      "mean": 0.5297,
+      "std": 0.1266,
+      "pairs_evaluated": 10,
+      "scores": [
+        0.5943,
+        0.6062,
+        0.5557,
+        0.4751,
+        0.7287,
+        0.5509,
+        0.5897,
+        0.5709,
+        0.2528,
+        0.3727
+      ],
+      "interpretation": "Moderate — some topical connection between turns"
+    },
+    "re_informativeness": {
+      "mean": 0.2464,
+      "std": 0.0176,
+      "turns_evaluated": 6,
+      "per_turn": [
+        0.2222,
+        0.2258,
+        0.2615,
+        0.2689,
+        0.2432,
+        0.2571
+      ],
+      "interpretation": "Moderate — typical conversational density"
+    },
+    "user_informativeness": {
+      "mean": 0.237,
+      "std": 0.0216,
+      "turns_evaluated": 5,
+      "per_turn": [
+        0.2179,
+        0.268,
+        0.2209,
+        0.22,
+        0.2584
+      ],
+      "interpretation": "Moderate — typical conversational density"
+    },
+    "requirement_coverage": {
+      "score": 0.875,
+      "covered": [
+        {
+          "id": "StudentPortal_FunctionalRequirement_1",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to personalise their timetable view by colour-coding modules, hiding cancelled classes, and adding personal study blocks.",
+          "max_similarity": 0.7578
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_2",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to export or sync their personalised timetable to external calendar applications such as Google Calendar or Outlook.",
+          "max_similarity": 0.5894
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_3",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall notify students automatically when a new grade is posted for any module they are enrolled in.",
+          "max_similarity": 0.6631
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_4",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall send automated reminders to students before upcoming assignment deadlines and exam dates.",
+          "max_similarity": 0.6262
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_5",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to configure their notification preferences, including channel (email, SMS, in-app) and frequency.",
+          "max_similarity": 0.4548
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_6",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to submit structured feedback for each module after the teaching period ends, covering content quality, delivery, and resources.",
+          "max_similarity": 0.7284
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_7",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow module coordinators to view aggregated anonymised feedback results for their modules.",
+          "max_similarity": 0.4636
+        },
+        {
+          "id": "StudentPortal_FunctionalRequirement_8",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow academic administrators to generate reports on module feedback trends across departments and semesters.",
+          "max_similarity": 0.6037
+        },
+        {
+          "id": "StudentPortal_NonFunctionalRequirement_1",
+          "type": "NonFunctionalRequirement",
+          "statement": "All new features shall be accessible via the existing portal interface without requiring students to install additional software or create new accounts.",
+          "max_similarity": 0.4032
+        },
+        {
+          "id": "StudentPortal_NonFunctionalRequirement_2",
+          "type": "NonFunctionalRequirement",
+          "statement": "The enhanced portal shall perform all new features without degrading the response time of existing portal functionality.",
+          "max_similarity": 0.4262
+        },
+        {
+          "id": "StudentPortal_NonFunctionalRequirement_3",
+          "type": "NonFunctionalRequirement",
+          "statement": "The module feedback system shall ensure student anonymity such that neither module coordinators nor administrators can identify individual respondents.",
+          "max_similarity": 0.497
+        },
+        {
+          "id": "StudentPortal_NonFunctionalRequirement_4",
+          "type": "NonFunctionalRequirement",
+          "statement": "The notification system shall deliver grade notifications within five minutes of a grade being posted by a lecturer.",
+          "max_similarity": 0.665
+        },
+        {
+          "id": "StudentPortal_Constraint_1",
+          "type": "Constraint",
+          "statement": "All enhancements must integrate with the existing portal authentication system and must not require changes to the current student login process.",
+          "max_similarity": 0.4836
+        },
+        {
+          "id": "StudentPortal_Constraint_3",
+          "type": "Constraint",
+          "statement": "Module feedback must only be made available to coordinators after the grade submission deadline has passed to prevent feedback from influencing grading.",
+          "max_similarity": 0.5931
+        }
+      ],
+      "not_covered": [
+        {
+          "id": "StudentPortal_Constraint_2",
+          "type": "Constraint",
+          "statement": "The enhancements must not require migration or modification of the existing student records database schema.",
+          "max_similarity": 0.3082
+        },
+        {
+          "id": "StudentPortal_Constraint_4",
+          "type": "Constraint",
+          "statement": "All student data processed by the new features must comply with GDPR and the university data retention policy.",
+          "max_similarity": 0.3522
+        }
+      ],
+      "total_expected": 16,
+      "by_type": {
+        "FunctionalRequirement": 1.0,
+        "NonFunctionalRequirement": 1.0,
+        "Constraint": 0.5
+      },
+      "similarity_threshold": 0.4,
+      "interpretation": "High — nearly all ground truth requirements addressed"
+    },
+    "requirement_specificity": {
+      "mean": 0.2451,
+      "std": 0.0369,
+      "requirements_evaluated": 4,
+      "per_req": [
+        0.2593,
+        0.2667,
+        0.2727,
+        0.1818
+      ],
+      "interpretation": "Moderate — reasonably specific",
+      "skipped": false
+    }
+  },
+  "summary": {
+    "coherence_mean": 0.5297,
+    "re_informativeness_mean": 0.2464,
+    "user_informativeness_mean": 0.237,
+    "requirement_coverage": 0.875,
+    "requirement_specificity_mean": 0.2451
+  }
+}

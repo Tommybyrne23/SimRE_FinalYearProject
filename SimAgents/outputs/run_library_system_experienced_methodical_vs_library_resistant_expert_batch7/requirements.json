@@ -1,0 +1,56 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to check the availability of books and materials.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to borrow and return items online without needing to come to the desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to view their current loans and any fines they have.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should send email reminders a few days before due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Staff should have a way to manage inventory easily, including adding, updating, or retiring items from the catalog.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should generate reports on what’s being borrowed and what’s popular.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must preserve the personal service aspect at the desk, particularly for managing loans and fines.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The new system should integrate well with existing processes and systems.",
+      "type": "Constraint",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Online borrowing and returning of books.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The ability to renew books online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A mobile-friendly interface for booking study rooms with date and time selection.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Reminder notifications for due dates of borrowed books.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A focus on ease of access for students, without the need for complicated technical integrations.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Tools for librarians to easily manage inventory and ensure everything is updated.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

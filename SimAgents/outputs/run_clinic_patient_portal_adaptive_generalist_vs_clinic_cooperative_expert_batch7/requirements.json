@@ -1,0 +1,128 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 20,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients can book, cancel, or reschedule appointments online with a calendar view.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients receive automated reminders before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients can flag urgent symptoms during the booking process.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients can view a list of eligible medications for repeat prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Patients can request refills for their medications with an option to add notes.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients receive confirmation of their prescription requests along with an estimated timeline.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "GPs must review prescription requests before they are approved.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Patients are notified when test results are available.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Test results are only accessible after clinician review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Test results must be presented clearly with educational resources.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Secure identity verification, such as two-factor authentication, is required to access test results.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Include a messaging feature for patients to ask questions about their results.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The portal must have simple navigation with large buttons and clear labels.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Text must be readable with adjustable font sizes and high contrast.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Provide step-by-step instructions or video tutorials for key actions.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Include support features like a chatbot or FAQ section.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Implement accessibility options to accommodate all patients.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Enable family access to assist elderly patients in managing their appointments or prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Incorporate a feedback mechanism for patients to provide their input on the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "The entire system must maintain patient confidentiality and data security.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

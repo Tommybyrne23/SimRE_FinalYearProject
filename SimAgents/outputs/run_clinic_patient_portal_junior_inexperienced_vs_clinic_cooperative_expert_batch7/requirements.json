@@ -1,0 +1,92 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients must be able to book appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients must be able to cancel appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients must be able to reschedule appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients must be able to request repeat prescriptions online",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Patients must be able to securely access their test results",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Implement a strong authentication process for secure access",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "All patient data must be encrypted during transmission and storage",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Establish clear protocols for patient information access",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Portal must be user-friendly for all age groups and digital literacy levels",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Portal must integrate with existing practice management software",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Development must stay within budget constraints",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Staff must be able to operate the portal with minimal additional training",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Patients must receive instant confirmation of their appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Automate reminders for appointments via email or SMS",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 24,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Enable students to manage their borrowing and room bookings online",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automate the fine process to reduce manual workload",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide librarians with enhanced tools for inventory management",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Integrate seamlessly with the university's single sign-on",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure compliance with GDPR regarding student data",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Students should be able to search the library catalog in real-time",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should have the ability to borrow, return, and renew items online",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Students need to reserve study rooms by selecting date, time slot, and room capacity",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Students should be able to view their current loans, check due dates, and see outstanding fines",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Automated email reminders for due dates and notifications regarding fines should be implemented",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Calculate fines based on a configurable daily rate for overdue items",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Automatically apply incurred fines to the student's account and update their outstanding fines balance in real-time",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Notify students promptly when fines are applied via automated email notifications",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Automatically place restrictions on a student's account if fines exceed a certain configurable threshold",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Provide a user-friendly interface for librarians to manage inventory",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Generate usage reports that track loan volumes over specific time periods",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Provide reports on popular items to inform purchasing decisions",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Provide room utilization metrics to understand booking frequency",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Track fine revenue to assess the financial impact of fines",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Ensure personal data is securely stored and accessible only to authorized library staff",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Establish clear data retention policies for borrowing history and fine records",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Inform students of their rights regarding their data",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "Obtain consent from students before collecting or processing their data",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "Ensure compliance of data shared with third-party vendors with GDPR",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

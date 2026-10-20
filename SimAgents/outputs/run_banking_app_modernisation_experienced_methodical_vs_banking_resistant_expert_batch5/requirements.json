@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Any payment features must adhere to PSD2's strong customer authentication protocols, implementing robust authentication methods for transactions and sensitive account access.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app must ensure that any customer data shared, particularly in real-time notifications, is handled appropriately and in compliance with GDPR regulations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "All new functionalities, including customer-managed card settings, must align with consumer protection guidelines set by the Central Bank of Ireland.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "New features must integrate with the existing core banking system without requiring significant modifications.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A step-by-step approach will be taken to assess the feasibility of new features within the regulatory framework before pursuing more ambitious functionalities.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

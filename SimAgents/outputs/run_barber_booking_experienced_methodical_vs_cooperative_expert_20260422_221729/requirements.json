@@ -1,0 +1,128 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_20260422_221729",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 20,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book their appointments online, select services, barbers, and available time slots.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement automated reminders to customers before their appointments to minimize no-show occurrences.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Enable barbers to manage their own availability while avoiding confusion in scheduling.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide daily and weekly summaries of bookings, cancellations, and peak times to assist in decision-making.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A clear list of services with brief descriptions for customers to understand what each service entails.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Customers should have the ability to choose their preferred barber, along with a display of each barber's availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Customers should be able to cancel or reschedule their appointments online to enhance convenience and reduce disruptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Send first reminder 24 hours before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Send second reminder one hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Barbers should have their own login credentials to access and manage their schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Barbers should be able to update their availability, including hours, breaks, and days off, in real time without needing to go through the owner.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Barbers should have the ability to block off specific times when they are unavailable, preventing double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Provide a simple and intuitive interface for barbers to view their upcoming appointments and make adjustments easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Track the number of appointments for each day and week to identify trends and plan for busy periods.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Track data on how many appointments are cancelled or missed to identify patterns and address issues.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Provide insights into the busiest days and times to optimize staff scheduling and consider promotional strategies.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Provide information on which services are booked most frequently to inform marketing and service offerings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Provide insights into repeat customers to enhance relationships and loyalty.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Present data in a clear and easy-to-read format for proactive decision-making.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "System must comply with data protection regulations to ensure the safety and confidentiality of customer personal information.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

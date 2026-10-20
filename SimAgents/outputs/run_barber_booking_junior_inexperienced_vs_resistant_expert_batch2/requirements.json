@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online and choose their services easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should have the option to select their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Appointment reminders should be sent via both text and email.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should maintain a simple and effective approach without disrupting current operations.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "No specific limitations on budget or technology have been identified at this time.",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

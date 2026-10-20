@@ -1,0 +1,50 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow students to check the availability of books and materials online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable students to borrow and return items without needing to visit the desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow students to book study rooms online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Accommodate unique cases like lost items or special fines that require personal attention.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure compliance with existing policies for managing fines and outstanding balances.",
+      "type": "Constraint",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Manage inventory effectively by adding or updating items easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Generate reports on borrowing trends, such as the most popular items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

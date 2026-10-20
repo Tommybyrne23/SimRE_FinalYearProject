@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to log in to view and book available appointment times.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "There needs to be a way for patients to submit repeat prescription requests online, with a verification process for eligibility.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Test results should be available online only after a clinician has reviewed them, with a way for patients to reach out for clarification if needed.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "There should be a mechanism for patients to contact the clinic directly if they encounter issues or have questions about appointments, prescriptions, or test results.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must prioritize security and privacy to protect patient data and maintain trust.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

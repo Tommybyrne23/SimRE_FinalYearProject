@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "An online booking system that allows customers to select services and preferred barbers.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated reminders sent via SMS and email, with confirmation options included.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A simple, user-friendly interface for barbers to manage their schedules, including a calendar view and the ability to set breaks.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Daily and weekly summaries that track total appointments, cancellations, no-shows, peak times, and a breakdown of services booked.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A user-friendly system for both customers and barbers, with minimal training needed.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Customers should be able to create accounts to store their personal details and preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

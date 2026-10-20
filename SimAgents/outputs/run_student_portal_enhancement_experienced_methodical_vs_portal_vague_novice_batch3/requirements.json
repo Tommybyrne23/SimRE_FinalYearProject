@@ -1,0 +1,68 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Users should be able to color-code classes in the timetable",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Users should be able to hide cancelled classes in the timetable",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Users should be able to add study blocks to their timetables",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should receive notifications via email when grades are posted",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should receive notifications within the portal when grades are posted",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Students should be able to provide feedback on the quality of module content",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should be able to provide feedback on the instructors' teaching effectiveness",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Students should be able to provide feedback on the resources provided for the modules",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The enhancements should prioritize ease of use",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The enhancements must integrate with the existing portal infrastructure without causing complications",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

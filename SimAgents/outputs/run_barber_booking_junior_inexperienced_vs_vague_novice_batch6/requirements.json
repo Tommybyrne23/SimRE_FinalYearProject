@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online anytime.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow customers to select a service, choose a barber, and see available times.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Services to include haircuts, beard trims, and styling options.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Barbers should be able to set their own schedules in the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Customers should receive both email and text message reminders, one day and one hour before their appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

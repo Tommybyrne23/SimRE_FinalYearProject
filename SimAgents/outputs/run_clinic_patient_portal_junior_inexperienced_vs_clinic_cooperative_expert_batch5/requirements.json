@@ -1,0 +1,56 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, or reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "There should be a simple online form for requesting repeat prescriptions, with confirmation and estimated readiness time.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients must securely access their test results after clinician review, with clear explanations and options for follow-up.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "An online questionnaire should be available for patients to flag urgent symptoms for same-day appointments, with immediate review by the team.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Integration with existing practice management software is essential.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The portal must enhance patient access and experience while reducing the workload on reception staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must comply with data protection regulations.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The interface must be user-friendly, especially for those who may not be as comfortable with technology.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

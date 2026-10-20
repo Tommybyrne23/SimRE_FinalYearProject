@@ -1,0 +1,32 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management allowing customization of views (daily, weekly), color-coding modules, hiding canceled classes, and adding personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications sent via email and in-app for new grades posted in enrolled modules, with a focus on timeliness and system performance.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Module feedback system combining structured questions focusing on key areas like content quality and delivery, and open-ended feedback options, ensuring anonymity and appropriate access to the feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Ensure that the enhancements do not introduce unnecessary complexity or maintenance overhead.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

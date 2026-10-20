@@ -1,0 +1,230 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 37,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Empower students to manage library transactions independently through self-service capabilities.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Streamline online booking processes for study rooms, allowing easy selection of date, time, and capacity.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automate fine calculations and send reminders to students regarding due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide staff with effective tools for inventory management and generating usage reports.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure integration with the university’s student record system for verification of enrolment status.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Real-time catalogue search with filtering options for criteria such as subject, author, or publication date.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Enable online borrowing and renewing of items, including viewing current loans and due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Allow online returns with immediate confirmation of processed returns.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Provide access to reservation history for tracking past loans and fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Send automated notifications and reminders for upcoming due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Create a user-friendly interface for the online booking process of study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Allow date and time selection with filtering options for room capacity in the booking process.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Provide real-time availability of study rooms to prevent double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Send immediate booking confirmation via email or system notification.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Allow cancellation and modification options for booked study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Set usage limits on study room bookings to ensure fair access.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Include accessibility features in the booking process for all students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Automate fine calculation based on a configurable daily rate for different item types.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Set thresholds for account restrictions based on outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Send automated email notifications when fines are applied.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Provide access to fine history for students to view outstanding fines and payment history.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Enable online payment processing for students to pay their fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "Generate reports on fine revenue and trends for staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "Allow staff to easily add and update items in the catalogue.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "Provide a simple process for retiring items from the catalogue.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_026",
+      "text": "Include bulk operation capabilities for adding and updating multiple items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_027",
+      "text": "Facilitate inventory audits to maintain accurate records.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_028",
+      "text": "Provide robust search and filtering capabilities for staff to locate items quickly.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_029",
+      "text": "Generate usage reports for loan volumes and borrowing trends.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_030",
+      "text": "Integrate inventory management features with borrowing and return processes for real-time status updates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_031",
+      "text": "Automatically verify students' enrolment status before allowing borrowing or booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_032",
+      "text": "Enable real-time data synchronization between the library and student record systems.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_033",
+      "text": "Ensure compliance with data privacy regulations such as GDPR.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_034",
+      "text": "Implement access control measures to restrict student data access to authorized staff only.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_035",
+      "text": "Provide audit trails for actions involving student data.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_036",
+      "text": "Manage user consent for data processing, informing students about data collection.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_037",
+      "text": "Include robust error handling mechanisms for data exchange issues.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

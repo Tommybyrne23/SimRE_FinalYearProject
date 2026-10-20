@@ -1,0 +1,62 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers can select a service.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers can choose their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers can find and choose an available time slot.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers can change or cancel their appointments without needing to call.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Automated reminders via text or email one day and one hour before appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Customer accounts to store personal details and past bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should be affordable and straightforward.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should allow online payments via credit and debit cards, with cash payment options available at the shop.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The booking system should be accessible via a website and possibly a mobile app.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

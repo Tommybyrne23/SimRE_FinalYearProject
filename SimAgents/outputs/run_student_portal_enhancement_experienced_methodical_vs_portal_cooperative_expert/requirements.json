@@ -1,0 +1,74 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to choose from a palette of colours for each module to easily identify them.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to toggle off cancelled classes with a checkbox for a cleaner timetable view.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to use a drag-and-drop interface to block out personal study time, with options for recurring or one-off study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Immediate alerts when grades are posted, ideally within five minutes of submission.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should have options for receiving notifications via email, push notifications through the portal, or both, allowing them to configure their preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Reminders for upcoming assignment deadlines and exam dates should be provided with flexibility in delivery methods.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "A straightforward feedback form should be available for students to fill out after the teaching period ends, focusing on areas such as content quality, delivery effectiveness, and resources provided.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Rating options for aspects like lecture engagement, helpfulness of materials, and fairness of assessments should be included, along with open-ended questions for more detailed comments and suggestions.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The submission process for feedback should be user-friendly, perhaps through a simple button on the portal, ensuring that feedback is aggregated and anonymised before reaching module coordinators.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Feedback should only be made available to coordinators after the grade submission deadline to avoid any influence on grading decisions.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The enhancements must comply with all relevant regulations like GDPR.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Integrate features such as real-time transaction notifications and easy account access to enhance customer experience.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement robust data protection measures, including encryption during data transmission and strict access controls, to comply with GDPR.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Ensure all customer financial data remains within the European Economic Area to comply with GDPR regulations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Develop new features that work with the existing core banking system without requiring modifications to the mainframe.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Monitor customer feedback regarding security and trust, along with maintaining compliance, to measure the success of the modernised app.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

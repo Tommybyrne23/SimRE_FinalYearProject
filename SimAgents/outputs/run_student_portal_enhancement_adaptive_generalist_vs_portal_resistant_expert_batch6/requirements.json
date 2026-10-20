@@ -1,0 +1,50 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management should include colour-coding modules, hiding cancelled classes, and adding personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The user interface for personalisation options must be intuitive and straightforward, allowing students to customise their timetables easily.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automated grade notifications should send timely alerts via email or through the portal when new grades are posted for enrolled modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The implementation of automated grade notifications must not create extra load or issues with the existing system.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Structured module feedback system should allow students to submit their thoughts on content quality, delivery, and resources after the teaching period ends.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The feedback submission process must be straightforward, using a simple form, while ensuring anonymity and no interference with grading.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The enhancements must integrate carefully with existing systems, particularly regarding user authentication and data handling, to prevent disruptions.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

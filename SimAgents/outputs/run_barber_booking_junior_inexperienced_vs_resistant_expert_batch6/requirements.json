@@ -1,0 +1,62 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system must allow customers to book appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must allow customers to change or cancel their appointments without calling.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must allow customers to select a service when making a booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must allow customers to choose a barber when making a booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must display available times for appointments after selecting a service and barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must include services like haircuts and beard trims.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Barbers must be able to set and update their own availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system must ensure that double bookings are avoided.",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The booking system must keep everything organized.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

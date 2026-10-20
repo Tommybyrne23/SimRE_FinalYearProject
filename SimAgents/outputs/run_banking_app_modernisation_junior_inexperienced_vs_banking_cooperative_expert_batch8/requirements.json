@@ -1,0 +1,74 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement real-time transaction notifications for purchases and account activities.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Introduce biometric authentication for secure and convenient logins.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Create an intuitive in-app lending and credit application process with instant eligibility checks.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Ensure compliance with PSD2 by implementing strong customer authentication and secure third-party access.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Address GDPR requirements by focusing on data protection, user consent, and rights to access or erase personal data.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Provide notifications for budget limits and potential fraud alerts.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Implement a guided step-by-step application process for lending and credit options.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Allow customers to upload documentation directly through the app for lending applications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Ensure funds can be transferred directly to customers' accounts almost instantly if lending applications are approved.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Implement data protection by design and default in the app development process.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Ensure all customer financial data is stored and processed within the European Economic Area (EEA).",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

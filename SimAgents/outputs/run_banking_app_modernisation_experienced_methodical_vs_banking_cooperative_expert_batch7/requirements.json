@@ -1,0 +1,98 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 15,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The mobile app must provide real-time insights into customers' spending habits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The mobile app must send instant notifications for every transaction, including amount, merchant name, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The mobile app must notify customers when they are approaching or exceeding their personalized spending limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The mobile app must allow customers to set personalized monthly budgets for different spending categories.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The mobile app must provide ongoing tracking of spending in each category with visual representations.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The mobile app must incorporate alerts when customers are nearing their set budget limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The mobile app must provide automated monthly spending breakdowns categorized by merchant type.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The mobile app must implement biometric authentication for secure access, using both fingerprint and facial recognition.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The mobile app must allow customers to freeze and unfreeze their debit and credit cards directly within the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The mobile app must allow customers to set transaction limits and enable/disable international usage.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The mobile app must integrate smoothly with the existing core banking system via its current API layer.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The mobile app must comply with PSD2 regulations, particularly for Strong Customer Authentication.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Customer financial data must be stored and processed within the European Economic Area to comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "New credit or lending features must align with the Central Bank of Ireland’s consumer protection and responsible lending regulations.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "The mobile app must maintain backwards compatibility with the existing app version for at least six months during the transition period.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

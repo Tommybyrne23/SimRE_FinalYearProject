@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to color-code their modules, hide canceled classes, add personal study blocks, and sync their personalized timetables with external calendar applications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students must be able to choose their preferred channel for receiving notifications about grades and deadlines (email, SMS, or in-app) and customize the frequency of these notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The module feedback system should allow students to assess content quality, course delivery, and resources through a structured survey while ensuring anonymity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Feedback collected should only be accessible to module coordinators after the grading submission deadline to maintain academic integrity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "All enhancements must integrate with the existing authentication system, avoid modifications to the current database schema, maintain portal performance, and comply with GDPR and data retention policies.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

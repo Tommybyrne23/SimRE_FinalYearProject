@@ -1,0 +1,56 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "New features must be compliant with regulatory requirements to avoid risks.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app should provide real-time notifications for transactions.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should be able to freeze or unfreeze their cards directly in the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app should offer spending breakdowns to help customers manage their finances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Strong Customer Authentication must be implemented for payment transactions.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Customer financial data must remain within the bounds of GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Compliance with consumer protection regulations is crucial for any lending features.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "New features must integrate with existing systems.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

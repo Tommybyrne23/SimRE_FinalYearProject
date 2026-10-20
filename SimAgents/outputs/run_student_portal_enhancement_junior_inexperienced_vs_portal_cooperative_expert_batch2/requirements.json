@@ -1,0 +1,92 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 14,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to colour-code their modules in the timetable management feature.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to hide cancelled classes in their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to add personal study blocks in their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should have a user-friendly interface to add personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should be able to specify the subject or purpose of the study block.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Students should be able to modify or delete personal study blocks as needed.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should receive automatic notifications whenever a new grade is posted for any enrolled module.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Students should receive reminders about upcoming assignment deadlines and exam dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Students should be able to configure their notification preferences (e.g., email, SMS, in-app alerts).",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Feedback forms should cover key areas such as content quality, delivery, and resources.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Feedback forms should include a mix of rating scales and open-ended questions.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Feedback should be anonymised to ensure students can share opinions safely.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Feedback should only be shared with module coordinators after the grade submission deadline.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Academic administrators should be able to generate reports on feedback trends across different departments and semesters.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

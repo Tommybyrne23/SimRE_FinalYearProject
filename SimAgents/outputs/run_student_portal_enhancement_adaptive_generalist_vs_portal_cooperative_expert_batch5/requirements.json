@@ -1,0 +1,110 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 17,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow students to colour-code their modules in personalised timetables",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable students to hide cancelled classes in their timetables",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow students to add personal study blocks in their timetables",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide reminders for personal study blocks in timetables",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Sync personalised timetables with external calendar apps like Google Calendar or Outlook",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Send automatic notifications when new grades are posted",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Send automated reminders for upcoming assignment deadlines and exam dates",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Notify students of changes to their schedule, such as room changes or class cancellations",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Notify students of upcoming feedback opportunities for module evaluations",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Allow students to customise their notification preferences",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Collect anonymous structured feedback from students after the teaching period",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Gather feedback on content quality, delivery methods, and resource effectiveness",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Ensure feedback is made available to module coordinators only after grades have been submitted",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Integrate new features seamlessly with the existing portal authentication system",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Avoid modifications to the current student records database schema",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Maintain compliance with GDPR and university data retention policies for student data",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Maintain overall performance of the portal without degrading existing functionalities",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

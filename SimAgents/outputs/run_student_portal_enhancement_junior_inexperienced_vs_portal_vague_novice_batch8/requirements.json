@@ -1,0 +1,32 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management with features like colour-coding, hiding cancelled classes, and blocking out time for study sessions.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications that alert you whenever a new grade is posted, possibly via email.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system that allows you to provide feedback on content quality, teaching effectiveness, and resources after the teaching period.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Enhancements should integrate with the existing portal infrastructure without requiring extra accounts.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "completed_at": "2026-04-22T12:09:56.830564",
+  "batch": "_batch2",
+  "total": 45,
+  "succeeded": 44,
+  "failed": 0,
+  "skipped": 1,
+  "results": [
+    {
+      "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch2",
+      "status": "skipped",
+      "error": null,
+      "duration_s": 0.0
+    },
+    {
+      "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Evan - New Barbershop Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 6,
+      "eval_summary": {
+        "coherence_mean": 0.5637,
+        "re_informativeness_mean": 0.2378,
+        "user_informativeness_mean": 0.2423,
+        "requirement_coverage": 0.7857,
+        "requirement_specificity_mean": 0.2136
+      },
+      "duration_s": 77.3
+    },
+    {
+      "run_id": "run_barber_booking_experienced_methodical_vs_resistant_expert_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Katie - Senior Receptionist",
+      "status": "success",
+      "error": null,
+      "n_requirements": 4,
+      "eval_summary": {
+        "coherence_mean": 0.5696,
+        "re_informativeness_mean": 0.2417,
+        "user_informativeness_mean": 0.2324,
+        "requirement_coverage": 0.8571,
+        "requirement_specificity_mean": 0.2668
+      },
+      "duration_s": 40.5
+    },
+    {
+      "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Kyle - Expert Barbershop Owner",
+      "status": "success",
+      "error": null,
+      "n_requirements": 18,
+      "eval_summary": {
+        "coherence_mean": 0.7923,
+        "re_informativeness_mean": 0.2322,
+        "user_informativeness_mean": 0.2394,
+        "requirement_coverage": 0.7857,
+        "requirement_specificity_mean": 0.3018
+      },
+      "duration_s": 78.2
+    },
+    {
+      "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Evan - New Barbershop Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 4,
+      "eval_summary": {
+        "coherence_mean": 0.5932,
+        "re_informativeness_mean": 0.2526,
+        "user_informativeness_mean": 0.2751,
+        "requirement_coverage": 0.7857,
+        "requirement_specificity_mean": 0.2466
+      },
+      "duration_s": 35.9
+    },
+    {
+      "run_id": "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Katie - Senior Receptionist",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6328,
+        "re_informativeness_mean": 0.2414,
+        "user_informativeness_mean": 0.2363,
+        "requirement_coverage": 0.8571,
+        "requirement_specificity_mean": 0.2431
+      },
+      "duration_s": 37.4
+    },
+    {
+      "run_id": "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Kyle - Expert Barbershop Owner",
+      "status": "success",
+      "error": null,
+      "n_requirements": 9,
+      "eval_summary": {
+        "coherence_mean": 0.7261,
+        "re_informativeness_mean": 0.2266,
+        "user_informativeness_mean": 0.2332,
+        "requirement_coverage": 1.0,
+        "requirement_specificity_mean": 0.2392
+      },
+      "duration_s": 44.9
+    },
+    {
+      "run_id": "run_barber_booking_junior_inexperienced_vs_vague_novice_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Evan - New Barbershop Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.5981,
+        "re_informativeness_mean": 0.2541,
+        "user_informativeness_mean": 0.2483,
+        "requirement_coverage": 0.7857,
+        "requirement_specificity_mean": 0.3055
+      },
+      "duration_s": 35.1
+    },
+    {
+      "run_id": "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch2",
+      "scenario": "Barbershop Booking System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Katie - Senior Receptionist",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.5915,
+        "re_informativeness_mean": 0.2497,
+        "user_informativeness_mean": 0.2421,
+        "requirement_coverage": 0.7143,
+        "requirement_specificity_mean": 0.2519
+      },
+      "duration_s": 29.8
+    },
+    {
+      "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Dr. Brennan - GP Practice Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 19,
+      "eval_summary": {
+        "coherence_mean": 0.6901,
+        "re_informativeness_mean": 0.237,
+        "user_informativeness_mean": 0.2332,
+        "requirement_coverage": 0.8667,
+        "requirement_specificity_mean": 0.2384
+      },
+      "duration_s": 62.4
+    },
+    {
+      "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Liam - Practice Administrator",
+      "status": "success",
+      "error": null,
+      "n_requirements": 11,
+      "eval_summary": {
+        "coherence_mean": 0.6365,
+        "re_informativeness_mean": 0.2326,
+        "user_informativeness_mean": 0.2247,
+        "requirement_coverage": 0.8,
+        "requirement_specificity_mean": 0.231
+      },
+      "duration_s": 46.7
+    },
+    {
+      "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Nuala - Head Receptionist",
+      "status": "success",
+      "error": null,
+      "n_requirements": 8,
+      "eval_summary": {
+        "coherence_mean": 0.643,
+        "re_informativeness_mean": 0.2506,
+        "user_informativeness_mean": 0.2454,
+        "requirement_coverage": 1.0,
+        "requirement_specificity_mean": 0.2967
+      },
+      "duration_s": 40.2
+    },
+    {
+      "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Dr. Brennan - GP Practice Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 29,
+      "eval_summary": {
+        "coherence_mean": 0.7098,
+        "re_informativeness_mean": 0.2416,
+        "user_informativeness_mean": 0.2223,
+        "requirement_coverage": 0.7333,
+        "requirement_specificity_mean": 0.236
+      },
+      "duration_s": 72.4
+    },
+    {
+      "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Liam - Practice Administrator",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6217,
+        "re_informativeness_mean": 0.2488,
+        "user_informativeness_mean": 0.2101,
+        "requirement_coverage": 0.7333,
+        "requirement_specificity_mean": 0.2155
+      },
+      "duration_s": 33.5
+    },
+    {
+      "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Nuala - Head Receptionist",
+      "status": "success",
+      "error": null,
+      "n_requirements": 6,
+      "eval_summary": {
+        "coherence_mean": 0.6442,
+        "re_informativeness_mean": 0.2497,
+        "user_informativeness_mean": 0.2363,
+        "requirement_coverage": 0.8667,
+        "requirement_specificity_mean": 0.2169
+      },
+      "duration_s": 50.5
+    },
+    {
+      "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Dr. Brennan - GP Practice Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.7008,
+        "re_informativeness_mean": 0.2312,
+        "user_informativeness_mean": 0.2329,
+        "requirement_coverage": 0.8667,
+        "requirement_specificity_mean": 0.2114
+      },
+      "duration_s": 56.5
+    },
+    {
+      "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Liam - Practice Administrator",
+      "status": "success",
+      "error": null,
+      "n_requirements": 6,
+      "eval_summary": {
+        "coherence_mean": 0.6043,
+        "re_informativeness_mean": 0.2412,
+        "user_informativeness_mean": 0.2158,
+        "requirement_coverage": 0.8667,
+        "requirement_specificity_mean": 0.1678
+      },
+      "duration_s": 39.6
+    },
+    {
+      "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch2",
+      "scenario": "GP Clinic Patient Portal",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Nuala - Head Receptionist",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6432,
+        "re_informativeness_mean": 0.2396,
+        "user_informativeness_mean": 0.2602,
+        "requirement_coverage": 0.8,
+        "requirement_specificity_mean": 0.2365
+      },
+      "duration_s": 29.5
+    },
+    {
+      "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Oisin - Head Librarian",
+      "status": "success",
+      "error": null,
+      "n_requirements": 24,
+      "eval_summary": {
+        "coherence_mean": 0.7095,
+        "re_informativeness_mean": 0.2329,
+        "user_informativeness_mean": 0.261,
+        "requirement_coverage": 0.9412,
+        "requirement_specificity_mean": 0.2461
+      },
+      "duration_s": 73.7
+    },
+    {
+      "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Cian - First Year Student Representative",
+      "status": "success",
+      "error": null,
+      "n_requirements": 7,
+      "eval_summary": {
+        "coherence_mean": 0.583,
+        "re_informativeness_mean": 0.2467,
+        "user_informativeness_mean": 0.2362,
+        "requirement_coverage": 0.7647,
+        "requirement_specificity_mean": 0.2557
+      },
+      "duration_s": 39.4
+    },
+    {
+      "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Brendan - Senior Library Assistant",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6891,
+        "re_informativeness_mean": 0.2378,
+        "user_informativeness_mean": 0.2462,
+        "requirement_coverage": 0.7647,
+        "requirement_specificity_mean": 0.2567
+      },
+      "duration_s": 39.3
+    },
+    {
+      "run_id": "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Oisin - Head Librarian",
+      "status": "success",
+      "error": null,
+      "n_requirements": 15,
+      "eval_summary": {
+        "coherence_mean": 0.7191,
+        "re_informativeness_mean": 0.2358,
+        "user_informativeness_mean": 0.2494,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.2694
+      },
+      "duration_s": 53.8
+    },
+    {
+      "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Cian - First Year Student Representative",
+      "status": "success",
+      "error": null,
+      "n_requirements": 10,
+      "eval_summary": {
+        "coherence_mean": 0.6586,
+        "re_informativeness_mean": 0.2558,
+        "user_informativeness_mean": 0.2311,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.3391
+      },
+      "duration_s": 35.4
+    },
+    {
+      "run_id": "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Brendan - Senior Library Assistant",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.4697,
+        "re_informativeness_mean": 0.2703,
+        "user_informativeness_mean": 0.2465,
+        "requirement_coverage": 0.7059,
+        "requirement_specificity_mean": 0.2783
+      },
+      "duration_s": 34.9
+    },
+    {
+      "run_id": "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Oisin - Head Librarian",
+      "status": "success",
+      "error": null,
+      "n_requirements": 22,
+      "eval_summary": {
+        "coherence_mean": 0.6964,
+        "re_informativeness_mean": 0.2466,
+        "user_informativeness_mean": 0.2438,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.2451
+      },
+      "duration_s": 57.3
+    },
+    {
+      "run_id": "run_library_system_junior_inexperienced_vs_library_vague_novice_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Cian - First Year Student Representative",
+      "status": "success",
+      "error": null,
+      "n_requirements": 10,
+      "eval_summary": {
+        "coherence_mean": 0.6349,
+        "re_informativeness_mean": 0.2322,
+        "user_informativeness_mean": 0.2255,
+        "requirement_coverage": 0.8824,
+        "requirement_specificity_mean": 0.232
+      },
+      "duration_s": 35.0
+    },
+    {
+      "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch2",
+      "scenario": "University Library Management System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Brendan - Senior Library Assistant",
+      "status": "success",
+      "error": null,
+      "n_requirements": 6,
+      "eval_summary": {
+        "coherence_mean": 0.539,
+        "re_informativeness_mean": 0.2527,
+        "user_informativeness_mean": 0.2606,
+        "requirement_coverage": 0.7059,
+        "requirement_specificity_mean": 0.2759
+      },
+      "duration_s": 33.0
+    },
+    {
+      "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Ludwig - Academic Quality Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 9,
+      "eval_summary": {
+        "coherence_mean": 0.7064,
+        "re_informativeness_mean": 0.2272,
+        "user_informativeness_mean": 0.2551,
+        "requirement_coverage": 0.875,
+        "requirement_specificity_mean": 0.2741
+      },
+      "duration_s": 41.9
+    },
+    {
+      "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Aoife - Second Year Undergraduate",
+      "status": "success",
+      "error": null,
+      "n_requirements": 10,
+      "eval_summary": {
+        "coherence_mean": 0.5211,
+        "re_informativeness_mean": 0.247,
+        "user_informativeness_mean": 0.2384,
+        "requirement_coverage": 1.0,
+        "requirement_specificity_mean": 0.3176
+      },
+      "duration_s": 35.4
+    },
+    {
+      "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Declan - Senior IT Systems Administrator",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6498,
+        "re_informativeness_mean": 0.2506,
+        "user_informativeness_mean": 0.2565,
+        "requirement_coverage": 0.9375,
+        "requirement_specificity_mean": 0.2569
+      },
+      "duration_s": 30.4
+    },
+    {
+      "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Ludwig - Academic Quality Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.669,
+        "re_informativeness_mean": 0.2387,
+        "user_informativeness_mean": 0.2422,
+        "requirement_coverage": 1.0,
+        "requirement_specificity_mean": 0.2348
+      },
+      "duration_s": 55.5
+    },
+    {
+      "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Aoife - Second Year Undergraduate",
+      "status": "success",
+      "error": null,
+      "n_requirements": 13,
+      "eval_summary": {
+        "coherence_mean": 0.5647,
+        "re_informativeness_mean": 0.2374,
+        "user_informativeness_mean": 0.212,
+        "requirement_coverage": 0.875,
+        "requirement_specificity_mean": 0.3004
+      },
+      "duration_s": 43.6
+    },
+    {
+      "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Declan - Senior IT Systems Administrator",
+      "status": "success",
+      "error": null,
+      "n_requirements": 7,
+      "eval_summary": {
+        "coherence_mean": 0.6108,
+        "re_informativeness_mean": 0.2549,
+        "user_informativeness_mean": 0.242,
+        "requirement_coverage": 1.0,
+        "requirement_specificity_mean": 0.2963
+      },
+      "duration_s": 40.7
+    },
+    {
+      "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Ludwig - Academic Quality Manager",
+      "status": "success",
+      "error": null,
+      "n_requirements": 14,
+      "eval_summary": {
+        "coherence_mean": 0.7388,
+        "re_informativeness_mean": 0.2289,
+        "user_informativeness_mean": 0.2413,
+        "requirement_coverage": 0.6875,
+        "requirement_specificity_mean": 0.2457
+      },
+      "duration_s": 40.9
+    },
+    {
+      "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Aoife - Second Year Undergraduate",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.5278,
+        "re_informativeness_mean": 0.2387,
+        "user_informativeness_mean": 0.2218,
+        "requirement_coverage": 0.9375,
+        "requirement_specificity_mean": 0.245
+      },
+      "duration_s": 31.5
+    },
+    {
+      "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch2",
+      "scenario": "University Student Portal Enhancement",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Declan - Senior IT Systems Administrator",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.584,
+        "re_informativeness_mean": 0.2494,
+        "user_informativeness_mean": 0.2554,
+        "requirement_coverage": 0.875,
+        "requirement_specificity_mean": 0.2491
+      },
+      "duration_s": 35.6
+    },
+    {
+      "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Bart - Head of Digital Banking",
+      "status": "success",
+      "error": null,
+      "n_requirements": 9,
+      "eval_summary": {
+        "coherence_mean": 0.6408,
+        "re_informativeness_mean": 0.2358,
+        "user_informativeness_mean": 0.254,
+        "requirement_coverage": 0.9474,
+        "requirement_specificity_mean": 0.2418
+      },
+      "duration_s": 45.7
+    },
+    {
+      "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Luke - Retail Banking Customer",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6001,
+        "re_informativeness_mean": 0.2404,
+        "user_informativeness_mean": 0.2553,
+        "requirement_coverage": 0.6842,
+        "requirement_specificity_mean": 0.2307
+      },
+      "duration_s": 36.2
+    },
+    {
+      "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Ruari - Chief Risk and Compliance Officer",
+      "status": "success",
+      "error": null,
+      "n_requirements": 7,
+      "eval_summary": {
+        "coherence_mean": 0.7315,
+        "re_informativeness_mean": 0.2543,
+        "user_informativeness_mean": 0.249,
+        "requirement_coverage": 0.6316,
+        "requirement_specificity_mean": 0.2493
+      },
+      "duration_s": 45.9
+    },
+    {
+      "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Bart - Head of Digital Banking",
+      "status": "success",
+      "error": null,
+      "n_requirements": 17,
+      "eval_summary": {
+        "coherence_mean": 0.6797,
+        "re_informativeness_mean": 0.2485,
+        "user_informativeness_mean": 0.2368,
+        "requirement_coverage": 0.8421,
+        "requirement_specificity_mean": 0.2328
+      },
+      "duration_s": 57.0
+    },
+    {
+      "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Luke - Retail Banking Customer",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.5413,
+        "re_informativeness_mean": 0.239,
+        "user_informativeness_mean": 0.2286,
+        "requirement_coverage": 0.7368,
+        "requirement_specificity_mean": 0.2286
+      },
+      "duration_s": 30.9
+    },
+    {
+      "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Ruari - Chief Risk and Compliance Officer",
+      "status": "success",
+      "error": null,
+      "n_requirements": 11,
+      "eval_summary": {
+        "coherence_mean": 0.6708,
+        "re_informativeness_mean": 0.2554,
+        "user_informativeness_mean": 0.2581,
+        "requirement_coverage": 0.8421,
+        "requirement_specificity_mean": 0.2761
+      },
+      "duration_s": 38.6
+    },
+    {
+      "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Bart - Head of Digital Banking",
+      "status": "success",
+      "error": null,
+      "n_requirements": 10,
+      "eval_summary": {
+        "coherence_mean": 0.6259,
+        "re_informativeness_mean": 0.2497,
+        "user_informativeness_mean": 0.2456,
+        "requirement_coverage": 0.7895,
+        "requirement_specificity_mean": 0.2493
+      },
+      "duration_s": 51.0
+    },
+    {
+      "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Luke - Retail Banking Customer",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.5624,
+        "re_informativeness_mean": 0.2508,
+        "user_informativeness_mean": 0.2421,
+        "requirement_coverage": 0.7368,
+        "requirement_specificity_mean": 0.2745
+      },
+      "duration_s": 32.8
+    },
+    {
+      "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch2",
+      "scenario": "Legacy Bank Mobile App Modernisation",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Ruari - Chief Risk and Compliance Officer",
+      "status": "success",
+      "error": null,
+      "n_requirements": 7,
+      "eval_summary": {
+        "coherence_mean": 0.6483,
+        "re_informativeness_mean": 0.2557,
+        "user_informativeness_mean": 0.264,
+        "requirement_coverage": 0.7368,
+        "requirement_specificity_mean": 0.2822
+      },
+      "duration_s": 27.8
+    }
+  ]
+}

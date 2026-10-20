@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A mobile-friendly system for study room bookings that allows students to easily select a date and time, view room capacity, and receive immediate confirmation.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Reminders for book returns sent via phone or email, ideally one or two days before the due date, along with a central view of all current loans and their due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "An easy way to check room availability and book study rooms online to prevent frustration and long waits associated with the current system.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A feature to check real-time book availability, allowing students to see if a book is on the shelf or checked out.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A recommendation system for popular books to help students find materials quickly and easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

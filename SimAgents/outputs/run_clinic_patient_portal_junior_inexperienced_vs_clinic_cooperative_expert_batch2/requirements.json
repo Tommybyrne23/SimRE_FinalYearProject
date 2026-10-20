@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, or reschedule appointments online, with visibility of available slots and automated reminders.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients can view their current medications, request refills, receive immediate confirmations, and have a status update feature, with safety checks in place for medications.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients will receive test results only after clinician review, with notifications sent via their preferred method, clear explanations provided, and follow-up actions highlighted.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A robust identity verification process will be implemented to protect sensitive patient information across all features.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must be developed within budget constraints, ensure seamless integration with existing systems, comply with GDPR and Irish legislation, and be accessible for all patients, including those with lower digital literacy.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

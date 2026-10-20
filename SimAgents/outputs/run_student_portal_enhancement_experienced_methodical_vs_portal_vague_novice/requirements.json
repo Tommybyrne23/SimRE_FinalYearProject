@@ -1,0 +1,32 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The timetable should feature a colour-coding system to differentiate between types of activities, such as lectures, tutorials, and personal study time.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must send automated email alerts to inform students when grades are posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The structured module feedback system should allow students to provide feedback on teaching quality, course materials, and assessment methods.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements should work smoothly with the existing portal infrastructure.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

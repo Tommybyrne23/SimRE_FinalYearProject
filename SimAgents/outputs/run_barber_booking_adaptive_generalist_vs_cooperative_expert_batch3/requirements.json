@@ -1,0 +1,50 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book appointments online anytime",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement automated reminders sent via SMS and email 24 hours and 1 hour before appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide barbers with the ability to manage their own schedules in real-time",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Generate daily and weekly summaries including total bookings, cancellations, no-shows, peak times, and flagged repeat no-shows",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Allow customers to cancel or reschedule their appointments easily without direct contact",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Create a mobile-friendly interface for the booking system",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Enforce a clear cancellation policy requiring a minimum 24-hour notice for cancellations, with a one-time grace period for first-time customers",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

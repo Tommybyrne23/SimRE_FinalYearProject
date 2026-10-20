@@ -1,0 +1,74 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Send SMS and email reminders a day and an hour before appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement a 24/7 online booking system for customers",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow customers to select a service and preferred barber while booking",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide real-time availability of barbers for booking",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Create an interface for barbers to manage their own schedules",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Allow barbers to set their working hours, breaks, and time off",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide an option for customers to create accounts to store personal details and booking history",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Track and monitor no-show customers for appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Ensure the solution is cost-effective for implementation and maintenance",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Ensure the system is mobile-friendly",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Comply with data protection legislation for customer data handling",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

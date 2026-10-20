@@ -1,0 +1,44 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to book study rooms easily, selecting dates and times while viewing available options in one place.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow students to manage book check-outs, returns, and renewals online, with reminders sent a few days before items are due.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Librarians need tools to view which books are checked out and track popular items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should provide a way to manage fines and issues with books.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Notifications should be sent to students immediately when fines are incurred.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must be user-friendly and accessible on mobile devices.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

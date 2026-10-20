@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to customize their timetable views with features like color-coding modules, hiding cancelled classes, and adding personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated notifications should alert students when new grades are posted, as well as provide reminders for assignment deadlines and exam dates, ensuring notifications are quick and manageable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system should allow students to submit anonymous feedback on module content quality and delivery after the teaching period ends.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements must maintain the stability of the existing portal infrastructure to avoid disruptions.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Integration of the new features should align with existing user access and data handling protocols.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

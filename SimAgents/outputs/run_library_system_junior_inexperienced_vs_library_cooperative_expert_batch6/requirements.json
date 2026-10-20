@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to search the library catalogue with filters (like author and genre) and sorting options (like popularity and newest arrivals) to enhance their experience.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should automatically send reminders for due dates and overdue fines, including tiered notifications and customizable communication preferences for students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must allow easy cataloging and editing of inventory, real-time tracking of item statuses, detailed reporting tools, and effective hold management.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should integrate with the existing student record system while ensuring compliance with GDPR, including secure data storage, data minimization, and clear communication about data usage.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students with outstanding fines above a certain threshold should be restricted from borrowing or booking rooms until those fines are cleared.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

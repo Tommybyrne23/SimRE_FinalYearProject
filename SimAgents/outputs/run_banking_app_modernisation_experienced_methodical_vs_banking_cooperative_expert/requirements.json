@@ -1,0 +1,74 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement real-time notifications for transactions, significant account activities, personalized spending alerts, fraud alerts, and bill payment reminders",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Integrate biometric authentication (fingerprint and facial recognition) for secure logins and access to sensitive features",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Enable instant card controls that allow customers to freeze and unfreeze their cards directly within the app",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Create a streamlined in-app lending and credit application process, including features for overdraft increases and personal loans, with user-friendly design elements such as calculators and real-time updates",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure simultaneous access to both old and new app versions during the transition period",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Implement a robust onboarding process with tutorials or guided tours for the new app",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide clear communication to customers about the transition, including notifications about new features and timelines",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Enhance customer support channels, including live chat and in-app assistance, to assist users during the transition",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Establish a feedback mechanism to gather customer insights on the new app",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Ensure seamless data migration for customers switching to the new app, with all historical transaction data and settings carried over",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Ensure compliance with Central Bank regulations regarding consumer protection and responsible lending throughout the app's functionalities",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

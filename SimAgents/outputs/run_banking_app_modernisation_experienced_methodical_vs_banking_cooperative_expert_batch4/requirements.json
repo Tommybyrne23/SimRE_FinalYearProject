@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app must provide real-time notifications for all transactions, including details such as transaction amount, merchant name, and remaining balance, delivered as push alerts with customisation options for users.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Biometric authentication must be implemented, allowing both fingerprint and facial recognition, ensuring a seamless and intuitive setup and login experience.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app should offer in-app lending features, including personal loans, overdraft increases, and credit limit adjustments, with a straightforward application process and instant feedback on eligibility.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Compliance with PSD2, GDPR, and Central Bank of Ireland regulations must be integrated into the app's design and functionality, including Strong Customer Authentication, data storage and processing within the EEA, and responsible lending practices.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The user interface must be designed to clearly inform customers about their rights and obligations regarding transactions and lending, while maintaining an intuitive and user-friendly experience.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

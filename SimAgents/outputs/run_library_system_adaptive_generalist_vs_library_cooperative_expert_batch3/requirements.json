@@ -1,0 +1,116 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 18,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to search the library catalog and check real-time availability of materials.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to borrow, return, and renew items online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to book study rooms online, selecting date, time, and capacity.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should be able to view their current loans, due dates, reservation history, and outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should receive automated email reminders for due dates and fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Staff should have an inventory management system that allows easy addition, updating, and retiring of catalog items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Staff should have access to detailed usage reports providing insights on loan volumes, popular items, study room utilization, and fine revenue.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Librarians should be able to place holds or restrictions on student accounts based on fine thresholds.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system must integrate with the existing student record system to verify enrollment status for borrowing and booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Access to relevant student information must include full name, student ID, and enrollment status.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The system must comply with GDPR, ensuring lawful and transparent data collection and processing.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Sensitive data must be stored securely, with access limited to authorized staff only.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system must have mechanisms for students to view their own data and request corrections.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "There must be clear policies on data retention and deletion.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Integration with the existing student record system must be thoroughly tested to ensure seamless data flow.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Budget considerations must be taken into account for both implementation and ongoing maintenance.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Staff training must be provided to ensure comfort with the new system.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The timeline for data migration must be meticulously planned to avoid data loss and ensure accurate transfer.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

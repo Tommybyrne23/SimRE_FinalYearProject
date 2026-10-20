@@ -1,0 +1,68 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should have the ability to colour-code their modules via a colour palette or dropdown menu.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to use a toggle or checkbox to hide cancelled classes from their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to create custom entries for personal study blocks by clicking on specific time slots.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should receive instant notifications (via push notification, email, or SMS) when a new grade is posted, ideally within five minutes of entry.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Reminders for assignment deadlines should be sent one week before the due date and again 24 hours prior.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "A reminder for exam dates should be sent a few days in advance.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should have the ability to configure their notification preferences, including the method of receiving updates (email, SMS, or in-app) and the frequency of reminders.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The feedback system should include questions focusing on content quality, delivery, and resources.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Anonymity of responses must be ensured by aggregating feedback so that individual responses cannot be traced back to specific students.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Feedback should only be accessible to module coordinators after the grading period to maintain the integrity of the grading process.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

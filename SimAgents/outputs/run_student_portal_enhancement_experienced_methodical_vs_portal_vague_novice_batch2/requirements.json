@@ -1,0 +1,68 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management that allows users to choose colours for modules",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Personalised timetable management that allows users to hide cancelled classes",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Personalised timetable management that allows users to add study blocks",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Automated grade notifications sent primarily via email",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Optional pop-up notifications within the portal for grade updates",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Structured module feedback system featuring a star rating system",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Open text fields for additional comments in the feedback system",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Feedback mechanism to be easily completed after the semester ends",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Enhancements should work smoothly without the need for students to create new accounts",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Enhancements should not require students to undertake extra steps",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

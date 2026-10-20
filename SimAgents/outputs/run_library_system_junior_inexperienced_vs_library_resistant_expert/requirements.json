@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow students to check availability and manage book loans online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable students to book study rooms online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automatically calculate fines and flag accounts with high fines to prevent borrowing.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Allow students to place holds on high-demand books, with staff oversight.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Ensure proper support for tricky situations to maintain the personal touch at the desk.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

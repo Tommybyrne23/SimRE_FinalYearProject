@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised Timetable Management: Allow students to customize their timetable with features like color-coding modules, hiding canceled classes, and manually adding personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated Grade Notifications: Implement a system for students to receive alerts when new grades are posted, along with reminders for assignment deadlines and exam dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Structured Module Feedback System: Create a simple feedback mechanism for students to provide anonymous feedback on content quality, delivery, and resources after the teaching period ends.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Ensure that all new features do not disrupt the existing portal infrastructure and maintain its performance.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Focus on integrating enhancements smoothly with the current functionalities to avoid any additional burdens for students or staff.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

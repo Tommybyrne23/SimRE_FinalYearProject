@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers can book appointments anytime and choose their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers can cancel or change their appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automated reminders are sent via text or email before appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Barbers can set their own schedules to prevent double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Customers can create accounts to keep their information and booking history.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Cancellation policy requires at least a day's notice for cancellations.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    }
+  ]
+}

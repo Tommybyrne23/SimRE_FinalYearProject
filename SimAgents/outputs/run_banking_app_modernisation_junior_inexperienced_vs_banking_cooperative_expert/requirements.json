@@ -1,0 +1,122 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 19,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The mobile banking app must provide real-time transaction notifications including transaction amounts, merchant names, and updated balances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers must have the ability to customize their notification preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app must allow customers to freeze and unfreeze their debit and credit cards instantly.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app must provide automated monthly spending breakdowns, categorizing spending by type.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Customers must be able to set personalized spending limits and receive alerts when approaching those limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The app must enable instant peer-to-peer payments.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The app must include a robust in-app support feature, such as live chat or AI-assisted help.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The app must integrate seamlessly with the existing core banking system through the current API layer.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The app must comply with PSD2 regulations, including strong customer authentication for payment initiations.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The app must adhere to GDPR regulations for customer financial data processing and storage.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The app must comply with Central Bank of Ireland regulations for consumer protection and responsible lending.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The app must maintain backwards compatibility with the existing version for at least six months during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "User engagement levels must be tracked by measuring frequency of app logins and time spent in the app.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Customer satisfaction ratings must achieve a minimum of 4.2 on both the App Store and Google Play within six months of launch.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Transaction notification response rates must be tracked to assess user interaction with notifications.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The app must ensure 99.95% uptime to maintain customer trust.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Compliance metrics must be monitored to ensure adherence to regulatory requirements.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Customer feedback must be gathered through surveys or in-app prompts for continuous improvement.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "New feature adoption rates must be tracked to assess the effectiveness and popularity of new functionalities.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

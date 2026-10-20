@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book appointments online without calling",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Send appointment reminders and confirmation messages to customers",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Prevent double bookings to keep the schedule organized",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Allow each barber to set their own availability and manage time off",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Integrate smoothly into existing processes without complicating the workflow",
+      "type": "NonFunctionalRequirement",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

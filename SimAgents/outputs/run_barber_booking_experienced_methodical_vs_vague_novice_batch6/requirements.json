@@ -1,0 +1,86 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 13,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should be able to cancel appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should be able to change appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should allow customers to easily choose a service.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should allow customers to select a barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should allow customers to find an available time for their appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Customers should receive confirmation messages upon booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Each barber will have their own schedule visible to customers.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Customers should have the option to create an account to track past appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Customers should be able to book appointments as guests without creating an account.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Payment will primarily be in person at the shop.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_012",
+      "text": "There should be a possibility of adding an online payment option later.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Customers should receive reminders via both email and SMS.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 26,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, and reschedule their appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request repeat prescriptions online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should have secure online access to their test results after clinician review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal must reduce the workload on receptionists.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal should be accessible to elderly patients and those who are not tech-savvy.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Appointment booking interface must have a calendar view for available time slots.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Patients should be able to filter appointments by type and specific providers.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Patients should receive reminders about upcoming appointments via email or text.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system should have a feature to flag urgent appointments for same-day consideration.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "GPs and nurses should be able to manage their schedules and set availability in the backend.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The repeat prescription request process should include a simple form for patients to select medications.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Patients should be able to track the status of their prescription requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Safeguards must be in place to prevent patients from requesting unauthorized prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The interface for handling prescription requests should be efficient for reception staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "The test results access interface must be user-friendly and categorized by test type or date.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "A robust identity verification process must be implemented for accessing test results.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Data must be encrypted both during transmission and storage.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Patients should have the option to ask questions about their test results through the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "The portal design must be straightforward and uncluttered for easy navigation.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Adjustable text sizes and contrast settings must be available for users with vision impairments.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "A 'read aloud' feature should be included for users who prefer auditory information.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Tutorial resources such as videos or step-by-step guides must be provided for users.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "A support line or chat feature must be available for users needing additional help.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "The portal must comply with accessibility standards like WCAG 2.1 AA.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "Integration with existing practice management software is crucial.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_026",
+      "text": "Automated reminders for upcoming appointments must be implemented, with patient preference for notification method.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

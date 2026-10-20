@@ -1,0 +1,187 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch6",
+  "evaluated_at": "2026-04-23T10:35:49.837474",
+  "dialogue_turns": 11,
+  "metrics": {
+    "coherence": {
+      "mean": 0.7345,
+      "std": 0.1008,
+      "pairs_evaluated": 10,
+      "scores": [
+        0.7163,
+        0.7701,
+        0.6373,
+        0.8816,
+        0.7451,
+        0.8747,
+        0.658,
+        0.825,
+        0.5549,
+        0.6819
+      ],
+      "interpretation": "High — turns are semantically consistent"
+    },
+    "re_informativeness": {
+      "mean": 0.2354,
+      "std": 0.019,
+      "turns_evaluated": 6,
+      "per_turn": [
+        0.2083,
+        0.2247,
+        0.2266,
+        0.2353,
+        0.25,
+        0.2675
+      ],
+      "interpretation": "Moderate — typical conversational density"
+    },
+    "user_informativeness": {
+      "mean": 0.2515,
+      "std": 0.0152,
+      "turns_evaluated": 5,
+      "per_turn": [
+        0.2567,
+        0.2679,
+        0.2258,
+        0.2632,
+        0.2441
+      ],
+      "interpretation": "High — dense, content-rich turns"
+    },
+    "requirement_coverage": {
+      "score": 1.0,
+      "covered": [
+        {
+          "id": "Barbershop_FunctionalRequirement_1",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow customers to book appointments online at any time, selecting a service, barber, and available time slot.",
+          "max_similarity": 0.7619
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_2",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow customers to cancel or reschedule existing appointments online without contacting the shop.",
+          "max_similarity": 0.6462
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_3",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall send automated SMS and email reminders to customers 24 hours and 1 hour before their appointment.",
+          "max_similarity": 0.5057
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_4",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall send an immediate booking confirmation to the customer via SMS and email upon successful appointment creation.",
+          "max_similarity": 0.5616
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_5",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow each barber to independently set and update their own availability, including working hours, breaks, and time off.",
+          "max_similarity": 0.6487
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_6",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall prevent double bookings by reflecting barber availability in real time across all booking interfaces.",
+          "max_similarity": 0.6846
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_7",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall provide the shop owner with daily and weekly booking summaries showing bookings, cancellations, no-shows, and peak times.",
+          "max_similarity": 0.5948
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_8",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall track customer no-show history and flag repeat offenders for manual booking review.",
+          "max_similarity": 0.4627
+        },
+        {
+          "id": "Barbershop_FunctionalRequirement_9",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow customers to create accounts to store personal details, communication preferences, and booking history.",
+          "max_similarity": 0.5393
+        },
+        {
+          "id": "Barbershop_NonFunctionalRequirement_1",
+          "type": "NonFunctionalRequirement",
+          "statement": "The booking interface shall be usable on mobile devices without degradation of functionality.",
+          "max_similarity": 0.4787
+        },
+        {
+          "id": "Barbershop_NonFunctionalRequirement_2",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall be cost-effective to implement and operate within the budget constraints of a small independent business.",
+          "max_similarity": 0.4656
+        },
+        {
+          "id": "Barbershop_NonFunctionalRequirement_3",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall be easy to learn and use for both shop staff and customers with minimal training.",
+          "max_similarity": 0.4093
+        },
+        {
+          "id": "Barbershop_Constraint_1",
+          "type": "Constraint",
+          "statement": "The system must comply with applicable data protection legislation governing storage of customer personal data.",
+          "max_similarity": 0.4179
+        },
+        {
+          "id": "Barbershop_Constraint_2",
+          "type": "Constraint",
+          "statement": "The cancellation policy must enforce a minimum 24-hour notice period, with a one-time grace period for first-time customers.",
+          "max_similarity": 0.5
+        }
+      ],
+      "not_covered": [],
+      "total_expected": 14,
+      "by_type": {
+        "FunctionalRequirement": 1.0,
+        "NonFunctionalRequirement": 1.0,
+        "Constraint": 1.0
+      },
+      "similarity_threshold": 0.4,
+      "interpretation": "High — nearly all ground truth requirements addressed"
+    },
+    "requirement_specificity": {
+      "mean": 0.2738,
+      "std": 0.0578,
+      "requirements_evaluated": 21,
+      "per_req": [
+        0.3333,
+        0.25,
+        0.2857,
+        0.3636,
+        0.2308,
+        0.1818,
+        0.3636,
+        0.2222,
+        0.2857,
+        0.25,
+        0.3636,
+        0.2,
+        0.25,
+        0.2727,
+        0.3636,
+        0.2857,
+        0.1667,
+        0.25,
+        0.2727,
+        0.3077,
+        0.25
+      ],
+      "interpretation": "Moderate — reasonably specific",
+      "skipped": false
+    }
+  },
+  "summary": {
+    "coherence_mean": 0.7345,
+    "re_informativeness_mean": 0.2354,
+    "user_informativeness_mean": 0.2515,
+    "requirement_coverage": 1.0,
+    "requirement_specificity_mean": 0.2738
+  }
+}

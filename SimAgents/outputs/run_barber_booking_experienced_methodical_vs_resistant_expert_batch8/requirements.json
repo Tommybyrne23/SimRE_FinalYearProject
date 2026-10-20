@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow customers to book appointments online at any time while still accommodating phone bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Appointment reminders should be sent via both SMS and email, one day before and one hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should display the availability of each barber at specific times, allowing customers to choose their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Each barber should have the ability to update their own availability in the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must integrate seamlessly with the current workflow to avoid disruptions.",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

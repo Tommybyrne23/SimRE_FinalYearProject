@@ -1,0 +1,44 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, or reschedule appointments on their own, with support available if needed.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The portal should enable patients to request repeat prescriptions while minimizing misunderstandings.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "There should be a feature to flag urgent cases for same-day appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal should send reminders to patients, with careful consideration of how those are communicated.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Notifications for test results should only be sent after a clinician has reviewed and approved them.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Ensure that the portal maintains a personal connection and supports patients throughout the process.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

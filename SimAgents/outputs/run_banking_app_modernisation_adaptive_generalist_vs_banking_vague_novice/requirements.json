@@ -1,0 +1,44 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app must provide a modern and fast user experience similar to fintech competitors like Revolut.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app must send real-time push notifications for transactions and budget limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app must include budgeting tools that allow users to set category limits and receive alerts.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app must provide a monthly breakdown of spending with clear categories such as food, transport, and entertainment.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The app must have a modern and clean user interface that is easy to navigate.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The app should retain any existing elements that work well, while allowing for a complete redesign.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

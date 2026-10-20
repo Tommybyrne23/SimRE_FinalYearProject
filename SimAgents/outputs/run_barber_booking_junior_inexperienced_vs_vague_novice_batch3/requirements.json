@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_vague_novice_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers can book appointments online, choosing a service and barber easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow customers to pick a specific barber or any available barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Barbers can set and update their own schedules in the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers can book one appointment at a time.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Payment options are still to be determined, but the focus is on simplicity.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    }
+  ]
+}

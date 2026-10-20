@@ -1,0 +1,44 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system must allow users to color-code modules for easier identification.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must provide an option to hide canceled classes in the timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must enable users to add personal study times to the timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must send push notifications or emails as soon as grades are posted, ideally within a few minutes.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must provide a simple feedback form for modules that includes a rating system and an optional comment box.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "All enhancements must integrate smoothly with the existing portal infrastructure without affecting performance.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

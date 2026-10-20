@@ -1,0 +1,32 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online, choosing a service, barber, and time slot.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow customers to change or cancel appointments without calling, with confirmations sent for changes or cancellations.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Reminders should be sent to customers before their appointments to help reduce no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers should be able to select their preferred barber, with availability shown when booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients must have the option to book appointments by phone",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must provide clear instructions for online prescription requests",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "There should be a dedicated support line or chat feature for patient assistance",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Implement automated onboarding messages or reminders for new patients",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Scheduled follow-up calls or check-ins for patients who are new to the portal",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Include a feedback mechanism within the portal for patients to share experiences",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide multiple feedback options, such as surveys and direct communication channels",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system must ensure that patients feel supported throughout their usage",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Support features must not overwhelm clinic staff",
+      "type": "Constraint",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

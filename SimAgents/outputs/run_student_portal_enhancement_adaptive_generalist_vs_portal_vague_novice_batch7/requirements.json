@@ -1,0 +1,56 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement colour-coding for different modules (e.g., lectures, tutorials, study time) in the personalised timetable",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Allow hiding of cancelled classes in the personalised timetable for a clearer view",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide automated notifications through the portal when new grades are posted",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Send email notifications as a backup for grade alerts",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Create a simple feedback form for module feedback covering content delivery, resource helpfulness, and lecturer engagement",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Ensure the feedback form is concise and easy to complete",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Focus on improving overall usability and clarity for students in the portal enhancements",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Identify any potential technical constraints or university policies that may impact the implementation of the features",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

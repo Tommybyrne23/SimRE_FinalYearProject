@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system should allow customers to select services, choose a barber, and view available appointment times.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should be able to easily change or cancel their appointments without needing to call the barbershop.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Each barber should be able to manage their own schedule, including setting availability, taking breaks, and marking days off.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must be simple and budget-friendly, avoiding unnecessary complexity.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Automated reminders should be sent to customers via text and email, one day and one hour before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

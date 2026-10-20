@@ -1,0 +1,50 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Users should receive immediate notifications after transactions, detailing the amount spent, merchant location, and updated account balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Users should have the ability to freeze their debit or credit card directly within the app with a simple button press.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app should provide a monthly breakdown of spending categorized by type to help users track their financial habits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Users should be able to set budgets for different spending categories, with alerts for nearing or exceeding those budgets.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The app should feature a clean, straightforward interface that is easy to navigate.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The app should include quick login options like fingerprint or facial recognition.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The app must ensure users feel safe when using it and protect their information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

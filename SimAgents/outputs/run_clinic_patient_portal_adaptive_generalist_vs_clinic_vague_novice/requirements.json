@@ -1,0 +1,50 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The ability for patients to book, cancel, or change appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The option for patients to request repeat prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The ability to check test results after a doctor's review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A secure messaging feature for patients to communicate with staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "There should be a way to verify patient identity before they can access their health information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "All personal information needs to be kept private and secure, both during transmission and while stored.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Compliance with relevant regulations regarding patient data.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

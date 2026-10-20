@@ -1,0 +1,74 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Color-code modules to prioritize them.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Hide cancelled or irrelevant classes.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Block out personal study time.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Sync with external calendars like Google Calendar.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Immediate notifications when a grade is posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Reminders for assignment deadlines a few days before they are due.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Options for receiving notifications via email and push notifications on your phone.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The ability to provide feedback on teaching quality, content usefulness, and lecture clarity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "A simple form on the portal for submitting feedback with options for ratings and comments.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The feedback process should be quick and straightforward.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The feedback must be anonymous to ensure privacy.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

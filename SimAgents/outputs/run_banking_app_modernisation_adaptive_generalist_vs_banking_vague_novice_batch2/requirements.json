@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app should provide real-time transaction alerts, including the amount spent, merchant details, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Monthly spending summaries should categorize expenses to help users understand where their money is going.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Users must be able to instantly freeze and unfreeze their cards within the app for added security.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app should feature a clean, modern layout that is easy to navigate and responsive, similar to fintech apps like Revolut.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The overall user experience must prioritize straightforward access to features without getting lost in complex menus.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

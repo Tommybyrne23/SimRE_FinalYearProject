@@ -1,0 +1,158 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 25,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, or reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request their repeat prescriptions online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should have secure online access to test results after clinician review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must ensure compliance with GDPR and maintain data security while being accessible to all patients.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Patients should be able to see available time slots for both GP and nurse appointments and filter by type or clinician.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients should receive immediate confirmation of booked appointments, with options for reminders via email or text.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "There should be a straightforward process for canceling or rescheduling appointments, with a confirmation message for any changes made.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "There needs to be a clear pathway for urgent appointment requests, allowing patients to communicate their needs for same-day appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The portal must integrate seamlessly with existing practice management software to ensure synchronized appointment records.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Patients should have a dedicated section in the portal where they can view their current medications and easily select medications for reorder.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Patients should be able to see a history of their previous prescriptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Safeguards must be in place to prevent requests for medications that haven’t been authorized by the clinician.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "There should be a workflow for staff to efficiently review submitted requests, including notifications for new requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Patients should receive confirmation notifications about the status of their prescription requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Robust identity verification measures must be in place to ensure security and compliance with GDPR during the prescription request process.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Patients should only access test results after they have been reviewed and authorized by a clinician.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Patients should receive a notification (via email or text) when their test results are ready to view.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "There should be a clear and user-friendly section in the portal for viewing results, presented in an easy-to-understand format.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Patients should be able to submit questions or seek clarification about their results directly through the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Strong identity verification steps must be in place to ensure that only authorized patients can access their results.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Data encryption must be implemented during transmission and at rest to protect patient data and ensure compliance with GDPR.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Regular security audits must be conducted to identify and address potential vulnerabilities.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "The portal must conform to accessibility standards (e.g., WCAG 2.1 AA) to ensure usability for all patients.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "There should be a straightforward onboarding process with easy-to-follow tutorials or guides to help patients navigate the portal.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "There should be a dedicated support line for patients needing extra assistance.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

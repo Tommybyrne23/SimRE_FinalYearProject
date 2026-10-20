@@ -1,0 +1,194 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch8",
+  "evaluated_at": "2026-04-23T12:10:12.095009",
+  "dialogue_turns": 13,
+  "metrics": {
+    "coherence": {
+      "mean": 0.5353,
+      "std": 0.1348,
+      "pairs_evaluated": 12,
+      "scores": [
+        0.3854,
+        0.6721,
+        0.4361,
+        0.5161,
+        0.6325,
+        0.5419,
+        0.72,
+        0.6855,
+        0.4497,
+        0.663,
+        0.2715,
+        0.4498
+      ],
+      "interpretation": "Moderate — some topical connection between turns"
+    },
+    "re_informativeness": {
+      "mean": 0.2508,
+      "std": 0.0316,
+      "turns_evaluated": 7,
+      "per_turn": [
+        0.2222,
+        0.3188,
+        0.2317,
+        0.2381,
+        0.2737,
+        0.2327,
+        0.2384
+      ],
+      "interpretation": "High — dense, content-rich turns"
+    },
+    "user_informativeness": {
+      "mean": 0.2315,
+      "std": 0.0199,
+      "turns_evaluated": 6,
+      "per_turn": [
+        0.2597,
+        0.2323,
+        0.2286,
+        0.2344,
+        0.193,
+        0.2407
+      ],
+      "interpretation": "Moderate — typical conversational density"
+    },
+    "requirement_coverage": {
+      "score": 0.7647,
+      "covered": [
+        {
+          "id": "Library_FunctionalRequirement_1",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to search the library catalogue and check real-time availability of books and other materials.",
+          "max_similarity": 0.6633
+        },
+        {
+          "id": "Library_FunctionalRequirement_2",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to borrow, return, and renew items online without visiting the library desk.",
+          "max_similarity": 0.6087
+        },
+        {
+          "id": "Library_FunctionalRequirement_3",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to book study rooms online, selecting date, time slot, and room capacity.",
+          "max_similarity": 0.7041
+        },
+        {
+          "id": "Library_FunctionalRequirement_5",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow students to view their current loans, due dates, reservation history, and outstanding fines.",
+          "max_similarity": 0.5376
+        },
+        {
+          "id": "Library_FunctionalRequirement_6",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall send automated email reminders to students before loan due dates and when fines are applied.",
+          "max_similarity": 0.5467
+        },
+        {
+          "id": "Library_FunctionalRequirement_7",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow librarians to manage book inventory, including adding, updating, and retiring catalogue items.",
+          "max_similarity": 0.6496
+        },
+        {
+          "id": "Library_FunctionalRequirement_8",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall provide librarians with usage reports covering loan volumes, popular items, room utilisation, and fine revenue.",
+          "max_similarity": 0.6512
+        },
+        {
+          "id": "Library_FunctionalRequirement_9",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall allow librarians to place holds or restrictions on student accounts with outstanding fines above a configurable threshold.",
+          "max_similarity": 0.481
+        },
+        {
+          "id": "Library_NonFunctionalRequirement_1",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall be accessible via university single sign-on (SSO) so students and staff do not require separate credentials.",
+          "max_similarity": 0.4035
+        },
+        {
+          "id": "Library_NonFunctionalRequirement_2",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall be usable on mobile devices without degradation of core booking and loan management functionality.",
+          "max_similarity": 0.5409
+        },
+        {
+          "id": "Library_Constraint_1",
+          "type": "Constraint",
+          "statement": "The system must integrate with the university student record system to verify enrolment status before permitting loans or room bookings.",
+          "max_similarity": 0.5245
+        },
+        {
+          "id": "Library_Constraint_2",
+          "type": "Constraint",
+          "statement": "The system must comply with GDPR for storage and processing of student borrowing and fine history data.",
+          "max_similarity": 0.4837
+        },
+        {
+          "id": "Library_Constraint_3",
+          "type": "Constraint",
+          "statement": "Students with outstanding fines above the maximum threshold must be blocked from making new loans or room bookings until fines are cleared.",
+          "max_similarity": 0.4755
+        }
+      ],
+      "not_covered": [
+        {
+          "id": "Library_FunctionalRequirement_4",
+          "type": "FunctionalRequirement",
+          "statement": "The system shall automatically calculate and apply fines for overdue items based on configurable daily rates.",
+          "max_similarity": 0.3081
+        },
+        {
+          "id": "Library_NonFunctionalRequirement_3",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall load catalogue search results within three seconds under normal network conditions.",
+          "max_similarity": 0.2316
+        },
+        {
+          "id": "Library_NonFunctionalRequirement_4",
+          "type": "NonFunctionalRequirement",
+          "statement": "The system shall conform to WCAG 2.1 AA accessibility standards to support students with disabilities.",
+          "max_similarity": 0.3655
+        },
+        {
+          "id": "Library_Constraint_4",
+          "type": "Constraint",
+          "statement": "The new system must migrate existing loan and student account data from the legacy system without data loss.",
+          "max_similarity": 0.3014
+        }
+      ],
+      "total_expected": 17,
+      "by_type": {
+        "FunctionalRequirement": 0.8889,
+        "NonFunctionalRequirement": 0.5,
+        "Constraint": 0.75
+      },
+      "similarity_threshold": 0.4,
+      "interpretation": "Partial — most areas addressed but some missed"
+    },
+    "requirement_specificity": {
+      "mean": 0.2484,
+      "std": 0.0647,
+      "requirements_evaluated": 5,
+      "per_req": [
+        0.2,
+        0.1818,
+        0.3571,
+        0.2174,
+        0.2857
+      ],
+      "interpretation": "Moderate — reasonably specific",
+      "skipped": false
+    }
+  },
+  "summary": {
+    "coherence_mean": 0.5353,
+    "re_informativeness_mean": 0.2508,
+    "user_informativeness_mean": 0.2315,
+    "requirement_coverage": 0.7647,
+    "requirement_specificity_mean": 0.2484
+  }
+}

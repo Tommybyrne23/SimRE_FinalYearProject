@@ -1,0 +1,68 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Automated reminders should be sent out 24 hours and 1 hour before appointments via SMS and email",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should be able to book appointments online anytime, choosing service, barber, and time slot",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Each barber should have control over their own availability through a user-friendly interface",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Daily and weekly booking summaries should include total bookings, cancellations, no-shows, peak times, and customer feedback",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must comply with data protection laws for managing customer personal data",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "There should be a cancellation policy requiring a minimum of 24 hours' notice, with a one-time grace period for first-time customers",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The solution needs to be cost-effective for implementation and maintenance",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Booking interface should display a list of services offered and allow customers to see barber specialties",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Barbers should be able to block off specific times for training or personal appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The booking system must provide real-time updates when barbers change their availability",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

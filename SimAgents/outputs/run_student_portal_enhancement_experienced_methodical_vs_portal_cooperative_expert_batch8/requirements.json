@@ -1,0 +1,44 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management allowing students to colour-code modules, hide cancelled classes, and add personal study blocks with a drag-and-drop interface, along with the option to export or sync to external calendars.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A notification settings section where students can choose how they receive alerts (email, SMS, in-app), with options for immediate or daily summary notifications for grades, and customizable reminders for assignment deadlines at various intervals.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The ability for students to set 'quiet hours' to manage the frequency and timing of notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A structured online feedback system collected after the teaching period, focusing on content quality, delivery methods, and resources, using a mix of rating scales and open-ended questions.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Anonymised feedback that is aggregated and shared with module coordinators to foster continuous improvement while ensuring student responses remain confidential.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Ensure all enhancements align with existing systems and policies, including compliance with GDPR and data retention policies.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

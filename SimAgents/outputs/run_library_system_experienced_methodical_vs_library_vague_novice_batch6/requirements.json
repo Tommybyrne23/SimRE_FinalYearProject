@@ -1,0 +1,44 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "An online system for booking study rooms, allowing students to select dates and times while viewing availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "An online functionality for managing book loans, including borrowing, returning, and renewing books to eliminate in-person queues.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A reminder system that sends notifications via email or phone before due dates for borrowed items and potential fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A straightforward online book return process that confirms the return and updates the student’s account immediately, along with a confirmation message.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A clear display of outstanding fines on student accounts, with reminders before fines are applied to avoid unexpected charges.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must integrate well with existing library systems to ensure a seamless experience.",
+      "type": "Constraint",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

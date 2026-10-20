@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A communication feature for patients to reach out to staff easily, ensuring they feel supported.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Appointment management capabilities (booking, canceling, rescheduling) that are thoughtfully implemented to maintain personal contact.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Online submission of repeat prescription requests, with necessary clinician review to prevent errors.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Strong security measures, including encryption, to protect patient data and ensure compliance with guidelines.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Features designed to preserve the personal touch in patient interactions, even with the introduction of the online system.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

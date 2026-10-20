@@ -1,0 +1,104 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 16,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online through a user-friendly interface on a website or mobile app.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "System should allow customers to select services, barbers, and available time slots in real-time.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should send automated SMS and email reminders to customers 24 hours and 1 hour before their appointments, including appointment details and options to cancel or reschedule.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Barbers should have the ability to set their availability, breaks, and time off directly through the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "System should allow barbers to make last-minute adjustments to their schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should provide daily and weekly summaries of appointments, cancellations, no-shows, and peak times.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "There should be a mechanism to track customer no-show history and identify patterns for targeted outreach or manual booking review.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should provide insights into customer preferences and barber popularity to inform operational decisions.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The booking system must provide clear descriptions and prices for all services offered.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Customers should receive immediate confirmation via SMS and email once they book an appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The booking interface must be user-friendly and straightforward to minimize customer effort.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The system must ensure real-time availability to avoid double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The system should allow customers to cancel or reschedule their appointments online without having to call the shop.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The system must provide a feature for barbers to define their regular working hours.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "The system should allow barbers to block off time for breaks during their shifts.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The system must comply with relevant data protection regulations for customer data storage.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

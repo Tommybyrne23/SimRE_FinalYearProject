@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Push notifications for transactions that include the amount spent, merchant, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A feature to freeze and unfreeze your card with a simple button in the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Budgeting tools that categorize spending and allow you to set budgets, with alerts for nearing limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Fast and easy login options, such as fingerprint or face recognition.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A clean, simple interface that displays all accounts and balances prominently.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal should preserve human interaction for booking and changing appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to manage their own appointments online, including booking and cancelling.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must consider the usability for patients who aren’t comfortable with technology.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Strong security measures must be in place to protect patient data and ensure safe access.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The development should focus on maintaining direct contact with patients as a priority.",
+      "type": "Constraint",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

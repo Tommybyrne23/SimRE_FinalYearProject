@@ -1,0 +1,152 @@
+{
+  "completed_at": "2026-04-23T12:38:48.878675",
+  "batch": "_batch4",
+  "total": 9,
+  "succeeded": 8,
+  "failed": 0,
+  "skipped": 1,
+  "results": [
+    {
+      "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch4",
+      "status": "skipped",
+      "error": null,
+      "duration_s": 0.0
+    },
+    {
+      "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Cian - First Year Student Representative",
+      "status": "success",
+      "error": null,
+      "n_requirements": 15,
+      "eval_summary": {
+        "coherence_mean": 0.6472,
+        "re_informativeness_mean": 0.2436,
+        "user_informativeness_mean": 0.2196,
+        "requirement_coverage": 0.7059,
+        "requirement_specificity_mean": 0.2666
+      },
+      "duration_s": 68.7
+    },
+    {
+      "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "David - Senior Requirements Engineer",
+      "user_persona": "Brendan - Senior Library Assistant",
+      "status": "success",
+      "error": null,
+      "n_requirements": 11,
+      "eval_summary": {
+        "coherence_mean": 0.6185,
+        "re_informativeness_mean": 0.2483,
+        "user_informativeness_mean": 0.2614,
+        "requirement_coverage": 0.7647,
+        "requirement_specificity_mean": 0.2671
+      },
+      "duration_s": 47.6
+    },
+    {
+      "run_id": "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Oisin - Head Librarian",
+      "status": "success",
+      "error": null,
+      "n_requirements": 23,
+      "eval_summary": {
+        "coherence_mean": 0.7061,
+        "re_informativeness_mean": 0.2599,
+        "user_informativeness_mean": 0.2541,
+        "requirement_coverage": 0.8824,
+        "requirement_specificity_mean": 0.3064
+      },
+      "duration_s": 60.9
+    },
+    {
+      "run_id": "run_library_system_adaptive_generalist_vs_library_vague_novice_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Cian - First Year Student Representative",
+      "status": "success",
+      "error": null,
+      "n_requirements": 5,
+      "eval_summary": {
+        "coherence_mean": 0.6143,
+        "re_informativeness_mean": 0.2482,
+        "user_informativeness_mean": 0.2316,
+        "requirement_coverage": 0.7647,
+        "requirement_specificity_mean": 0.2845
+      },
+      "duration_s": 33.6
+    },
+    {
+      "run_id": "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "Eric - Mid-Level Business Analyst",
+      "user_persona": "Brendan - Senior Library Assistant",
+      "status": "success",
+      "error": null,
+      "n_requirements": 4,
+      "eval_summary": {
+        "coherence_mean": 0.6257,
+        "re_informativeness_mean": 0.2447,
+        "user_informativeness_mean": 0.251,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.2313
+      },
+      "duration_s": 28.4
+    },
+    {
+      "run_id": "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Oisin - Head Librarian",
+      "status": "success",
+      "error": null,
+      "n_requirements": 17,
+      "eval_summary": {
+        "coherence_mean": 0.7035,
+        "re_informativeness_mean": 0.2542,
+        "user_informativeness_mean": 0.2435,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.2755
+      },
+      "duration_s": 57.9
+    },
+    {
+      "run_id": "run_library_system_junior_inexperienced_vs_library_vague_novice_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Cian - First Year Student Representative",
+      "status": "success",
+      "error": null,
+      "n_requirements": 6,
+      "eval_summary": {
+        "coherence_mean": 0.5484,
+        "re_informativeness_mean": 0.2412,
+        "user_informativeness_mean": 0.2077,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.3011
+      },
+      "duration_s": 31.9
+    },
+    {
+      "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch4",
+      "scenario": "University Library Management System",
+      "re_persona": "Rachel - Junior Analyst",
+      "user_persona": "Brendan - Senior Library Assistant",
+      "status": "success",
+      "error": null,
+      "n_requirements": 6,
+      "eval_summary": {
+        "coherence_mean": 0.6748,
+        "re_informativeness_mean": 0.2566,
+        "user_informativeness_mean": 0.2516,
+        "requirement_coverage": 0.8235,
+        "requirement_specificity_mean": 0.2812
+      },
+      "duration_s": 38.8
+    }
+  ]
+}

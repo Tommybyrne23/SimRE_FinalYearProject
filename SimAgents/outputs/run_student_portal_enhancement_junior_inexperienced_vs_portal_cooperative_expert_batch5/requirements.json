@@ -1,0 +1,116 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 18,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should have the ability to personalize their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to color-code their modules in their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to hide canceled classes from their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should be able to add personal study blocks to their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must allow syncing of personalized timetables with external calendar apps like Google Calendar or Outlook.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Students should receive automatic notifications when new grades are posted, ideally within five minutes.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should receive reminders for assignment deadlines 48 hours in advance.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Students should receive exam reminders one week before the exam date.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Students should have options for notification methods such as email, SMS, or in-app alerts.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Students should be able to configure the frequency of notifications according to their preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The feedback submission form must be straightforward and user-friendly.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The feedback form should cover essential aspects such as content quality, teaching delivery, and resources provided.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The feedback system must include a rating scale from 1 to 5 along with space for open-ended comments.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Feedback must be collected anonymously to ensure students feel safe expressing their opinions.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Feedback should only be made available to module coordinators after the grade submission deadline.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Academic administrators should have access to aggregated reports on feedback trends across departments and semesters.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "All enhancements must fit within the existing portal without requiring new accounts or additional software installations.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The system must comply with GDPR and data retention policies.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

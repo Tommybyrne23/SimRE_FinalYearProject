@@ -1,0 +1,80 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 12,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to assign colours to their modules to easily differentiate between core and elective courses.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to toggle the visibility of cancelled classes in their timetable to reduce clutter.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to add personal study blocks with reminders to help them manage their time effectively.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A combination of push notifications and emails should be provided for immediate and backup alerts for grades and deadlines.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Grade notifications should be sent within five minutes after a grade is posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Assignment and exam reminders should be sent at multiple intervals: one week prior, one day before, and a couple of hours before the due time.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Students should have the option to configure their notification preferences regarding frequency and channels.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The module feedback system should include questions on content quality, delivery, resources, overall experience, and open-ended feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Feedback should be shared with module coordinators only after grades are submitted to ensure anonymity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The system must integrate seamlessly with the existing portal without requiring students to create new accounts or install additional software.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The performance of the portal must remain robust and responsive after the introduction of new features.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "All new features must comply with GDPR and the university's data retention policies to protect student data.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

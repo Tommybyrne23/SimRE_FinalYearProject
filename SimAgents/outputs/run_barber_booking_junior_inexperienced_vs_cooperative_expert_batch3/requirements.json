@@ -1,0 +1,80 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 12,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers must be able to book appointments online at any time",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated reminders must be sent via SMS or email 24 hours and 1 hour before appointments",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Each barber must be able to manage their own schedules, including setting availability and taking breaks",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must allow customers to cancel or reschedule appointments without calling",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must provide immediate confirmation of bookings via SMS or email",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Tracking of bookings, cancellations, and no-shows must be implemented for analysis",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The booking system must be intuitive and easy to use for staff",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The solution must be cost-effective for both setup and ongoing fees",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system must integrate easily with existing technology",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Customer data must be stored securely and comply with data protection laws",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The booking process must be user-friendly and seamless",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The booking interface must be usable on mobile devices",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

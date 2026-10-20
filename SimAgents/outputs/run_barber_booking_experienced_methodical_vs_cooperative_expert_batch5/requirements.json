@@ -1,0 +1,50 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments anytime through a digital platform.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Reminders should be sent 24 hours and 1 hour before appointments, including details such as date, time, barber's name, and service booked.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Barbers should manage their schedules directly, including setting working hours, breaks, and blocking off days.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should provide daily and weekly summaries with total bookings, cancellations, no-shows, insights into peak times, and tracking of customer no-show history for flagging.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must comply with data protection laws to ensure the secure handling of sensitive customer information.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "It should be cost-effective in terms of both initial setup and ongoing operational costs.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The user interface needs to be user-friendly to minimize the learning curve for both staff and customers.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

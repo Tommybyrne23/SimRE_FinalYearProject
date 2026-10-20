@@ -1,0 +1,56 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management should allow students to customize views with color-coding and hide canceled classes.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Personalised timetable management should include easy syncing to personal calendar apps.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Grade notifications should be sent out within a few minutes of grades being posted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Grade notifications should have delivery options like email or in-app alerts based on student preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The module feedback system should provide a straightforward way for students to give feedback on content quality and delivery after the teaching period.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The module feedback system should have a structured approach that considers timing and anonymity.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "All enhancements should integrate well with the existing portal infrastructure to avoid disruptions.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ensure that the overall functionality is enhanced without negatively impacting the current user experience.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

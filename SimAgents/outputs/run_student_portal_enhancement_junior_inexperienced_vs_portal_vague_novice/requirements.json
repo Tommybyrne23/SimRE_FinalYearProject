@@ -1,0 +1,44 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system must allow users to colour-code their timetable modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must allow users to hide cancelled classes in their timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must send pop-up notifications to users' phones or through the app when grades are released.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The module feedback system must allow users to provide overall feedback on the module, including content quality, teaching effectiveness, and resource helpfulness.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The module feedback system must be available immediately after the term ends to allow users to provide fresh feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must focus on improving user experience as a priority.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

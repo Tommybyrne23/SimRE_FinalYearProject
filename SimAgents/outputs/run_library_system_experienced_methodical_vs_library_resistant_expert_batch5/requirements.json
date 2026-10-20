@@ -1,0 +1,74 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 11,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to check book availability online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to manage their loans online, including borrowing, returning, and renewing items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Manual librarian intervention is required for exceptions such as overdue items with requests from others or outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The study room booking system must allow students to select date, time slot, and room capacity online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A mechanism must be in place to manage conflicts or double bookings, requiring librarian oversight.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must retain a personal service aspect, allowing librarians to step in when necessary.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Reports on loan volumes and popular items must be generated for librarians to manage inventory effectively.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Reports on room utilization must be generated to understand how often study spaces are booked and used.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Reports on fines revenue must be generated to assist in policy enforcement and financial oversight.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Data handling must ensure accuracy and oversight to maintain reliability in reporting.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The system must integrate well as a whole, ensuring new features work together cohesively.",
+      "type": "Constraint",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to manage their loans online, including viewing checked-out items, due dates, and fine history.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "There should be a way to handle exceptions for overdue items and fines with personal oversight.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should allow students to book study rooms, showing availability and allowing them to choose specific times and numbers of users.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Manage bookings to prevent conflicts and double reservations.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "There should be a clear process for handling study room bookings to address any questions or issues that students might have.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Librarians should have access to reports on loans, popular items, and study room usage to inform decision-making.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should maintain personal interactions with patrons to address nuances that reports may overlook.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

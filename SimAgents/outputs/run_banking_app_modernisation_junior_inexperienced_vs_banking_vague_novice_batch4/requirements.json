@@ -1,0 +1,56 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Instant transaction notifications",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Ability to freeze your card through the app",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Clear overview of all accounts on the home screen",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Budgeting tools that allow users to set spending limits for categories",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Alerts if users are nearing their spending limits",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Easy login options like fingerprint or face recognition",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The app must be user-friendly and smooth to operate",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The app should work well without too many complications",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

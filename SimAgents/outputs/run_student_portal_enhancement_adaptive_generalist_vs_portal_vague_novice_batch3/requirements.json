@@ -1,0 +1,32 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management with features like colour-coding, hiding cancelled classes, and adding personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated grade notifications via push notifications on your phone, with email notifications as a backup.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system that includes both a rating system for different aspects of the module and an option for open comments.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The enhancements should be straightforward and improve the overall user experience without adding complexity.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

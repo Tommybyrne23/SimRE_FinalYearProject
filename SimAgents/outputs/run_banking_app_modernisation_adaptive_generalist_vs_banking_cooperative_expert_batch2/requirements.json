@@ -1,0 +1,110 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 17,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Enhance customer experience and ensure competitiveness with fintech challengers.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Deliver real-time push notifications for all transactions, including transaction amount, merchant name, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Real-time notifications should be processed within five seconds of the transaction being authorised.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Implement biometric authentication using both fingerprint and facial recognition.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Allow users to apply for in-app lending and credit applications, including overdraft increases and personal loans.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Provide an intuitive interface for in-app lending and credit applications, guiding users through the application steps.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide clear information about requirements, documentation, and estimated approval timelines for lending applications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Incorporate real-time feedback during the lending application process, such as alerts for customers nearing their credit limit.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Ensure transparency around interest rates, repayment amounts, and associated fees for lending options.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Comply with Central Bank regulations on responsible lending.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Integrate seamlessly with the existing core banking system without modifications to the mainframe.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Adhere to PSD2's Strong Customer Authentication requirements for payment initiations and sensitive account access.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Process and store all customer financial data within the European Economic Area to comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Maintain backwards compatibility with the existing app version for at least six months during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Deliver automated monthly spending breakdowns to help customers understand their financial habits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Introduce budgeting tools that allow users to set personal spending limits and receive alerts for nearing or exceeding those limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Provide a unified view of all customer accounts on the home screen, including current, savings, and credit card balances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

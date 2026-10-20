@@ -1,0 +1,50 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app must provide real-time spending notifications for transactions.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app must allow users to instantly freeze their card without talking to anyone.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app must provide a monthly spending breakdown categorized by types of expenses.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app must allow users to set a budget for each category and provide alerts when spending is close to the budget limit.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The app must display a consolidated view of all accounts (current account, savings, and credit card) on one screen.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The app must provide secure login options such as fingerprint or face recognition.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The app must ensure the user's data is protected and secure.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

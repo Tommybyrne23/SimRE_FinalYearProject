@@ -1,0 +1,32 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Immediate notifications for all transactions that affect the user's balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The ability to freeze and unfreeze the user's card easily through a button in the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Budgeting tools that allow users to set monthly spending limits for different categories and receive alerts when approaching or exceeding those limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A consolidated view of all accounts, including current balances for checking, savings, and credit cards, on one screen.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

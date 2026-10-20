@@ -1,0 +1,68 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 10,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online anytime, selecting services, barbers, and time slots, with instant confirmation via text or email.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should have the option to cancel or reschedule their appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should receive reminders 24 hours and one hour before their appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system needs to be cost-effective for a small barbershop.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must comply with data protection laws for customer information.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Enforce a cancellation policy that requires at least 24 hours’ notice with a grace period for first-time clients.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Reporting features should provide daily and weekly summaries of bookings, cancellations, and no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Track customer no-show history for review.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Identify peak hours or days for better decision-making.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Manage barber schedules efficiently, allowing them to set their own hours and avoid double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

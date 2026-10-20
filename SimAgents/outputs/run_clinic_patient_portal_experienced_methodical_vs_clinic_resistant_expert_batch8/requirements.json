@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal should allow patients to book and cancel appointments online while also providing an option to call the clinic for personal assistance.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The appointment booking feature should include reserved time slots for urgent cases, with a straightforward interface that clearly displays available appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should provide visual alerts for urgent appointments, including key details such as the patient's name, urgency nature, and specific symptoms to enable timely staff response.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Patients should be able to request repeat prescriptions through a secure online form that confirms their details, with staff receiving alerts for new requests to ensure careful review before approval.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Security measures must be implemented to protect patient data during transmission and storage, including a verification process for patient logins and adherence to data protection regulations.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

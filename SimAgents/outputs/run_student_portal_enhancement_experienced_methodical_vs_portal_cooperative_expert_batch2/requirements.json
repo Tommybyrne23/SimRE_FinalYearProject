@@ -1,0 +1,62 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management allowing full colour customisation for modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Ability to hide cancelled classes in the timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automated grade notification system where students can choose their notification preferences (email, SMS, or in-app).",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Notifications should be delivered within five minutes of a grade being posted.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Structured module feedback system including specific questions covering key aspects such as content quality, teaching methods, and resources, with a rating scale for quantitative feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Option for open-text responses to allow students to provide detailed feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Focus on a few targeted questions to keep the feedback process manageable for students.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ensure anonymity in the feedback process, with no identifiable information linked to feedback.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Aggregated results of feedback should be made available to module coordinators only after grades are submitted.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

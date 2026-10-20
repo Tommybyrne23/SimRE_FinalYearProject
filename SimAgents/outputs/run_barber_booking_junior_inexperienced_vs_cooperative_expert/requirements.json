@@ -1,0 +1,62 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A user-friendly online booking interface for customers to select services and barbers.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The ability for customers to cancel or change appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automated reminders sent via text and email, 24 hours and an hour before appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Barbers to manage their own schedules and set their availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Barbers should have the option to block off time for breaks or personal appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Real-time updates to barber schedules without needing approval.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Daily and weekly booking summaries showing total appointments, cancellations, no-shows, peak times, and repeat no-show tracking.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The booking system must be mobile-friendly for customers booking from their phones.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The solution must be budget-friendly for the barbershop.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

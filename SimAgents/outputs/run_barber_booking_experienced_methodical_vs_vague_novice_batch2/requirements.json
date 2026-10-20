@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online at any time, without needing to call or visit.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The booking process should allow customers to select a service, choose a barber, and see available time slots, all in a straightforward manner.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should have a simple online method to change or cancel appointments, with a notice period of at least one day for cancellations.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Barbers should be able to set their own schedules, and the system must reflect their real-time availability to avoid double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should be user-friendly for both customers and staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should be mobile-friendly for optimal use on smartphones.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

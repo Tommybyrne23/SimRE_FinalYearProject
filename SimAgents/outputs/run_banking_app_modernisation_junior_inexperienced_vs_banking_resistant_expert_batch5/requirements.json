@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Align new features with regulatory requirements, particularly PSD2, GDPR, and Central Bank regulations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Focus on features that enhance customer control and transparency, like real-time notifications for transactions.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Focus on account management capabilities within the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Ensure seamless integration with existing systems.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Consider budgeting tools that alert customers when they’re nearing their spending limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

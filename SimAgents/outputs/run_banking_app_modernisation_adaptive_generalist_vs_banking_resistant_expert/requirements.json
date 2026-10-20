@@ -1,0 +1,32 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 4,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "All new enhancements to the mobile app must comply with PSD2, GDPR, and Central Bank regulations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Each proposed feature must undergo thorough compliance assessment to mitigate regulatory risks.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "User experience enhancements should be balanced with compliance obligations.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A proactive compliance review process should be established to identify and address any existing features that may not meet current standards.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

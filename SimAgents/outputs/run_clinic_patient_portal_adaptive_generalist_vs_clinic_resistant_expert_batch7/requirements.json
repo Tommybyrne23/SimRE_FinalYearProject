@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal must allow patients to easily book, cancel, or reschedule appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request prescription refills without needing to call the clinic.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The portal should include reminders for appointments and prescription requests to help patients stay on track.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "There should be a clear mechanism for patients to seek help or clarification if they encounter issues, especially if notifications are missed.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Patient information must be securely managed, ensuring data protection and appropriate access controls.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

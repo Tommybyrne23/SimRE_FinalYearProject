@@ -1,0 +1,44 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to select their own colours for different modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should have the option to hide cancelled classes to maintain a clear schedule view.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should receive timely notifications via familiar channels, such as email or in-app notifications, when grades are posted for their modules.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students should be able to submit anonymous feedback using a simple form after the teaching period, focusing on aspects like content quality, delivery, and resources.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Any new features must fit seamlessly into the existing portal, maintaining the current login process and avoiding the need for new accounts.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The existing database schema must not be altered to prevent disruption to the current system.",
+      "type": "Constraint",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

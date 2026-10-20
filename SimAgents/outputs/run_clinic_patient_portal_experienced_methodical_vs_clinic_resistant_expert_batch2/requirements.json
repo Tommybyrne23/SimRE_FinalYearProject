@@ -1,0 +1,56 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Dedicated in-person support for patients who may struggle with technology.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Clear instructions to guide patients in using the portal effectively.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Straightforward appointment booking with options for direct contact.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Online requests for repeat prescriptions while accommodating those who prefer phone requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Secure access to test results only after clinician review.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Verification mechanisms to confirm the identity of users before accessing personal information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Compliance with regulations to ensure that all data handling practices meet legal requirements.",
+      "type": "Constraint",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Strong safeguards against unauthorized access to prevent potential data breaches.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

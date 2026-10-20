@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Ensure all new features comply with PSD2, GDPR, and Central Bank regulations to minimize compliance risk.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement real-time notifications for account transactions, ensuring compliance with data protection regulations.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow customers to manage their cards through the app in a compliant manner.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Maintain a seamless integration with the existing core banking system while preserving compliance integrity.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Conduct thorough regulatory reviews before launching any features to avoid exposure to enforcement actions.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

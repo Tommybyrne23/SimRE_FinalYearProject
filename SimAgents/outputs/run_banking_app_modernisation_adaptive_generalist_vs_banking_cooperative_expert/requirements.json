@@ -1,0 +1,80 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 12,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Real-time transaction notifications that include contextual information for transparency.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Instant card control features for freezing and unfreezing cards easily.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A unified view of all financial accounts on a single home screen.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "In-app support features like AI-assisted chat for streamlined customer service.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Biometric authentication for enhanced security and convenience during login.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "In-app lending and credit applications for streamlined processes related to overdrafts and personal loans.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Accessibility compliance to ensure the app is user-friendly for customers with visual impairments.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "New features must seamlessly interact with the existing API layer of the core banking system without significant modifications.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Real-time notifications should be processed within five seconds of a transaction.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "All sensitive customer data must be encrypted and comply with the latest security standards.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Must adhere to Central Bank regulations and PSD2 requirements for strong customer authentication.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Maintain backward compatibility with the existing app for at least six months during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

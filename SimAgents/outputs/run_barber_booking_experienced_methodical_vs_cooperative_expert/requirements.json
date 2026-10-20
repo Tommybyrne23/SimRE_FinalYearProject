@@ -1,0 +1,134 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 21,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Streamline the booking process for customers and staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Allow customers to book appointments online at their convenience.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Reduce no-shows through automated reminders via text and email.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide barbers with the ability to manage their own schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Gain visibility into daily and weekly bookings to understand peak times and manage workload effectively.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The booking process must allow customers to select their service, barber, and open time slot in one go.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Customers must be able to cancel or reschedule appointments without having to call the shop.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Instant confirmation of appointments must be sent via text and email upon booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Real-time availability must be reflected to avoid double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Customers must be able to create accounts to save their details and preferences.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Automated reminders will be sent 24 hours before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "A second reminder will be sent one hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Customers will have the option to receive reminders via both SMS and email.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Barbers should be able to log into the system and set their own availability, including working hours, breaks, and days off.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Barbers should have a simple interface to view their upcoming appointments at a glance.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The system should show real-time availability to customers.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Notifications for barbers regarding new appointments, cancellations, or changes to their schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The solution needs to be cost-effective to implement and maintain.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "The system must be easy to learn and use, requiring minimal training for staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Compliance with data protection regulations is crucial.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Integration with existing systems (like point-of-sale) would be beneficial.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

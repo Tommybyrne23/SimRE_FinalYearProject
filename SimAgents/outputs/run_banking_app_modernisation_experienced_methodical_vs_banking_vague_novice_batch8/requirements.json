@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app should provide a consolidated view of all accounts, including checking, savings, and credit cards, to allow for quick access to balances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app should send real-time notifications for transactions, including the amount spent, the merchant, and the updated balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app should include budgeting tools that allow users to set spending limits for various categories and send alerts when nearing those limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app should feature smooth and intuitive navigation to ensure ease of use and a modern feel.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The app should incorporate security measures such as biometric login options (fingerprint or face recognition) to protect user data and ensure compliance with regulations.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

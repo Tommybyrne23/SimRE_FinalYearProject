@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app must provide real-time transaction notifications that ensure sensitive data is encrypted, comply with PSD2's Strong Customer Authentication, avoid unnecessary exposure of personal data, and require customer consent.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app must allow customers to freeze and unfreeze their cards, with strict verification of user identity to maintain compliance with security standards.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "All new features must be designed and implemented in full compliance with PSD2, GDPR, and Central Bank consumer protection rules.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Any new functionalities must integrate smoothly with the existing core banking infrastructure without requiring significant modifications.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A thorough assessment of existing systems is necessary to ensure they can support new functionalities while remaining compliant with the relevant regulations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

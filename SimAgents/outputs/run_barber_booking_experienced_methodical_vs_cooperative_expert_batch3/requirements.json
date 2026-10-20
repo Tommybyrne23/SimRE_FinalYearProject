@@ -1,0 +1,188 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 30,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book appointments online at any time, select services, choose barbers, and secure suitable time slots.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable customers to cancel or reschedule appointments independently to minimize disruptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Reduce no-shows through automated reminders sent before appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Gain clear visibility into bookings, cancellations, and peak times for better management.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Provide a way for each barber to set their own schedules to avoid double bookings and maintain smooth operations.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The booking process must include a landing page showcasing available services.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Customers must be able to select their preferred barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Display real-time availability of time slots to avoid double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Customers must fill in their contact information and preferences when booking an appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Provide a review step before finalizing the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Send immediate booking confirmation via SMS and email after confirming the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Send a 24-hour reminder before the appointment with key details.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Send a 1-hour reminder before the appointment with key details.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Barbers must set their own working hours and available days.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Barbers must have the option to add breaks during their shifts.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Barbers must mark specific days off easily through the system.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Changes made to barber schedules must update in real-time on the booking interface.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The system should notify barbers and the shop of any schedule changes.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Provide a daily booking summary report including total appointments, barber assignments, cancellations, and no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Provide a weekly overview report aggregating data from each day.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Track cancellation numbers and reasons provided by clients.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Track no-show histories for customers and flag repeat offenders for manual review.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "Provide insights on peak booking times to help with staff scheduling and marketing efforts.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "Analyze customer booking frequency, preferred services, and barbers to tailor offerings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "The solution must be cost-effective regarding both setup and ongoing operational expenses.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_026",
+      "text": "The system must ensure secure storage of personal data and comply with relevant data protection regulations.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_027",
+      "text": "The system should be user-friendly to minimize training time and disruption to daily operations.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_028",
+      "text": "The booking interface must be optimized for mobile devices.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_029",
+      "text": "The new system should integrate smoothly with existing tools and processes.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_030",
+      "text": "Consideration must be given to clients who may not be tech-savvy or prefer to book via phone.",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

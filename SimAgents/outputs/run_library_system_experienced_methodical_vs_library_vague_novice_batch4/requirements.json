@@ -1,0 +1,98 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 15,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Reduce long queues at the library desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable students to borrow and return books online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow students to check the availability of books before visiting the library.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Allow students to book study rooms via their mobile devices.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Provide real-time availability of study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Allow students to select the desired date and time for study room bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Allow students to choose the room based on the number of people it can accommodate.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Implement notifications for due dates to help prevent fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Send notifications for due dates to students' mobile phones.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Provide an option for email reminders for due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Allow students to choose their preferred method of receiving reminders.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Provide a user-friendly tool for librarians to easily update and manage the inventory of books and materials.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Allow librarians to track the popularity of items among students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Enable librarians to generate reports on book borrowing statistics and study room usage frequency.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Create a smoother and more user-friendly experience for students.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

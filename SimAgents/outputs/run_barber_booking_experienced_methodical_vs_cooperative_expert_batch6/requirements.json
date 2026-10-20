@@ -1,0 +1,158 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 25,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Streamline the appointment process for both customers and staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Reduce no-shows through automated reminders sent 24 hours and 1 hour before appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Enable 24/7 online booking for customers.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Allow each barber to manage their own schedules to reflect their availability accurately, preventing double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Provide clear visibility of bookings, cancellations, and peak times to aid decision-making for the barbershop.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Automated reminders should be sent via both SMS and email.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Reminders should be scheduled to go out 24 hours before and 1 hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Each reminder should include an option for customers to confirm, cancel, or reschedule their appointment directly from the message.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The online booking interface should be user-friendly and straightforward.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Customers should be able to see the services offered, choose their preferred barber, and select an available time slot.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Required information from customers when making a booking includes their name, contact number, email address, and any specific requests or preferences in a notes section.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "A calendar view should display available times to facilitate easy selection of appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "The booking system should show the duration and cost of each service upfront.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "After booking, customers should receive a confirmation page with all appointment details, along with immediate confirmation sent via SMS and email.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Each barber should have their own login to the system to manage their schedules independently.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Barbers should be able to set their availability easily using a calendar interface.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "The system should allow for quick updates in case of sudden changes, enabling barbers to block off time slots immediately from their phone or computer.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Barbers should be able to set recurring schedules for regular workdays.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "A summary view should be available for barbers to see their upcoming appointments, cancellations, and customer requests.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "A dashboard that provides a quick snapshot of daily appointments, including total bookings, cancellations, and no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "A similar summary for weekly performance to identify trends in busyness across different days.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Metrics to track the number of appointments handled by each barber to monitor workload distribution.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "The ability to identify patterns in cancellations and no-shows, particularly for frequent offenders.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "Insights into peak times for appointments to inform staffing decisions.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "All data should be consolidated in one place to facilitate day-to-day operations and long-term planning.",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

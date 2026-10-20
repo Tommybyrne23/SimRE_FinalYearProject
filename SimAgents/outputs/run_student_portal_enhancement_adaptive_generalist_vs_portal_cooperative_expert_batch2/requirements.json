@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should have the ability to customize their timetables through features like colour-coding modules, toggling cancelled classes, and adding personal study blocks with a user-friendly interface and drag-and-drop functionality.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Develop a notification system that allows students to choose their preferred method of notification (email, SMS, in-app), with immediate alerts for new grades and reminders for assignment deadlines a few days in advance.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Create a feedback form focusing on content quality, delivery methods, and resources, including an open-ended section, while ensuring anonymity and timing feedback release to coordinators after grades are submitted.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Ensure that all enhancements integrate seamlessly with the current portal infrastructure without requiring new accounts or altering the existing database schema.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Adhere to GDPR and the university’s data retention policies, particularly in handling student feedback to maintain anonymity and ensure feedback is only released after grades are submitted.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

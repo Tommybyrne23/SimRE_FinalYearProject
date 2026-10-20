@@ -1,0 +1,104 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 16,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Enhance the user experience of the mobile app to close the gap with leading fintech competitors",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Provide real-time notifications for transactions, including transaction amount, merchant name, and updated account balance",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Notifications should be delivered within five seconds of transaction authorisation",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Offer insights into spending patterns and automated monthly spending breakdowns",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Implement biometric authentication methods, including fingerprint and facial recognition",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Ensure biometric authentication complies with PSD2's strong customer authentication requirements",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide a card management feature that allows users to freeze and unfreeze their cards",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ensure the card management functionality is easily accessible from the app's main dashboard",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Provide immediate feedback within the app when a card is frozen or unfrozen",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Integrate the card management feature with the existing core banking system using current APIs",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Implement an in-app lending and credit applications feature with a user-friendly interface",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Allow customers to apply for overdraft increases, personal loans, or credit limit changes directly within the app",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Provide a brief questionnaire to gather key information for loan applications",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Conduct a soft credit check to gauge eligibility for lending without impacting credit scores",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Ensure all lending features comply with Central Bank regulations on consumer protection and responsible lending",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Ensure compliance with GDPR for data handling in lending applications",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

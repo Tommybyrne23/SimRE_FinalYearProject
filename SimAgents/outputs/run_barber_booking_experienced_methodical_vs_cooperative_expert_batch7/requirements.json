@@ -1,0 +1,152 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 24,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Reduce no-shows by implementing automated reminders for customers",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Enable online booking at any time, allowing customers to select their service, barber, and time slot",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Manage barber schedules effectively, ensuring each barber can set their availability to avoid double bookings",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide daily and weekly reports on bookings, cancellations, and peak times",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Send SMS and email reminders one day before the appointment, including details like date, time, barber's name, and service booked",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Send a second reminder one hour before the appointment as a nudge for customers",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Allow customers to manage their appointments online without needing to call the barbershop",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Provide a clear and welcoming landing page for the booking site with a prominent 'Book Your Appointment Now' button",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Allow customers to choose from various services offered by the barbershop",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Allow customers to see a list of available barbers with descriptions or photos to help them select their preferred barber",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Show real-time availability for customers to book open time slots based on the chosen barber's schedule",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Prompt customers to enter their details, with an option to create an account for future bookings",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Provide a confirmation screen summarizing appointment details, followed by automated confirmation SMS and email",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Provide each barber with a personal login to a dashboard displaying their schedule and available time slots",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Allow barbers to easily mark off days they are unavailable and specify their working hours with flexibility",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Allow barbers to indicate breaks during their shifts",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Changes made by barbers should reflect in real-time to prevent double bookings",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Barbers should receive notifications for new bookings or cancellations within their availability",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Provide insights into total bookings, cancellations, no-shows, peak times, service popularity, customer trends, and overall revenue in reports",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "The system should be cost-effective, fitting within the budget of a small independent barbershop while being robust",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "The system must be user-friendly for both staff and customers, minimizing the need for extensive training",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "The system must comply with data protection laws to ensure the security of customer personal information",
+      "type": "Constraint",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "The system should automatically enforce a cancellation policy requiring 24 hours' notice, with a grace period for first-time customers",
+      "type": "FunctionalRequirement",
+      "source": "User_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "The booking interface must be fully functional on mobile devices to accommodate customers",
+      "type": "NonFunctionalRequirement",
+      "source": "User_cooperative_expert"
+    }
+  ]
+}

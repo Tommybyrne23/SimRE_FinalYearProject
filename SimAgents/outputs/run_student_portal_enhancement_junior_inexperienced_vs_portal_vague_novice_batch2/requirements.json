@@ -1,0 +1,38 @@
+{
+  "run_id": "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management with colour-coding and the ability to hide cancelled classes.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Grade notifications through in-app alerts and optional email notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A structured module feedback system to share thoughts on teaching quality and resources.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The new features should not disrupt the existing portal functionality.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "No need for students to create new accounts to access these features.",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

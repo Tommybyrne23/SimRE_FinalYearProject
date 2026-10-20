@@ -1,0 +1,56 @@
+{
+  "run_id": "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to customize their timetable view with features such as color-coding modules, hiding canceled classes, and adding personal study blocks.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The personalised timetable management features must integrate seamlessly into the existing interface without requiring additional installations.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should provide students with flexible notification options (email, SMS, or in-app alerts) for new grades, assignment deadlines, and exam dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The notification system must be reliable and timely.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A simple feedback form should be implemented within the portal, allowing students to provide anonymous feedback on content quality, delivery, and resources after the teaching period.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The feedback collection process must maintain student anonymity to encourage honest opinions.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The feedback management system should be designed to avoid complicating the process for module coordinators and administrators.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The feedback submission process should be straightforward and not overwhelming for students.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_resistant_expert"
+    }
+  ]
+}

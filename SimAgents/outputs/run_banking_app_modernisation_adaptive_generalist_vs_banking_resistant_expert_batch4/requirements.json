@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app must modernise while ensuring compliance with GDPR and PSD2 regulations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Timely notifications about transactions and balance changes need to be implemented to keep customers informed.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Control features should allow customers to adjust spending limits and access detailed spending breakdowns.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Any new features must integrate seamlessly with the existing core banking system without disrupting operations.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A thorough regulatory review must be conducted for all proposed features to mitigate potential risks.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

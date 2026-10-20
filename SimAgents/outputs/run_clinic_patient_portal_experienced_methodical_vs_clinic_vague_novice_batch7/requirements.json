@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal must allow patients to book, cancel, and change their appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to submit repeat prescription requests through the portal by providing necessary information, such as their name, date of birth, and medication name.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A secure login or verification system must be implemented to protect patient data and ensure only authorized individuals can access their information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal should maintain a straightforward and user-friendly interface to minimize complexity for both patients and staff.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Compliance with regulations regarding patient information privacy and security must be ensured.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

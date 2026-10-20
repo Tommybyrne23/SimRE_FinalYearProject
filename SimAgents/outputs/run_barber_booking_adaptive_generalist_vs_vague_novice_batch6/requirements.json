@@ -1,0 +1,56 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book their appointments online at any time.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should have the ability to cancel or change their appointments without needing to call.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should send reminders to customers to help them remember their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Each barber should be able to set their own working hours and breaks.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should prevent double bookings by ensuring that a time slot is not available if a barber is already scheduled.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "A feature that tracks when customers do not show up for their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The ability to monitor which customers are frequent no-shows to determine if any special handling is needed.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should remain affordable and easy to use.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The system must allow students to book study rooms from their mobile devices.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The booking process must allow students to easily select a date and time, view room availability, and specify the number of people.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The loan management system must allow students to borrow and return books completely online without visiting the library desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must allow students to view currently borrowed items along with their due dates.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The renewal process must have a simple online button that allows students to extend the due date of borrowed books.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must automatically notify students of any overdue books and associated fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must send reminders before the due date of borrowed items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system must display the total amount owed for fines directly on students' phones.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch8",
+  "evaluated_at": "2026-04-23T12:29:49.708633",
+  "dialogue_turns": 11,
+  "metrics": {
+    "coherence": {
+      "mean": 0.6527,
+      "std": 0.1042,
+      "pairs_evaluated": 10,
+      "scores": [
+        0.6143,
+        0.4946,
+        0.7719,
+        0.6909,
+        0.5758,
+        0.7125,
+        0.6447,
+        0.6323,
+        0.5322,
+        0.8573
+      ],
+      "interpretation": "High — turns are semantically consistent"
+    },
+    "re_informativeness": {
+      "mean": 0.2337,
+      "std": 0.0128,
+      "turns_evaluated": 6,
+      "per_turn": [
+        0.25,
+        0.25,
+        0.2241,
+        0.2179,
+        0.2366,
+        0.2235
+      ],
+      "interpretation": "Moderate — typical conversational density"
+    },
+    "user_informativeness": {
+      "mean": 0.241,
+      "std": 0.0186,
+      "turns_evaluated": 5,
+      "per_turn": [
+        0.2373,
+        0.2731,
+        0.242,
+        0.215,
+        0.2376
+      ],
+      "interpretation": "Moderate — typical conversational density"
+    },
+    "requirement_coverage": {
+      "score": 0.7895,
+      "covered": [
+        {
+          "id": "Banking_FunctionalRequirement_1",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall send customers real-time push notifications for every account transaction, including amount, merchant name, and remaining balance.",
+          "max_similarity": 0.7256
+        },
+        {
+          "id": "Banking_FunctionalRequirement_2",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall allow customers to instantly freeze and unfreeze their debit and credit cards without contacting the bank.",
+          "max_similarity": 0.492
+        },
+        {
+          "id": "Banking_FunctionalRequirement_3",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall provide customers with automated monthly spending breakdowns categorised by merchant type such as groceries, dining, and transport.",
+          "max_similarity": 0.5461
+        },
+        {
+          "id": "Banking_FunctionalRequirement_4",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall allow customers to set personalised monthly spending budgets per category and receive alerts when approaching or exceeding them.",
+          "max_similarity": 0.6011
+        },
+        {
+          "id": "Banking_FunctionalRequirement_5",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall support biometric authentication including fingerprint and face recognition as the primary login method.",
+          "max_similarity": 0.7068
+        },
+        {
+          "id": "Banking_FunctionalRequirement_6",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall allow customers to make instant peer-to-peer payments to other bank customers and to external accounts using account number or mobile number.",
+          "max_similarity": 0.5412
+        },
+        {
+          "id": "Banking_FunctionalRequirement_7",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall provide a unified view of all customer accounts including current, savings, and credit card balances on a single home screen.",
+          "max_similarity": 0.5249
+        },
+        {
+          "id": "Banking_FunctionalRequirement_8",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall allow customers to apply for overdraft increases, personal loans, and credit limit changes directly within the app.",
+          "max_similarity": 0.6881
+        },
+        {
+          "id": "Banking_FunctionalRequirement_9",
+          "type": "FunctionalRequirement",
+          "statement": "The app shall provide in-app live chat and AI-assisted support for common customer queries without requiring a phone call.",
+          "max_similarity": 0.4727
+        },
+        {
+          "id": "Banking_NonFunctionalRequirement_1",
+          "type": "NonFunctionalRequirement",
+          "statement": "The app shall process and display transaction notifications within five seconds of a transaction being authorised on the core banking system.",
+          "max_similarity": 0.5971
+        },
+        {
+          "id": "Banking_NonFunctionalRequirement_2",
+          "type": "NonFunctionalRequirement",
+          "statement": "The app shall achieve a minimum App Store and Google Play rating of 4.2 within six months of launch, benchmarked against competitor fintech apps.",
+          "max_similarity": 0.4516
+        },
+        {
+          "id": "Banking_Constraint_1",
+          "type": "Constraint",
+          "statement": "All new features must integrate with the existing core banking system via its current API layer without requiring mainframe modifications.",
+          "max_similarity": 0.5516
+        },
+        {
+          "id": "Banking_Constraint_2",
+          "type": "Constraint",
+          "statement": "The app must comply with PSD2 Strong Customer Authentication requirements for all payment initiations and sensitive account access.",
+          "max_similarity": 0.6447
+        },
+        {
+          "id": "Banking_Constraint_3",
+          "type": "Constraint",
+          "statement": "All customer financial data must be stored and processed within the European Economic Area in compliance with GDPR.",
+          "max_similarity": 0.4475
+        },
+        {
+          "id": "Banking_Constraint_4",
+          "type": "Constraint",
+          "statement": "Any new credit or lending features must comply with Central Bank of Ireland consumer protection and responsible lending regulations.",
+          "max_similarity": 0.5661
+        }
+      ],
+      "not_covered": [
+        {
+          "id": "Banking_NonFunctionalRequirement_3",
+          "type": "NonFunctionalRequirement",
+          "statement": "The app shall be available 99.95% of the time, excluding scheduled maintenance windows communicated at least 48 hours in advance.",
+          "max_similarity": 0.371
+        },
+        {
+          "id": "Banking_NonFunctionalRequirement_4",
+          "type": "NonFunctionalRequirement",
+          "statement": "All sensitive customer data transmitted between the app and backend systems shall be encrypted using TLS 1.3 or higher.",
+          "max_similarity": 0.3863
+        },
+        {
+          "id": "Banking_NonFunctionalRequirement_5",
+          "type": "NonFunctionalRequirement",
+          "statement": "The app shall be usable by customers with visual impairments, conforming to WCAG 2.1 AA accessibility standards.",
+          "max_similarity": 0.3737
+        },
+        {
+          "id": "Banking_Constraint_5",
+          "type": "Constraint",
+          "statement": "The modernised app must maintain backwards compatibility with the existing app version for a minimum transition period of six months.",
+          "max_similarity": 0.3873
+        }
+      ],
+      "total_expected": 19,
+      "by_type": {
+        "FunctionalRequirement": 1.0,
+        "NonFunctionalRequirement": 0.4,
+        "Constraint": 0.8
+      },
+      "similarity_threshold": 0.4,
+      "interpretation": "Partial — most areas addressed but some missed"
+    },
+    "requirement_specificity": {
+      "mean": 0.2279,
+      "std": 0.0681,
+      "requirements_evaluated": 11,
+      "per_req": [
+        0.25,
+        0.2222,
+        0.125,
+        0.25,
+        0.2857,
+        0.3,
+        0.125,
+        0.3077,
+        0.1667,
+        0.3077,
+        0.1667
+      ],
+      "interpretation": "Moderate — reasonably specific",
+      "skipped": false
+    }
+  },
+  "summary": {
+    "coherence_mean": 0.6527,
+    "re_informativeness_mean": 0.2337,
+    "user_informativeness_mean": 0.241,
+    "requirement_coverage": 0.7895,
+    "requirement_specificity_mean": 0.2279
+  }
+}

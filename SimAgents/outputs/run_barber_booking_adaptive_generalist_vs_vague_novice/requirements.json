@@ -1,0 +1,56 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to choose a service and a specific barber.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should see available time slots for appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Immediate confirmation of appointments is essential.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers would benefit from reminder notifications before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The ability for customers to cancel or change their appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Barbers should be able to set their own schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system needs to be affordable and not overly complicated.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should provide a summary or dashboard for tracking bookings and no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

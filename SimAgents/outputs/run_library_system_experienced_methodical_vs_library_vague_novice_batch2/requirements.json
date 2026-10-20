@@ -1,0 +1,50 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to book study rooms via a mobile application or web interface, selecting date, time, and the number of occupants, with conflict resolution features suggesting alternative times if necessary.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow students to check book availability and manage loans, including viewing borrowed books, due dates, and online renewals.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A reminder feature should send notifications or emails a few days before due dates to help students avoid late fees.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should automatically calculate late fines and provide a clear list of outstanding fines for students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Students should receive notifications regarding any fines added to their accounts and have the ability to pay fines online.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must ensure that the booking process is simple and straightforward.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must be accessible from mobile devices.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

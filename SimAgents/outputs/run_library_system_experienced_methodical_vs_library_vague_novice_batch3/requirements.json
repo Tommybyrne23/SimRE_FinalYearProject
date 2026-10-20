@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_vague_novice_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A room booking feature that allows students to view available rooms, select dates and times easily, filter by room capacity, and receive booking confirmations.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "A book loan feature that includes a search function for checking book availability and a straightforward borrowing process that can be completed through a mobile interface.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "An online return feature that allows students to check books back in via their mobile devices.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A reminder system for due dates to help students avoid late returns and fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "An overall emphasis on simplifying and streamlining the user experience for both room bookings and book loans.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_vague_novice"
+    }
+  ]
+}

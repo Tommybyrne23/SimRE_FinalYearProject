@@ -1,0 +1,62 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch6",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 9,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Real-time notifications for all account transactions, including transaction details, merchant names, and updated balances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement both fingerprint and facial recognition as biometric authentication options.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Create a streamlined in-app lending process that allows customers to apply for personal loans, overdraft increases, or credit limit changes.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Include a feature for customers to check their credit score directly in the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Implement pre-filled application forms to minimize effort for customers applying for loans.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Provide clear and transparent information about loan terms, interest rates, and the application process.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Ensure customer data is processed and stored within the European Economic Area (GDPR Compliance).",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Implement Strong Customer Authentication (SCA) for payment initiations and sensitive account access (PSD2 Compliance).",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Adhere to Central Bank regulations regarding consumer protection and responsible lending.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

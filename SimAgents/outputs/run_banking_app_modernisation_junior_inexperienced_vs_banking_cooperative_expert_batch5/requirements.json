@@ -1,0 +1,50 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Real-time notifications for transactions including the amount spent, merchant name, and remaining balance, delivered within five seconds.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Biometric authentication for logins using fingerprint and facial recognition, ensuring user-friendliness and accessibility across devices.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Automated monthly breakdowns categorizing transactions by merchant types, with a visual dashboard and personalized budget-setting features.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "System must comply with PSD2 regulations, particularly around strong customer authentication for payment initiations and sensitive account access.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "All customer financial data must be stored and processed within the European Economic Area to comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Any new credit or lending features must align with the Central Bank of Ireland's regulations on consumer protection and responsible lending.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Maintain backwards compatibility with the existing app version for at least six months during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

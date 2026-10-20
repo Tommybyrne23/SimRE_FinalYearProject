@@ -1,0 +1,44 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The app must have a modern and fast design with a sleek interface and simple navigation.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The app must provide real-time push notifications for every transaction, including details such as the amount, the recipient, and the remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The app must include a button for instantly freezing the card, with a confirmation notification to inform the user that the action was successful.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The app must include a button to easily unfreeze the card.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The app must provide budgeting tools that allow users to set monthly limits for different categories such as groceries, dining, and transport.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The app must send alerts when users are approaching or exceeding their monthly budget limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_vague_novice"
+    }
+  ]
+}

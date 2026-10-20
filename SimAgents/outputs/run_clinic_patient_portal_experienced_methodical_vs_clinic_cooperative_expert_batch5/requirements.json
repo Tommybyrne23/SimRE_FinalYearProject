@@ -1,0 +1,182 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 29,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to book, cancel, and reschedule appointments online to reduce phone congestion.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request repeat prescriptions online to save time for both patients and reception staff.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should have secure online access to test results, but only after a clinician has reviewed them.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal must be user-friendly, especially for elderly patients or those who are less tech-savvy.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must integrate smoothly with existing practice management software while ensuring compliance with GDPR and maintaining patient data security.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Patients should have a calendar view of available appointment slots, with filtering options by appointment type (GP or nurse) and reason for the visit.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The booking process should allow patients to select a preferred date and time, with confirmation available with a single click, including details like the clinician's name and appointment location.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Patients should be able to cancel appointments online without needing to call, and rescheduling should be straightforward, allowing them to pick another time immediately.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system should flag urgent appointments, highlighting same-day options when necessary.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Patients should receive a confirmation that their prescription request has been received, along with an estimated time frame for when the prescription will be ready.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "A secure messaging feature should be available for patients to ask questions or express concerns about their prescriptions without needing to call in.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "The system must have checks to ensure compliance, with alerts for clinicians to review requests before approval, and the ability for them to decline or modify requests as necessary.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Patients should receive notifications via email or SMS when their test results are ready to view.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Upon logging into the portal, patients should have a dedicated section to securely access their results, complete with explanations or context from the clinician.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "A feature should be available for patients to view historical test results over time, allowing them to track changes in their health.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The system should flag abnormal results and alert both the patient and clinician to prioritize urgent matters appropriately.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "The interface should have a simple and intuitive design, featuring large buttons and readable fonts.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Navigation should be logical, with prominent access to key features like booking appointments and requesting prescriptions directly from the home page.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "A guided tutorial should be implemented for first-time users, walking them through key functionalities using simple language and visuals.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Accessibility features should include options for text resizing and high-contrast themes, as well as compatibility with voice commands or screen readers.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "There should be a dedicated help section with FAQs and instructional videos that are easily findable for patient support.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "A clear method for patients to reach customer service for assistance should be established.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "A feedback mechanism should be included, allowing patients to easily provide input about their experience to facilitate continuous improvement.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "The implementation will need to prioritize features that deliver the most value within a limited budget.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "Ensuring that the new portal integrates seamlessly with current practice management software is crucial.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_026",
+      "text": "Potential challenges may arise from existing infrastructure compatibility or performance issues.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_027",
+      "text": "Ensuring compliance with GDPR and Irish data protection regulations adds complexity to the project.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_028",
+      "text": "Consideration must be given to the training required for staff to effectively use the new system.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    },
+    {
+      "id": "REQ_029",
+      "text": "A strategy will be needed to encourage patient adoption of the portal.",
+      "type": "Constraint",
+      "source": "User_clinic_cooperative_expert"
+    }
+  ]
+}

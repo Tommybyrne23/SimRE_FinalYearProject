@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "The portal must allow patients to manage their appointments online, including the ability to book, cancel, and reschedule appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should provide options for appointment reminders via SMS and email, with the ability to customize preferences and send reminders one or two days prior to appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients must be able to request repeat prescriptions online, with clear instructions and guidance, such as a checklist or prompts, to minimize errors.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Security measures must include strong verification processes, such as multi-factor authentication, to ensure that only authorized users can access sensitive information.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must maintain a user-friendly interface that supports patients who may not be tech-savvy, ensuring that all features are accessible and easy to navigate.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_clinic_resistant_expert"
+    }
+  ]
+}

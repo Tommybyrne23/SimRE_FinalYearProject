@@ -1,0 +1,38 @@
+{
+  "run_id": "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Patients should be able to view available appointment times and book, cancel, or change appointments with a simple interface that minimizes confusion.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Patients should be able to request repeat prescriptions by selecting the medication and confirming their personal details, with a streamlined process that only requires essential information.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Patients should be able to view their test results only after a doctor has reviewed them, with a secure process in place to ensure this.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The portal should include a notification system to alert patients via email or messaging when their test results are ready to view.",
+      "type": "FunctionalRequirement",
+      "source": "User_clinic_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The portal must adhere to regulations regarding patient data privacy and security, ensuring that all information is kept safe and compliant with applicable laws.",
+      "type": "Constraint",
+      "source": "User_clinic_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 17,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to manage their loans online, including borrowing, renewing, checking availability, and viewing outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to book study rooms online with a calendar view, selecting room sizes and durations, and receive confirmation emails.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system should automate fine calculations for overdue items, provide students with a breakdown of fines, and send notifications about overdue items and fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Students with outstanding fines should be blocked from new loans or room bookings above a certain threshold, while librarians can manually override fines if needed.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Librarians should have tools for managing inventory and generating reports on loan volumes, popular items, fine revenue, and room utilization metrics.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "System must comply with GDPR for handling student data.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must provide a user-friendly interface for librarians to manage book inventory, including adding, updating, and retiring items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "The system should provide access to data that highlights loan volumes, popular items, and trends over time for librarians.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "The system must prevent double bookings for study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The booking process for study rooms should be efficient and user-friendly.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Students should receive confirmation emails after making a study room booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Students should have the flexibility to book rooms in advance and check availability for same-day bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Students should be able to report returns online, even if returning physical books in person.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Automated email reminders for due dates and fines should be sent to students.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "The system should allow students to view their current loans, including due dates and outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Students should have access to clear information regarding how their fines were calculated.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "The system should provide librarians with tracking capabilities for room utilization metrics.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

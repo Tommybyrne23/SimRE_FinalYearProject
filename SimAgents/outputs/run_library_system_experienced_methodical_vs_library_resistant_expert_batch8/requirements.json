@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "A straightforward book search functionality that allows students to check for availability and includes filters like author and publication date.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "An online process for managing loans that enables students to view checked-out items, renew them, and confirm returns, with staff available for support on issues or questions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "An easy-to-use study room booking system that shows available dates, times, and room capacities, with staff oversight to manage potential misuse.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "An automated fine collection system that calculates overdue fines and allows students to view outstanding fines, accompanied by automated reminders, while ensuring staff are available to clarify policies and assist with disputes.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Staff support throughout the system to address edge cases, misunderstandings, and unique situations that arise.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

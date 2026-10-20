@@ -1,0 +1,56 @@
+{
+  "run_id": "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Real-time notifications triggered by account transactions, including transaction details and alerts for important account activities.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Biometric authentication using fingerprint and facial recognition to enhance security and user convenience.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Instant card controls allowing users to freeze and unfreeze cards, set spending limits, and receive real-time transaction alerts.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "In-app lending and credit applications with a straightforward process, pre-qualification options, and transparent information about terms.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "System must comply with PSD2, GDPR, and Central Bank regulations throughout all features.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Implement biometric authentication to eliminate the risk associated with traditional passwords.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide timely, relevant information through real-time notifications to empower customers to manage their finances effectively.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ensure a user-friendly process for in-app lending while maintaining compliance and ensuring customers are fully informed.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

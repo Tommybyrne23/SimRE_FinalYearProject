@@ -1,0 +1,152 @@
+{
+  "run_id": "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 24,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to manage their own borrowing processes online, including searching our catalogue for available books and materials, borrowing them, and renewing items without needing to come to the library desk.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students should be able to book study rooms online, picking the right time and size for their needs.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The system must automate fine calculations and account restrictions for overdue items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system must generate meaningful usage reports, including trends in loan volumes and popular items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system must integrate smoothly with the existing student record system.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must comply with GDPR regulations to protect student data.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The online borrowing process must include a straightforward way to search the library catalogue with real-time availability information.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Students must be able to view their current loans, due dates, reservation history, and outstanding fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Automated email reminders must be sent to students before their loan due dates and notifications for any applied fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "The system must restrict further borrowing or room bookings if fines exceed a certain threshold.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "The booking interface must display real-time availability of study rooms to prevent confusion and double bookings.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Students must be able to specify the duration of their booking, with limits on how long they can reserve a room and how far in advance they can book.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Students must receive a confirmation email after making a booking, along with reminders as the booking date approaches.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "The system must manage no-shows or last-minute cancellations to ensure effective utilization of study spaces.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "The inventory management system must allow librarians to easily add new books or materials to the catalogue, update existing entries, and retire items that are no longer in circulation.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "The system must provide visibility on the status of each item—whether it’s available, checked out, or overdue.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "The system must allow for automated fine calculation based on configurable daily rates for overdue items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "The system must generate comprehensive usage reports on loan volumes, popular items, and fine revenue.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "The system must provide a clear overview of outstanding fines and overdue items for librarians.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "The solution must be cost-effective, prioritizing features based on available funding.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "The new system must seamlessly integrate with the existing student record system to verify student enrollment status.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "The system must handle student data responsibly, ensuring proper storage and processing of borrowing and fine history data.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "Careful planning and testing are required to accurately migrate data from the legacy system to the new one without loss.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "The new system should conform to WCAG 2.1 AA standards for accessibility.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

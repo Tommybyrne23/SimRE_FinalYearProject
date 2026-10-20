@@ -1,0 +1,50 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should have access to a library catalogue with filtering options, keyword searches, advanced search features, and real-time availability to enhance their search experience.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should allow students to borrow and renew items online, with access to loan history, automated notifications, and clear information about fines.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "The booking system should provide real-time availability, flexible time slot selection, room capacity and features, cancellation/modification options, and automated confirmations and reminders.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Fines should be calculated automatically, with students having access to a transparent fine history, multiple online payment options, and automated notifications about their fine status.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should clearly communicate any restrictions related to fines or account issues when students attempt to borrow items or book study rooms.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system must integrate smoothly with existing systems, such as the university’s student record system and single sign-on, to ensure security and ease of access.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The interface should be designed to be accessible for all users, including those with disabilities, ensuring an inclusive library experience.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

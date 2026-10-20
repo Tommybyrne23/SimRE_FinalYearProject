@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "An online booking system to simplify appointment scheduling for customers.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Automated reminders for customers—one day and one hour before their appointments.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "A way to manage and track bookings, cancellations, and no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A straightforward booking experience for customers that includes service selection and barber choice.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The ability for customers to cancel or change appointments without calling.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should be easy to learn and use for both customers and staff, fitting within the existing workflow.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

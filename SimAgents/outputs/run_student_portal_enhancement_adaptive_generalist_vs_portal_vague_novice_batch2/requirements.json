@@ -1,0 +1,86 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch2",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 13,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Personalised timetable management with colour-coding for classes",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Hide irrelevant classes in the timetable",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Add personal study blocks in the timetable",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Automated grade notifications via email",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Automated grade notifications via push notifications on phone",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Allow users to choose their preferred method of receiving alerts for grade notifications",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Structured module feedback system with a star rating",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ability to leave comments in the module feedback system",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Include specific guiding questions for module feedback regarding content and delivery",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Enhancements must be easy to use and not complicated",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Enhancements must integrate smoothly with the existing portal infrastructure",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Enhancements must not require separate logins or cause slow load times",
+      "type": "Constraint",
+      "source": "User_portal_vague_novice"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Feedback system must ensure anonymity for students",
+      "type": "NonFunctionalRequirement",
+      "source": "User_portal_vague_novice"
+    }
+  ]
+}

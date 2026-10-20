@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online by selecting a service, choosing a barber, and viewing available time slots, receiving immediate confirmation via text or email.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "If an appointment slot is filled, customers should receive a message indicating its unavailability.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Customers should have the ability to log into their accounts to easily change or cancel appointments, with clear options and reminders about the cancellation policy.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Appointment reminders should be sent a day before and an hour before, via both text and email, to help reduce no-shows.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should be designed to integrate smoothly with current operations, prioritizing cost-effectiveness and ease of use for both customers and staff.",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

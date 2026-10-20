@@ -1,0 +1,134 @@
+{
+  "run_id": "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 21,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement colour-coding for different modules in the personalised timetable management feature.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Allow students to hide cancelled classes in their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Provide an option for students to add personal study blocks in their timetables.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Integrate the personalised timetable management feature to export or sync with external calendars like Google Calendar or Outlook.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Enable viewing of the timetable in different formats, such as weekly and monthly views.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Include a quick access widget for upcoming classes or deadlines on the dashboard.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Provide links to relevant resources or module information directly from the timetable.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Send instant notifications when new grades are posted, ideally within minutes of release.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Implement customizable reminders for assignment deadlines, allowing students to choose how far in advance they want to be notified.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Offer flexibility in notification channels, including options for email, SMS, or in-app notifications.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Allow students to set preferences for the frequency of reminders for grades and assignments.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Ensure notifications are clear and actionable, ideally including direct links to view grades or feedback.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Guarantee anonymity for students submitting feedback to encourage honest responses.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Create a straightforward survey format for feedback available after the teaching period, covering key areas like content quality, delivery, and resources.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Make feedback available to module coordinators only after grades are submitted to prevent bias.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Provide aggregated results for module coordinators to identify trends and areas for improvement.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Include a reporting feature for academic administrators to analyze feedback trends across departments and semesters.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Ensure the feedback system is user-friendly, making it easy for students to access and complete the feedback form quickly.",
+      "type": "FunctionalRequirement",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "All enhancements must comply with GDPR.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Ensure smooth integration of new features with the existing portal without disrupting current functionalities.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Consider potential budget constraints and technical limitations during implementation.",
+      "type": "Constraint",
+      "source": "User_portal_cooperative_expert"
+    }
+  ]
+}

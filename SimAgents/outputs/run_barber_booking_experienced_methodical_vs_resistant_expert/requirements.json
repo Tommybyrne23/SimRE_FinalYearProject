@@ -1,0 +1,56 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_resistant_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to select a service, choose their barber, view available appointment times, and receive immediate confirmation of their booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Customers should have the ability to cancel or change their appointments without needing to call the shop.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Each barber should be able to log in to the system to set their own working hours, breaks, and days off.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "The system should send a confirmation notification immediately after a booking is made.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "The system should send reminder notifications via text or email one day and one hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The system should effectively manage bookings to prevent double-booking.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system should allow barbers to update their availability easily without causing disruption to current processes.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Customers should pay for their appointments in person when they arrive.",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

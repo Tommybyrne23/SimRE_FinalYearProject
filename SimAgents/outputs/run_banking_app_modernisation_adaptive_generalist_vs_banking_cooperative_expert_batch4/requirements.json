@@ -1,0 +1,80 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch4",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 12,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Implement customizable push notifications for various transaction types, including alerts for every transaction with details like amount, merchant name, and remaining balance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Provide automated monthly spending breakdowns categorized by merchant type, visual trends over time, and the ability for users to set personalized budgets with alerts for approaching limits.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Incorporate both fingerprint and facial recognition for a seamless login experience, with an alternative secure PIN option and a brief onboarding guide to encourage user adoption.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Allow users to freeze/unfreeze their cards, set temporary spending limits, and manage card settings for online vs. in-store purchases, all presented in a user-friendly 'Card Management' section.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Enable in-app applications for personal loans and credit adjustments, simplifying the process and enhancing customer engagement.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Ensure all new features integrate with the existing core banking system through its current API layer without changes to the mainframe, potentially affecting implementation speed.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Adhere to PSD2, particularly regarding Strong Customer Authentication for biometric methods, and comply with Central Bank of Ireland regulations for lending features.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Ensure customer financial data is stored and processed within the European Economic Area, requiring robust data management practices.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Maintain backwards compatibility with the existing app version for at least six months during the transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Actively engage with customers for feedback throughout the development process, allowing for an iterative approach to refine user experience.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Ensure the development team is agile and responsive to unforeseen challenges during integration, allowing for a smooth transition.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Stay informed on emerging trends and competitor offerings to keep the app relevant in the evolving fintech landscape.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}

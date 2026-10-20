@@ -1,0 +1,56 @@
+{
+  "run_id": "run_library_system_adaptive_generalist_vs_library_cooperative_expert",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 8,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students can easily search for and borrow books, manage loans, and book study rooms online, with real-time availability displayed.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Students can choose how far in advance they want to receive reminders about due dates and fines, which will include relevant details about their loans.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Staff will have an efficient interface for managing the library catalogue, including adding, updating, or retiring items.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Librarians will benefit from customizable and scheduled reports to gain insights into usage metrics like loan volumes and room utilization.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "An automated system will place holds on student accounts based on predefined criteria for outstanding fines, with a tiered approach to encourage timely returns.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "The new system must integrate with the university's student record system to verify enrolment status before allowing loans or room bookings.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The interface must meet WCAG 2.1 AA standards to ensure that all students, including those with disabilities, can navigate and use the library resources effectively.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_library_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "A plan must be in place to ensure accurate and complete migration of existing loan and student account data from the legacy system to prevent any loss of historical data.",
+      "type": "Constraint",
+      "source": "User_library_cooperative_expert"
+    }
+  ]
+}

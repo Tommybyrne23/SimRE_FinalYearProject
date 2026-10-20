@@ -1,0 +1,38 @@
+{
+  "run_id": "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch8",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Ensure full compliance with PSD2, including strong customer authentication for payments and self-service features.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Adhere to GDPR by sharing only necessary details in real-time transaction notifications while maintaining customer privacy and data usage transparency.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Implement account management features, such as card freezing, that comply with PSD2 regulatory standards.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Integrate new features with the existing core banking system without making major changes.",
+      "type": "Constraint",
+      "source": "User_banking_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Conduct thorough evaluations of all proposed features against regulatory requirements to mitigate compliance risks.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_resistant_expert"
+    }
+  ]
+}

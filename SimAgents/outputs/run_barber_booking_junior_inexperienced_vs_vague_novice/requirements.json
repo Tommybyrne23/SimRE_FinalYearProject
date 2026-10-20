@@ -1,0 +1,44 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_vague_novice",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 6,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "An online booking system for customers to choose their services and appointment times.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The ability for customers to see each barber's availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Flexibility for customers to book appointments in advance.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "A way for customers to cancel or change their appointments on their own.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A notice requirement for cancellations or changes at least a day in advance.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Confirmation notifications sent to customers via email and text message.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

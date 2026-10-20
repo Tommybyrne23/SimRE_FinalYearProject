@@ -1,0 +1,50 @@
+{
+  "run_id": "run_barber_booking_adaptive_generalist_vs_vague_novice_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to book appointments online, choosing their service, barber, and a convenient time.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Immediate booking confirmations should be sent to customers.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Reminders via text or email should be sent a day before and an hour before the appointment.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Customers should have the ability to cancel or change appointments online.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Implement a 24-hour notice period for cancellations.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Barbers should be able to set their own hours and update their availability.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_007",
+      "text": "The system must prevent double bookings.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_vague_novice"
+    }
+  ]
+}

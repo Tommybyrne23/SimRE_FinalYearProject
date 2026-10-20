@@ -1,0 +1,38 @@
+{
+  "run_id": "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Students should be able to check availability, borrow items, and book study rooms online, with a straightforward process for selecting dates, times, and room sizes.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system should prevent double bookings for study rooms while allowing for student autonomy.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Students should be able to view their checked-out items, due dates, and fine history online, and renew items, with a mechanism to handle exceptions.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Fines should be calculated automatically based on late returns, but there should be a way to manage exceptions for students with valid reasons for delays.",
+      "type": "FunctionalRequirement",
+      "source": "User_library_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "It's crucial to maintain a level of personal service at the desk for handling complex situations that arise.",
+      "type": "Constraint",
+      "source": "User_library_resistant_expert"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "run_id": "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch3",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 7,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Allow customers to book appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Allow customers to cancel appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Allow customers to reschedule appointments online",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Send automatic reminders to customers",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Allow barbers to set their own schedules",
+      "type": "FunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Maintain a user-friendly interface",
+      "type": "NonFunctionalRequirement",
+      "source": "User_resistant_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "System must fit with current workflow",
+      "type": "Constraint",
+      "source": "User_resistant_expert"
+    }
+  ]
+}

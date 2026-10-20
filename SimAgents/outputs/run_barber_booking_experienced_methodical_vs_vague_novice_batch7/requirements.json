@@ -1,0 +1,38 @@
+{
+  "run_id": "run_barber_booking_experienced_methodical_vs_vague_novice_batch7",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 5,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Customers should be able to easily book appointments online by selecting a service, a barber, and a convenient time slot.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_002",
+      "text": "The system must display available services clearly, including haircuts, shaves, and styling.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Barbers should have the ability to set and update their own availability to reflect their work schedules, including time off and breaks.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Automated reminders should be sent to customers one day and one hour before their appointments, while barbers should be notified of any cancellations.",
+      "type": "FunctionalRequirement",
+      "source": "User_vague_novice"
+    },
+    {
+      "id": "REQ_005",
+      "text": "A cancellation policy should be implemented, requiring customers to provide at least one day's notice for cancellations.",
+      "type": "Constraint",
+      "source": "User_vague_novice"
+    }
+  ]
+}

@@ -1,0 +1,2887 @@
+{
+  "compared_at": "2026-04-23T12:41:24.071590",
+  "runs": [
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch2",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch3",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch4",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch5",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch6",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch7",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch8",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch2",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch3",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch4",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch5",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch6",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch7",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch8",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch2",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch3",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch4",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch5",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch6",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch7",
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch8",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch2",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch3",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch4",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch5",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch6",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch7",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch8",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch2",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch3",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch4",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch5",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch6",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch7",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch8",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch2",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch3",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch4",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch5",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch6",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch7",
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch8",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch2",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch3",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch4",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch5",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch6",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch7",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch8",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch2",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch3",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch4",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch5",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch6",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch7",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch8",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch2",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch3",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch4",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch5",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch6",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch7",
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch8",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch2",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch3",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch4",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch5",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch6",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch7",
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch8",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch2",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch3",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch4",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch5",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch6",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch7",
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch8",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch2",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch3",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch4",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch5",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch6",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch7",
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch8",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_20260422_221729",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch3",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch4",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch5",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch6",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch7",
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch8",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch2",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch3",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch4",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch5",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch6",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch7",
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch8",
+    "run_barber_booking_experienced_methodical_vs_vague_novice",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch2",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch3",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch4",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch5",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch6",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch7",
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch8",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch2",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch3",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch4",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch5",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch6",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch7",
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch8",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch2",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch3",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch4",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch5",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch6",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch7",
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch8",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch2",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch3",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch4",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch5",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch6",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch7",
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch8",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch2",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch3",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch4",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch5",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch6",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch7",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch8",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch2",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch3",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch4",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch5",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch6",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch7",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch8",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch2",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch3",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch4",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch5",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch6",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch7",
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch8",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch2",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch3",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch4",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch5",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch6",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch7",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch8",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch2",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch3",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch4",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch5",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch6",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch7",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch8",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch2",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch3",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch4",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch5",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch6",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch7",
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch8",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch2",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch3",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch4",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch5",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch6",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch7",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch8",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch2",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch3",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch4",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch5",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch6",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch7",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch8",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch2",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch3",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch4",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch5",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch6",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch7",
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch8",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch2",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch3",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch4",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch5",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch6",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch7",
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch8",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch2",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch3",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch4",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch5",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch6",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch7",
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch8",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch2",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch3",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch4",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch5",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch6",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch7",
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch8",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch2",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch3",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch4",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch5",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch6",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch7",
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch8",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch2",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch3",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch4",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch5",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch6",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch7",
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch8",
+    "run_library_system_experienced_methodical_vs_library_vague_novice",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch2",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch3",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch4",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch5",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch6",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch7",
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch8",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch2",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch3",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch4",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch5",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch6",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch7",
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch8",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch2",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch3",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch4",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch5",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch6",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch7",
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch8",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch2",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch3",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch4",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch5",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch6",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch7",
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch8",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch2",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch3",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch4",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch5",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch6",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch7",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch8",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch2",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch3",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch4",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch5",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch6",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch7",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch8",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch2",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch3",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch4",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch5",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch6",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch7",
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch8",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch2",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch3",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch4",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch5",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch6",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch7",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch8",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch2",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch3",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch4",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch5",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch6",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch7",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch8",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch2",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch3",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch4",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch5",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch6",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch7",
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch8",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch2",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch3",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch4",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch5",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch6",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch7",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch8",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch2",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch3",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch4",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch5",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch6",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch7",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch8",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch2",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch3",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch4",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch5",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch6",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch7",
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch8"
+  ],
+  "summary_table": {
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert": {
+      "coherence_mean": 0.6874,
+      "re_informativeness_mean": 0.2379,
+      "user_informativeness_mean": 0.2536,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2378
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch2": {
+      "coherence_mean": 0.6797,
+      "re_informativeness_mean": 0.2485,
+      "user_informativeness_mean": 0.2368,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2328
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch3": {
+      "coherence_mean": 0.6651,
+      "re_informativeness_mean": 0.2539,
+      "user_informativeness_mean": 0.2496,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.26
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch4": {
+      "coherence_mean": 0.6597,
+      "re_informativeness_mean": 0.2384,
+      "user_informativeness_mean": 0.2484,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2227
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch5": {
+      "coherence_mean": 0.6882,
+      "re_informativeness_mean": 0.2396,
+      "user_informativeness_mean": 0.2412,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2501
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch6": {
+      "coherence_mean": 0.6849,
+      "re_informativeness_mean": 0.2494,
+      "user_informativeness_mean": 0.2367,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2301
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch7": {
+      "coherence_mean": 0.6654,
+      "re_informativeness_mean": 0.2467,
+      "user_informativeness_mean": 0.2411,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2485
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_cooperative_expert_batch8": {
+      "coherence_mean": 0.6785,
+      "re_informativeness_mean": 0.2385,
+      "user_informativeness_mean": 0.2404,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2313
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert": {
+      "coherence_mean": 0.6371,
+      "re_informativeness_mean": 0.239,
+      "user_informativeness_mean": 0.2423,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2189
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch2": {
+      "coherence_mean": 0.6708,
+      "re_informativeness_mean": 0.2554,
+      "user_informativeness_mean": 0.2581,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2761
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch3": {
+      "coherence_mean": 0.6234,
+      "re_informativeness_mean": 0.2482,
+      "user_informativeness_mean": 0.2454,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2931
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch4": {
+      "coherence_mean": 0.6894,
+      "re_informativeness_mean": 0.2581,
+      "user_informativeness_mean": 0.2367,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2245
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch5": {
+      "coherence_mean": 0.6069,
+      "re_informativeness_mean": 0.2469,
+      "user_informativeness_mean": 0.2407,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2375
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch6": {
+      "coherence_mean": 0.6653,
+      "re_informativeness_mean": 0.2384,
+      "user_informativeness_mean": 0.2374,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2261
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch7": {
+      "coherence_mean": 0.6395,
+      "re_informativeness_mean": 0.2598,
+      "user_informativeness_mean": 0.2503,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2461
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_resistant_expert_batch8": {
+      "coherence_mean": 0.626,
+      "re_informativeness_mean": 0.2395,
+      "user_informativeness_mean": 0.253,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2218
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice": {
+      "coherence_mean": 0.6543,
+      "re_informativeness_mean": 0.2669,
+      "user_informativeness_mean": 0.2514,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2663
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch2": {
+      "coherence_mean": 0.5413,
+      "re_informativeness_mean": 0.239,
+      "user_informativeness_mean": 0.2286,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2286
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch3": {
+      "coherence_mean": 0.6061,
+      "re_informativeness_mean": 0.2535,
+      "user_informativeness_mean": 0.2518,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2843
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch4": {
+      "coherence_mean": 0.5443,
+      "re_informativeness_mean": 0.2435,
+      "user_informativeness_mean": 0.2375,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2137
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch5": {
+      "coherence_mean": 0.5758,
+      "re_informativeness_mean": 0.2519,
+      "user_informativeness_mean": 0.2308,
+      "requirement_coverage": 0.6842,
+      "requirement_specificity_mean": 0.2627
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch6": {
+      "coherence_mean": 0.5514,
+      "re_informativeness_mean": 0.2622,
+      "user_informativeness_mean": 0.2358,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2934
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch7": {
+      "coherence_mean": 0.6103,
+      "re_informativeness_mean": 0.2521,
+      "user_informativeness_mean": 0.2163,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2994
+    },
+    "run_banking_app_modernisation_adaptive_generalist_vs_banking_vague_novice_batch8": {
+      "coherence_mean": 0.5748,
+      "re_informativeness_mean": 0.2669,
+      "user_informativeness_mean": 0.2242,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2701
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert": {
+      "coherence_mean": 0.6744,
+      "re_informativeness_mean": 0.227,
+      "user_informativeness_mean": 0.2428,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2741
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch2": {
+      "coherence_mean": 0.6408,
+      "re_informativeness_mean": 0.2358,
+      "user_informativeness_mean": 0.254,
+      "requirement_coverage": 0.9474,
+      "requirement_specificity_mean": 0.2418
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch3": {
+      "coherence_mean": 0.685,
+      "re_informativeness_mean": 0.2521,
+      "user_informativeness_mean": 0.2391,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2444
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch4": {
+      "coherence_mean": 0.7024,
+      "re_informativeness_mean": 0.2421,
+      "user_informativeness_mean": 0.2384,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2391
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch5": {
+      "coherence_mean": 0.7155,
+      "re_informativeness_mean": 0.2336,
+      "user_informativeness_mean": 0.2452,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.261
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch6": {
+      "coherence_mean": 0.6937,
+      "re_informativeness_mean": 0.231,
+      "user_informativeness_mean": 0.2411,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.227
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch7": {
+      "coherence_mean": 0.6729,
+      "re_informativeness_mean": 0.2552,
+      "user_informativeness_mean": 0.248,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2178
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch8": {
+      "coherence_mean": 0.6695,
+      "re_informativeness_mean": 0.2353,
+      "user_informativeness_mean": 0.2425,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2462
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert": {
+      "coherence_mean": 0.6872,
+      "re_informativeness_mean": 0.2531,
+      "user_informativeness_mean": 0.2405,
+      "requirement_coverage": 0.6842,
+      "requirement_specificity_mean": 0.2505
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch2": {
+      "coherence_mean": 0.7315,
+      "re_informativeness_mean": 0.2543,
+      "user_informativeness_mean": 0.249,
+      "requirement_coverage": 0.6316,
+      "requirement_specificity_mean": 0.2493
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch3": {
+      "coherence_mean": 0.657,
+      "re_informativeness_mean": 0.2593,
+      "user_informativeness_mean": 0.266,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2919
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch4": {
+      "coherence_mean": 0.6756,
+      "re_informativeness_mean": 0.2572,
+      "user_informativeness_mean": 0.2436,
+      "requirement_coverage": 0.6842,
+      "requirement_specificity_mean": 0.2598
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch5": {
+      "coherence_mean": 0.6965,
+      "re_informativeness_mean": 0.2406,
+      "user_informativeness_mean": 0.2306,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.1957
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch6": {
+      "coherence_mean": 0.69,
+      "re_informativeness_mean": 0.2427,
+      "user_informativeness_mean": 0.2404,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2227
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch7": {
+      "coherence_mean": 0.6493,
+      "re_informativeness_mean": 0.2442,
+      "user_informativeness_mean": 0.2388,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2531
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_resistant_expert_batch8": {
+      "coherence_mean": 0.6836,
+      "re_informativeness_mean": 0.2364,
+      "user_informativeness_mean": 0.2404,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2161
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice": {
+      "coherence_mean": 0.5767,
+      "re_informativeness_mean": 0.25,
+      "user_informativeness_mean": 0.2473,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.291
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch2": {
+      "coherence_mean": 0.6001,
+      "re_informativeness_mean": 0.2404,
+      "user_informativeness_mean": 0.2553,
+      "requirement_coverage": 0.6842,
+      "requirement_specificity_mean": 0.2307
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch3": {
+      "coherence_mean": 0.5835,
+      "re_informativeness_mean": 0.2566,
+      "user_informativeness_mean": 0.2411,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.3347
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch4": {
+      "coherence_mean": 0.5869,
+      "re_informativeness_mean": 0.252,
+      "user_informativeness_mean": 0.235,
+      "requirement_coverage": 0.6842,
+      "requirement_specificity_mean": 0.3392
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch5": {
+      "coherence_mean": 0.5879,
+      "re_informativeness_mean": 0.2398,
+      "user_informativeness_mean": 0.2085,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2498
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch6": {
+      "coherence_mean": 0.5538,
+      "re_informativeness_mean": 0.253,
+      "user_informativeness_mean": 0.2462,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2716
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch7": {
+      "coherence_mean": 0.5417,
+      "re_informativeness_mean": 0.2389,
+      "user_informativeness_mean": 0.2359,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2511
+    },
+    "run_banking_app_modernisation_experienced_methodical_vs_banking_vague_novice_batch8": {
+      "coherence_mean": 0.5344,
+      "re_informativeness_mean": 0.2519,
+      "user_informativeness_mean": 0.2376,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2886
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert": {
+      "coherence_mean": 0.6393,
+      "re_informativeness_mean": 0.2319,
+      "user_informativeness_mean": 0.2423,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2378
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch2": {
+      "coherence_mean": 0.6259,
+      "re_informativeness_mean": 0.2497,
+      "user_informativeness_mean": 0.2456,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2493
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch3": {
+      "coherence_mean": 0.6658,
+      "re_informativeness_mean": 0.2715,
+      "user_informativeness_mean": 0.2539,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2932
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch4": {
+      "coherence_mean": 0.6501,
+      "re_informativeness_mean": 0.2496,
+      "user_informativeness_mean": 0.244,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2279
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch5": {
+      "coherence_mean": 0.6478,
+      "re_informativeness_mean": 0.242,
+      "user_informativeness_mean": 0.2401,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2348
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch6": {
+      "coherence_mean": 0.6731,
+      "re_informativeness_mean": 0.2565,
+      "user_informativeness_mean": 0.2531,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2471
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch7": {
+      "coherence_mean": 0.69,
+      "re_informativeness_mean": 0.2344,
+      "user_informativeness_mean": 0.2314,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.238
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_cooperative_expert_batch8": {
+      "coherence_mean": 0.6527,
+      "re_informativeness_mean": 0.2337,
+      "user_informativeness_mean": 0.241,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2279
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert": {
+      "coherence_mean": 0.6437,
+      "re_informativeness_mean": 0.2544,
+      "user_informativeness_mean": 0.2588,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2942
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch2": {
+      "coherence_mean": 0.6483,
+      "re_informativeness_mean": 0.2557,
+      "user_informativeness_mean": 0.264,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2822
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch3": {
+      "coherence_mean": 0.6708,
+      "re_informativeness_mean": 0.2415,
+      "user_informativeness_mean": 0.2518,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2483
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch4": {
+      "coherence_mean": 0.6419,
+      "re_informativeness_mean": 0.265,
+      "user_informativeness_mean": 0.2434,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2504
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch5": {
+      "coherence_mean": 0.5841,
+      "re_informativeness_mean": 0.2754,
+      "user_informativeness_mean": 0.2467,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.3318
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch6": {
+      "coherence_mean": 0.6475,
+      "re_informativeness_mean": 0.2663,
+      "user_informativeness_mean": 0.2566,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2996
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch7": {
+      "coherence_mean": 0.6034,
+      "re_informativeness_mean": 0.2402,
+      "user_informativeness_mean": 0.2442,
+      "requirement_coverage": 0.8421,
+      "requirement_specificity_mean": 0.2639
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_resistant_expert_batch8": {
+      "coherence_mean": 0.5916,
+      "re_informativeness_mean": 0.2448,
+      "user_informativeness_mean": 0.245,
+      "requirement_coverage": 0.8947,
+      "requirement_specificity_mean": 0.2705
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice": {
+      "coherence_mean": 0.6037,
+      "re_informativeness_mean": 0.2567,
+      "user_informativeness_mean": 0.2328,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.311
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch2": {
+      "coherence_mean": 0.5624,
+      "re_informativeness_mean": 0.2508,
+      "user_informativeness_mean": 0.2421,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2745
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch3": {
+      "coherence_mean": 0.5122,
+      "re_informativeness_mean": 0.249,
+      "user_informativeness_mean": 0.2321,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.24
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch4": {
+      "coherence_mean": 0.5979,
+      "re_informativeness_mean": 0.2454,
+      "user_informativeness_mean": 0.2296,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.3355
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch5": {
+      "coherence_mean": 0.5552,
+      "re_informativeness_mean": 0.2629,
+      "user_informativeness_mean": 0.2463,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.271
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch6": {
+      "coherence_mean": 0.5497,
+      "re_informativeness_mean": 0.2301,
+      "user_informativeness_mean": 0.2342,
+      "requirement_coverage": 0.6842,
+      "requirement_specificity_mean": 0.2468
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch7": {
+      "coherence_mean": 0.631,
+      "re_informativeness_mean": 0.259,
+      "user_informativeness_mean": 0.2279,
+      "requirement_coverage": 0.7895,
+      "requirement_specificity_mean": 0.2591
+    },
+    "run_banking_app_modernisation_junior_inexperienced_vs_banking_vague_novice_batch8": {
+      "coherence_mean": 0.5255,
+      "re_informativeness_mean": 0.2443,
+      "user_informativeness_mean": 0.2316,
+      "requirement_coverage": 0.7368,
+      "requirement_specificity_mean": 0.2617
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert": {
+      "coherence_mean": 0.6957,
+      "re_informativeness_mean": 0.2576,
+      "user_informativeness_mean": 0.2362,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2602
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch2": {
+      "coherence_mean": 0.7923,
+      "re_informativeness_mean": 0.2322,
+      "user_informativeness_mean": 0.2394,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.3018
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch3": {
+      "coherence_mean": 0.7302,
+      "re_informativeness_mean": 0.2406,
+      "user_informativeness_mean": 0.245,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2426
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch4": {
+      "coherence_mean": 0.7433,
+      "re_informativeness_mean": 0.2513,
+      "user_informativeness_mean": 0.2414,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2902
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch5": {
+      "coherence_mean": 0.7329,
+      "re_informativeness_mean": 0.2414,
+      "user_informativeness_mean": 0.2455,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2267
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch6": {
+      "coherence_mean": 0.7345,
+      "re_informativeness_mean": 0.2354,
+      "user_informativeness_mean": 0.2515,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2738
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch7": {
+      "coherence_mean": 0.6788,
+      "re_informativeness_mean": 0.2496,
+      "user_informativeness_mean": 0.2414,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2643
+    },
+    "run_barber_booking_adaptive_generalist_vs_cooperative_expert_batch8": {
+      "coherence_mean": 0.7532,
+      "re_informativeness_mean": 0.2488,
+      "user_informativeness_mean": 0.2398,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2664
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert": {
+      "coherence_mean": 0.5445,
+      "re_informativeness_mean": 0.2563,
+      "user_informativeness_mean": 0.2589,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2694
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch2": {
+      "coherence_mean": 0.6328,
+      "re_informativeness_mean": 0.2414,
+      "user_informativeness_mean": 0.2363,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2431
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch3": {
+      "coherence_mean": 0.6226,
+      "re_informativeness_mean": 0.2379,
+      "user_informativeness_mean": 0.2154,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.1855
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch4": {
+      "coherence_mean": 0.6196,
+      "re_informativeness_mean": 0.2575,
+      "user_informativeness_mean": 0.2432,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2891
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch5": {
+      "coherence_mean": 0.6381,
+      "re_informativeness_mean": 0.24,
+      "user_informativeness_mean": 0.2468,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2705
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch6": {
+      "coherence_mean": 0.5849,
+      "re_informativeness_mean": 0.2468,
+      "user_informativeness_mean": 0.2348,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2496
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch7": {
+      "coherence_mean": 0.528,
+      "re_informativeness_mean": 0.2322,
+      "user_informativeness_mean": 0.2639,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2665
+    },
+    "run_barber_booking_adaptive_generalist_vs_resistant_expert_batch8": {
+      "coherence_mean": 0.6098,
+      "re_informativeness_mean": 0.2444,
+      "user_informativeness_mean": 0.2315,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2549
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice": {
+      "coherence_mean": 0.5453,
+      "re_informativeness_mean": 0.2328,
+      "user_informativeness_mean": 0.2511,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2504
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch2": {
+      "coherence_mean": 0.5932,
+      "re_informativeness_mean": 0.2526,
+      "user_informativeness_mean": 0.2751,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2466
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch3": {
+      "coherence_mean": 0.6431,
+      "re_informativeness_mean": 0.2452,
+      "user_informativeness_mean": 0.2544,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2349
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch4": {
+      "coherence_mean": 0.5986,
+      "re_informativeness_mean": 0.2385,
+      "user_informativeness_mean": 0.2652,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2056
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch5": {
+      "coherence_mean": 0.6829,
+      "re_informativeness_mean": 0.2472,
+      "user_informativeness_mean": 0.2455,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2858
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch6": {
+      "coherence_mean": 0.5189,
+      "re_informativeness_mean": 0.2314,
+      "user_informativeness_mean": 0.252,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2197
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch7": {
+      "coherence_mean": 0.5625,
+      "re_informativeness_mean": 0.255,
+      "user_informativeness_mean": 0.2689,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2683
+    },
+    "run_barber_booking_adaptive_generalist_vs_vague_novice_batch8": {
+      "coherence_mean": 0.6821,
+      "re_informativeness_mean": 0.2452,
+      "user_informativeness_mean": 0.2571,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2878
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert": {
+      "coherence_mean": 0.745,
+      "re_informativeness_mean": 0.2454,
+      "user_informativeness_mean": 0.2397,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2598
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_20260422_221729": {
+      "coherence_mean": 0.7434,
+      "re_informativeness_mean": 0.2271,
+      "user_informativeness_mean": 0.2343,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2628
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch3": {
+      "coherence_mean": 0.7234,
+      "re_informativeness_mean": 0.2192,
+      "user_informativeness_mean": 0.2298,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2547
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch4": {
+      "coherence_mean": 0.7162,
+      "re_informativeness_mean": 0.2371,
+      "user_informativeness_mean": 0.25,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2432
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch5": {
+      "coherence_mean": 0.7295,
+      "re_informativeness_mean": 0.2364,
+      "user_informativeness_mean": 0.2478,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.238
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch6": {
+      "coherence_mean": 0.7859,
+      "re_informativeness_mean": 0.2321,
+      "user_informativeness_mean": 0.24,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2591
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch7": {
+      "coherence_mean": 0.765,
+      "re_informativeness_mean": 0.2234,
+      "user_informativeness_mean": 0.2306,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2726
+    },
+    "run_barber_booking_experienced_methodical_vs_cooperative_expert_batch8": {
+      "coherence_mean": 0.7522,
+      "re_informativeness_mean": 0.2366,
+      "user_informativeness_mean": 0.2341,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2505
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert": {
+      "coherence_mean": 0.6624,
+      "re_informativeness_mean": 0.2354,
+      "user_informativeness_mean": 0.247,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2454
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch2": {
+      "coherence_mean": 0.5696,
+      "re_informativeness_mean": 0.2417,
+      "user_informativeness_mean": 0.2324,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2668
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch3": {
+      "coherence_mean": 0.5879,
+      "re_informativeness_mean": 0.2334,
+      "user_informativeness_mean": 0.2218,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2381
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch4": {
+      "coherence_mean": 0.6489,
+      "re_informativeness_mean": 0.2255,
+      "user_informativeness_mean": 0.2385,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2244
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch5": {
+      "coherence_mean": 0.6046,
+      "re_informativeness_mean": 0.2506,
+      "user_informativeness_mean": 0.2486,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2622
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch6": {
+      "coherence_mean": 0.5319,
+      "re_informativeness_mean": 0.2509,
+      "user_informativeness_mean": 0.2343,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2447
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch7": {
+      "coherence_mean": 0.5332,
+      "re_informativeness_mean": 0.2364,
+      "user_informativeness_mean": 0.2384,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.2342
+    },
+    "run_barber_booking_experienced_methodical_vs_resistant_expert_batch8": {
+      "coherence_mean": 0.5889,
+      "re_informativeness_mean": 0.2469,
+      "user_informativeness_mean": 0.2301,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.2503
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice": {
+      "coherence_mean": 0.588,
+      "re_informativeness_mean": 0.2386,
+      "user_informativeness_mean": 0.2496,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2292
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch2": {
+      "coherence_mean": 0.5637,
+      "re_informativeness_mean": 0.2378,
+      "user_informativeness_mean": 0.2423,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2136
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch3": {
+      "coherence_mean": 0.5514,
+      "re_informativeness_mean": 0.2529,
+      "user_informativeness_mean": 0.2657,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2786
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch4": {
+      "coherence_mean": 0.5756,
+      "re_informativeness_mean": 0.2362,
+      "user_informativeness_mean": 0.2647,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2299
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch5": {
+      "coherence_mean": 0.7026,
+      "re_informativeness_mean": 0.2357,
+      "user_informativeness_mean": 0.2602,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.2547
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch6": {
+      "coherence_mean": 0.6346,
+      "re_informativeness_mean": 0.2393,
+      "user_informativeness_mean": 0.2705,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2768
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch7": {
+      "coherence_mean": 0.69,
+      "re_informativeness_mean": 0.2455,
+      "user_informativeness_mean": 0.2606,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2151
+    },
+    "run_barber_booking_experienced_methodical_vs_vague_novice_batch8": {
+      "coherence_mean": 0.6903,
+      "re_informativeness_mean": 0.248,
+      "user_informativeness_mean": 0.2618,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2057
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert": {
+      "coherence_mean": 0.7258,
+      "re_informativeness_mean": 0.2465,
+      "user_informativeness_mean": 0.2258,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2443
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch2": {
+      "coherence_mean": 0.7261,
+      "re_informativeness_mean": 0.2266,
+      "user_informativeness_mean": 0.2332,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2392
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch3": {
+      "coherence_mean": 0.699,
+      "re_informativeness_mean": 0.2365,
+      "user_informativeness_mean": 0.2417,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2291
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch4": {
+      "coherence_mean": 0.7183,
+      "re_informativeness_mean": 0.2592,
+      "user_informativeness_mean": 0.2533,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2498
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch5": {
+      "coherence_mean": 0.7483,
+      "re_informativeness_mean": 0.2515,
+      "user_informativeness_mean": 0.232,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2238
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch6": {
+      "coherence_mean": 0.7531,
+      "re_informativeness_mean": 0.2477,
+      "user_informativeness_mean": 0.2459,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2442
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch7": {
+      "coherence_mean": 0.7775,
+      "re_informativeness_mean": 0.2613,
+      "user_informativeness_mean": 0.2448,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.2451
+    },
+    "run_barber_booking_junior_inexperienced_vs_cooperative_expert_batch8": {
+      "coherence_mean": 0.7001,
+      "re_informativeness_mean": 0.2604,
+      "user_informativeness_mean": 0.2363,
+      "requirement_coverage": 0.9286,
+      "requirement_specificity_mean": 0.2824
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert": {
+      "coherence_mean": 0.5049,
+      "re_informativeness_mean": 0.2585,
+      "user_informativeness_mean": 0.2497,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2578
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch2": {
+      "coherence_mean": 0.5915,
+      "re_informativeness_mean": 0.2497,
+      "user_informativeness_mean": 0.2421,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.2519
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch3": {
+      "coherence_mean": 0.5441,
+      "re_informativeness_mean": 0.2422,
+      "user_informativeness_mean": 0.2437,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.3122
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch4": {
+      "coherence_mean": 0.5887,
+      "re_informativeness_mean": 0.2651,
+      "user_informativeness_mean": 0.2596,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.3067
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch5": {
+      "coherence_mean": 0.6224,
+      "re_informativeness_mean": 0.2401,
+      "user_informativeness_mean": 0.2507,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2186
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch6": {
+      "coherence_mean": 0.6097,
+      "re_informativeness_mean": 0.2431,
+      "user_informativeness_mean": 0.2272,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2666
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch7": {
+      "coherence_mean": 0.5157,
+      "re_informativeness_mean": 0.2105,
+      "user_informativeness_mean": 0.2281,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2381
+    },
+    "run_barber_booking_junior_inexperienced_vs_resistant_expert_batch8": {
+      "coherence_mean": 0.4424,
+      "re_informativeness_mean": 0.2484,
+      "user_informativeness_mean": 0.2339,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.2544
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice": {
+      "coherence_mean": 0.6732,
+      "re_informativeness_mean": 0.2573,
+      "user_informativeness_mean": 0.2503,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.3111
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch2": {
+      "coherence_mean": 0.5981,
+      "re_informativeness_mean": 0.2541,
+      "user_informativeness_mean": 0.2483,
+      "requirement_coverage": 0.7857,
+      "requirement_specificity_mean": 0.3055
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch3": {
+      "coherence_mean": 0.7368,
+      "re_informativeness_mean": 0.2354,
+      "user_informativeness_mean": 0.246,
+      "requirement_coverage": 0.6429,
+      "requirement_specificity_mean": 0.2715
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch4": {
+      "coherence_mean": 0.5432,
+      "re_informativeness_mean": 0.2411,
+      "user_informativeness_mean": 0.2477,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.3158
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch5": {
+      "coherence_mean": 0.6209,
+      "re_informativeness_mean": 0.2589,
+      "user_informativeness_mean": 0.2402,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2172
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch6": {
+      "coherence_mean": 0.6774,
+      "re_informativeness_mean": 0.2607,
+      "user_informativeness_mean": 0.2339,
+      "requirement_coverage": 0.7143,
+      "requirement_specificity_mean": 0.2581
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch7": {
+      "coherence_mean": 0.558,
+      "re_informativeness_mean": 0.2546,
+      "user_informativeness_mean": 0.2309,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2472
+    },
+    "run_barber_booking_junior_inexperienced_vs_vague_novice_batch8": {
+      "coherence_mean": 0.6752,
+      "re_informativeness_mean": 0.2641,
+      "user_informativeness_mean": 0.2652,
+      "requirement_coverage": 0.8571,
+      "requirement_specificity_mean": 0.2789
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert": {
+      "coherence_mean": 0.6965,
+      "re_informativeness_mean": 0.2364,
+      "user_informativeness_mean": 0.2424,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2168
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch2": {
+      "coherence_mean": 0.7098,
+      "re_informativeness_mean": 0.2416,
+      "user_informativeness_mean": 0.2223,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.236
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch3": {
+      "coherence_mean": 0.7001,
+      "re_informativeness_mean": 0.2292,
+      "user_informativeness_mean": 0.2522,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.232
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch4": {
+      "coherence_mean": 0.7242,
+      "re_informativeness_mean": 0.2336,
+      "user_informativeness_mean": 0.2272,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.1948
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch5": {
+      "coherence_mean": 0.6908,
+      "re_informativeness_mean": 0.2477,
+      "user_informativeness_mean": 0.2357,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2425
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch6": {
+      "coherence_mean": 0.7172,
+      "re_informativeness_mean": 0.2395,
+      "user_informativeness_mean": 0.2369,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2297
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch7": {
+      "coherence_mean": 0.7169,
+      "re_informativeness_mean": 0.2371,
+      "user_informativeness_mean": 0.2317,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2595
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_cooperative_expert_batch8": {
+      "coherence_mean": 0.717,
+      "re_informativeness_mean": 0.2426,
+      "user_informativeness_mean": 0.234,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2482
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert": {
+      "coherence_mean": 0.6136,
+      "re_informativeness_mean": 0.2355,
+      "user_informativeness_mean": 0.2509,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.26
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch2": {
+      "coherence_mean": 0.6442,
+      "re_informativeness_mean": 0.2497,
+      "user_informativeness_mean": 0.2363,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2169
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch3": {
+      "coherence_mean": 0.6561,
+      "re_informativeness_mean": 0.2235,
+      "user_informativeness_mean": 0.2297,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.1888
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch4": {
+      "coherence_mean": 0.6559,
+      "re_informativeness_mean": 0.2362,
+      "user_informativeness_mean": 0.2421,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2254
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch5": {
+      "coherence_mean": 0.6187,
+      "re_informativeness_mean": 0.2423,
+      "user_informativeness_mean": 0.2234,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2396
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch6": {
+      "coherence_mean": 0.6303,
+      "re_informativeness_mean": 0.2606,
+      "user_informativeness_mean": 0.2381,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.302
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch7": {
+      "coherence_mean": 0.6313,
+      "re_informativeness_mean": 0.2504,
+      "user_informativeness_mean": 0.2377,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2339
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_resistant_expert_batch8": {
+      "coherence_mean": 0.6452,
+      "re_informativeness_mean": 0.2506,
+      "user_informativeness_mean": 0.2623,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2531
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice": {
+      "coherence_mean": 0.6532,
+      "re_informativeness_mean": 0.2341,
+      "user_informativeness_mean": 0.2052,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2583
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch2": {
+      "coherence_mean": 0.6217,
+      "re_informativeness_mean": 0.2488,
+      "user_informativeness_mean": 0.2101,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2155
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch3": {
+      "coherence_mean": 0.6722,
+      "re_informativeness_mean": 0.2466,
+      "user_informativeness_mean": 0.2503,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2422
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch4": {
+      "coherence_mean": 0.6034,
+      "re_informativeness_mean": 0.2449,
+      "user_informativeness_mean": 0.2467,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2856
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch5": {
+      "coherence_mean": 0.6709,
+      "re_informativeness_mean": 0.241,
+      "user_informativeness_mean": 0.2289,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2335
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch6": {
+      "coherence_mean": 0.646,
+      "re_informativeness_mean": 0.2368,
+      "user_informativeness_mean": 0.2335,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.283
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch7": {
+      "coherence_mean": 0.6328,
+      "re_informativeness_mean": 0.2489,
+      "user_informativeness_mean": 0.2417,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2651
+    },
+    "run_clinic_patient_portal_adaptive_generalist_vs_clinic_vague_novice_batch8": {
+      "coherence_mean": 0.6117,
+      "re_informativeness_mean": 0.2536,
+      "user_informativeness_mean": 0.2535,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.3177
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert": {
+      "coherence_mean": 0.7193,
+      "re_informativeness_mean": 0.2303,
+      "user_informativeness_mean": 0.2413,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2395
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch2": {
+      "coherence_mean": 0.6901,
+      "re_informativeness_mean": 0.237,
+      "user_informativeness_mean": 0.2332,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2384
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch3": {
+      "coherence_mean": 0.6933,
+      "re_informativeness_mean": 0.2362,
+      "user_informativeness_mean": 0.2332,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2456
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch4": {
+      "coherence_mean": 0.7089,
+      "re_informativeness_mean": 0.2394,
+      "user_informativeness_mean": 0.2428,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2693
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch5": {
+      "coherence_mean": 0.7114,
+      "re_informativeness_mean": 0.2313,
+      "user_informativeness_mean": 0.2317,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2337
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch6": {
+      "coherence_mean": 0.7204,
+      "re_informativeness_mean": 0.2374,
+      "user_informativeness_mean": 0.244,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2421
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch7": {
+      "coherence_mean": 0.7419,
+      "re_informativeness_mean": 0.2366,
+      "user_informativeness_mean": 0.2393,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2411
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_cooperative_expert_batch8": {
+      "coherence_mean": 0.7349,
+      "re_informativeness_mean": 0.2232,
+      "user_informativeness_mean": 0.2302,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2458
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert": {
+      "coherence_mean": 0.6378,
+      "re_informativeness_mean": 0.2475,
+      "user_informativeness_mean": 0.2522,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2941
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch2": {
+      "coherence_mean": 0.643,
+      "re_informativeness_mean": 0.2506,
+      "user_informativeness_mean": 0.2454,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2967
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch3": {
+      "coherence_mean": 0.6686,
+      "re_informativeness_mean": 0.2579,
+      "user_informativeness_mean": 0.2345,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2178
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch4": {
+      "coherence_mean": 0.6392,
+      "re_informativeness_mean": 0.2528,
+      "user_informativeness_mean": 0.2373,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.3009
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch5": {
+      "coherence_mean": 0.7204,
+      "re_informativeness_mean": 0.241,
+      "user_informativeness_mean": 0.25,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2325
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch6": {
+      "coherence_mean": 0.6498,
+      "re_informativeness_mean": 0.2396,
+      "user_informativeness_mean": 0.2602,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2518
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch7": {
+      "coherence_mean": 0.6533,
+      "re_informativeness_mean": 0.2137,
+      "user_informativeness_mean": 0.2499,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.188
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_resistant_expert_batch8": {
+      "coherence_mean": 0.703,
+      "re_informativeness_mean": 0.256,
+      "user_informativeness_mean": 0.2409,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2718
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice": {
+      "coherence_mean": 0.6942,
+      "re_informativeness_mean": 0.2171,
+      "user_informativeness_mean": 0.2322,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2723
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch2": {
+      "coherence_mean": 0.6365,
+      "re_informativeness_mean": 0.2326,
+      "user_informativeness_mean": 0.2247,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.231
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch3": {
+      "coherence_mean": 0.6212,
+      "re_informativeness_mean": 0.2296,
+      "user_informativeness_mean": 0.2232,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2108
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch4": {
+      "coherence_mean": 0.6694,
+      "re_informativeness_mean": 0.2376,
+      "user_informativeness_mean": 0.2163,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2398
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch5": {
+      "coherence_mean": 0.6838,
+      "re_informativeness_mean": 0.2346,
+      "user_informativeness_mean": 0.2275,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2258
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch6": {
+      "coherence_mean": 0.6957,
+      "re_informativeness_mean": 0.2426,
+      "user_informativeness_mean": 0.2439,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2143
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch7": {
+      "coherence_mean": 0.6949,
+      "re_informativeness_mean": 0.2574,
+      "user_informativeness_mean": 0.2379,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2305
+    },
+    "run_clinic_patient_portal_experienced_methodical_vs_clinic_vague_novice_batch8": {
+      "coherence_mean": 0.5991,
+      "re_informativeness_mean": 0.2368,
+      "user_informativeness_mean": 0.2275,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2671
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert": {
+      "coherence_mean": 0.6739,
+      "re_informativeness_mean": 0.2478,
+      "user_informativeness_mean": 0.2282,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2751
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch2": {
+      "coherence_mean": 0.7008,
+      "re_informativeness_mean": 0.2312,
+      "user_informativeness_mean": 0.2329,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2114
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch3": {
+      "coherence_mean": 0.6688,
+      "re_informativeness_mean": 0.2172,
+      "user_informativeness_mean": 0.2387,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2439
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch4": {
+      "coherence_mean": 0.7142,
+      "re_informativeness_mean": 0.2371,
+      "user_informativeness_mean": 0.2358,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2317
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch5": {
+      "coherence_mean": 0.679,
+      "re_informativeness_mean": 0.2378,
+      "user_informativeness_mean": 0.2431,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2206
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch6": {
+      "coherence_mean": 0.7307,
+      "re_informativeness_mean": 0.2658,
+      "user_informativeness_mean": 0.2414,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.266
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch7": {
+      "coherence_mean": 0.6752,
+      "re_informativeness_mean": 0.2213,
+      "user_informativeness_mean": 0.2448,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2748
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_cooperative_expert_batch8": {
+      "coherence_mean": 0.7027,
+      "re_informativeness_mean": 0.2543,
+      "user_informativeness_mean": 0.2421,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2384
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert": {
+      "coherence_mean": 0.5951,
+      "re_informativeness_mean": 0.2614,
+      "user_informativeness_mean": 0.2464,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2757
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch2": {
+      "coherence_mean": 0.6432,
+      "re_informativeness_mean": 0.2396,
+      "user_informativeness_mean": 0.2602,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2365
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch3": {
+      "coherence_mean": 0.6335,
+      "re_informativeness_mean": 0.2626,
+      "user_informativeness_mean": 0.2448,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2795
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch4": {
+      "coherence_mean": 0.6239,
+      "re_informativeness_mean": 0.2218,
+      "user_informativeness_mean": 0.2385,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2613
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch5": {
+      "coherence_mean": 0.6958,
+      "re_informativeness_mean": 0.2423,
+      "user_informativeness_mean": 0.2374,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2155
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch6": {
+      "coherence_mean": 0.6586,
+      "re_informativeness_mean": 0.2377,
+      "user_informativeness_mean": 0.2438,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.2213
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch7": {
+      "coherence_mean": 0.645,
+      "re_informativeness_mean": 0.2441,
+      "user_informativeness_mean": 0.2385,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2209
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_resistant_expert_batch8": {
+      "coherence_mean": 0.6393,
+      "re_informativeness_mean": 0.2511,
+      "user_informativeness_mean": 0.2563,
+      "requirement_coverage": 0.6667,
+      "requirement_specificity_mean": 0.2632
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice": {
+      "coherence_mean": 0.6499,
+      "re_informativeness_mean": 0.2154,
+      "user_informativeness_mean": 0.2454,
+      "requirement_coverage": 0.7333,
+      "requirement_specificity_mean": 0.1846
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch2": {
+      "coherence_mean": 0.6043,
+      "re_informativeness_mean": 0.2412,
+      "user_informativeness_mean": 0.2158,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.1678
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch3": {
+      "coherence_mean": 0.64,
+      "re_informativeness_mean": 0.2351,
+      "user_informativeness_mean": 0.2286,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2372
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch4": {
+      "coherence_mean": 0.6137,
+      "re_informativeness_mean": 0.2358,
+      "user_informativeness_mean": 0.229,
+      "requirement_coverage": 0.8667,
+      "requirement_specificity_mean": 0.2262
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch5": {
+      "coherence_mean": 0.6016,
+      "re_informativeness_mean": 0.2458,
+      "user_informativeness_mean": 0.2194,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.3186
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch6": {
+      "coherence_mean": 0.6098,
+      "re_informativeness_mean": 0.2267,
+      "user_informativeness_mean": 0.2344,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.2462
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch7": {
+      "coherence_mean": 0.6043,
+      "re_informativeness_mean": 0.2413,
+      "user_informativeness_mean": 0.2249,
+      "requirement_coverage": 0.9333,
+      "requirement_specificity_mean": 0.2059
+    },
+    "run_clinic_patient_portal_junior_inexperienced_vs_clinic_vague_novice_batch8": {
+      "coherence_mean": 0.6414,
+      "re_informativeness_mean": 0.2398,
+      "user_informativeness_mean": 0.2266,
+      "requirement_coverage": 0.8,
+      "requirement_specificity_mean": 0.1895
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert": {
+      "coherence_mean": 0.6525,
+      "re_informativeness_mean": 0.2376,
+      "user_informativeness_mean": 0.2434,
+      "requirement_coverage": 0.9412,
+      "requirement_specificity_mean": 0.2432
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch2": {
+      "coherence_mean": 0.7191,
+      "re_informativeness_mean": 0.2358,
+      "user_informativeness_mean": 0.2494,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2694
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch3": {
+      "coherence_mean": 0.7068,
+      "re_informativeness_mean": 0.248,
+      "user_informativeness_mean": 0.2418,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2554
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch4": {
+      "coherence_mean": 0.7061,
+      "re_informativeness_mean": 0.2599,
+      "user_informativeness_mean": 0.2541,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.3064
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch5": {
+      "coherence_mean": 0.684,
+      "re_informativeness_mean": 0.2401,
+      "user_informativeness_mean": 0.2494,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.2656
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch6": {
+      "coherence_mean": 0.6851,
+      "re_informativeness_mean": 0.2454,
+      "user_informativeness_mean": 0.2432,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2594
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch7": {
+      "coherence_mean": 0.6716,
+      "re_informativeness_mean": 0.2304,
+      "user_informativeness_mean": 0.2243,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.2568
+    },
+    "run_library_system_adaptive_generalist_vs_library_cooperative_expert_batch8": {
+      "coherence_mean": 0.6221,
+      "re_informativeness_mean": 0.2592,
+      "user_informativeness_mean": 0.2491,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.2686
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert": {
+      "coherence_mean": 0.5719,
+      "re_informativeness_mean": 0.2364,
+      "user_informativeness_mean": 0.2417,
+      "requirement_coverage": 0.7059,
+      "requirement_specificity_mean": 0.2283
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch2": {
+      "coherence_mean": 0.4697,
+      "re_informativeness_mean": 0.2703,
+      "user_informativeness_mean": 0.2465,
+      "requirement_coverage": 0.7059,
+      "requirement_specificity_mean": 0.2783
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch3": {
+      "coherence_mean": 0.5792,
+      "re_informativeness_mean": 0.2478,
+      "user_informativeness_mean": 0.233,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2794
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch4": {
+      "coherence_mean": 0.6257,
+      "re_informativeness_mean": 0.2447,
+      "user_informativeness_mean": 0.251,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2313
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch5": {
+      "coherence_mean": 0.5549,
+      "re_informativeness_mean": 0.2591,
+      "user_informativeness_mean": 0.2639,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2741
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch6": {
+      "coherence_mean": 0.5721,
+      "re_informativeness_mean": 0.266,
+      "user_informativeness_mean": 0.2516,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2775
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch7": {
+      "coherence_mean": 0.6253,
+      "re_informativeness_mean": 0.2529,
+      "user_informativeness_mean": 0.2343,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.278
+    },
+    "run_library_system_adaptive_generalist_vs_library_resistant_expert_batch8": {
+      "coherence_mean": 0.597,
+      "re_informativeness_mean": 0.2585,
+      "user_informativeness_mean": 0.2419,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2778
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice": {
+      "coherence_mean": 0.6877,
+      "re_informativeness_mean": 0.2403,
+      "user_informativeness_mean": 0.2164,
+      "requirement_coverage": 0.6471,
+      "requirement_specificity_mean": 0.2554
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch2": {
+      "coherence_mean": 0.6586,
+      "re_informativeness_mean": 0.2558,
+      "user_informativeness_mean": 0.2311,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.3391
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch3": {
+      "coherence_mean": 0.6129,
+      "re_informativeness_mean": 0.2608,
+      "user_informativeness_mean": 0.248,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2627
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch4": {
+      "coherence_mean": 0.6143,
+      "re_informativeness_mean": 0.2482,
+      "user_informativeness_mean": 0.2316,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2845
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch5": {
+      "coherence_mean": 0.6022,
+      "re_informativeness_mean": 0.2429,
+      "user_informativeness_mean": 0.2308,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.276
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch6": {
+      "coherence_mean": 0.6533,
+      "re_informativeness_mean": 0.2419,
+      "user_informativeness_mean": 0.2288,
+      "requirement_coverage": 0.5882,
+      "requirement_specificity_mean": 0.2902
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch7": {
+      "coherence_mean": 0.5933,
+      "re_informativeness_mean": 0.2366,
+      "user_informativeness_mean": 0.2132,
+      "requirement_coverage": 0.6471,
+      "requirement_specificity_mean": 0.2942
+    },
+    "run_library_system_adaptive_generalist_vs_library_vague_novice_batch8": {
+      "coherence_mean": 0.6594,
+      "re_informativeness_mean": 0.2577,
+      "user_informativeness_mean": 0.237,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2729
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert": {
+      "coherence_mean": 0.7211,
+      "re_informativeness_mean": 0.2444,
+      "user_informativeness_mean": 0.2431,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2528
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch2": {
+      "coherence_mean": 0.7095,
+      "re_informativeness_mean": 0.2329,
+      "user_informativeness_mean": 0.261,
+      "requirement_coverage": 0.9412,
+      "requirement_specificity_mean": 0.2461
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch3": {
+      "coherence_mean": 0.7295,
+      "re_informativeness_mean": 0.2496,
+      "user_informativeness_mean": 0.2463,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2363
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch4": {
+      "coherence_mean": 0.7138,
+      "re_informativeness_mean": 0.2339,
+      "user_informativeness_mean": 0.2496,
+      "requirement_coverage": 0.9412,
+      "requirement_specificity_mean": 0.2504
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch5": {
+      "coherence_mean": 0.7405,
+      "re_informativeness_mean": 0.25,
+      "user_informativeness_mean": 0.2541,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.2498
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch6": {
+      "coherence_mean": 0.6931,
+      "re_informativeness_mean": 0.235,
+      "user_informativeness_mean": 0.2489,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2705
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch7": {
+      "coherence_mean": 0.7306,
+      "re_informativeness_mean": 0.239,
+      "user_informativeness_mean": 0.2406,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.262
+    },
+    "run_library_system_experienced_methodical_vs_library_cooperative_expert_batch8": {
+      "coherence_mean": 0.6951,
+      "re_informativeness_mean": 0.2356,
+      "user_informativeness_mean": 0.227,
+      "requirement_coverage": 0.9412,
+      "requirement_specificity_mean": 0.265
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert": {
+      "coherence_mean": 0.6296,
+      "re_informativeness_mean": 0.2617,
+      "user_informativeness_mean": 0.2555,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.3822
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch2": {
+      "coherence_mean": 0.6891,
+      "re_informativeness_mean": 0.2378,
+      "user_informativeness_mean": 0.2462,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2567
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch3": {
+      "coherence_mean": 0.6121,
+      "re_informativeness_mean": 0.2455,
+      "user_informativeness_mean": 0.2394,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2603
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch4": {
+      "coherence_mean": 0.6185,
+      "re_informativeness_mean": 0.2483,
+      "user_informativeness_mean": 0.2614,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2671
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch5": {
+      "coherence_mean": 0.6196,
+      "re_informativeness_mean": 0.2492,
+      "user_informativeness_mean": 0.2472,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2412
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch6": {
+      "coherence_mean": 0.5859,
+      "re_informativeness_mean": 0.2516,
+      "user_informativeness_mean": 0.2604,
+      "requirement_coverage": 0.7059,
+      "requirement_specificity_mean": 0.2798
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch7": {
+      "coherence_mean": 0.567,
+      "re_informativeness_mean": 0.2503,
+      "user_informativeness_mean": 0.2512,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2531
+    },
+    "run_library_system_experienced_methodical_vs_library_resistant_expert_batch8": {
+      "coherence_mean": 0.6288,
+      "re_informativeness_mean": 0.2611,
+      "user_informativeness_mean": 0.2292,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2997
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice": {
+      "coherence_mean": 0.6435,
+      "re_informativeness_mean": 0.2391,
+      "user_informativeness_mean": 0.2275,
+      "requirement_coverage": 0.6471,
+      "requirement_specificity_mean": 0.2415
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch2": {
+      "coherence_mean": 0.583,
+      "re_informativeness_mean": 0.2467,
+      "user_informativeness_mean": 0.2362,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2557
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch3": {
+      "coherence_mean": 0.5454,
+      "re_informativeness_mean": 0.2553,
+      "user_informativeness_mean": 0.2334,
+      "requirement_coverage": 0.6471,
+      "requirement_specificity_mean": 0.2861
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch4": {
+      "coherence_mean": 0.6472,
+      "re_informativeness_mean": 0.2436,
+      "user_informativeness_mean": 0.2196,
+      "requirement_coverage": 0.7059,
+      "requirement_specificity_mean": 0.2666
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch5": {
+      "coherence_mean": 0.6286,
+      "re_informativeness_mean": 0.2491,
+      "user_informativeness_mean": 0.2311,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2303
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch6": {
+      "coherence_mean": 0.6272,
+      "re_informativeness_mean": 0.2499,
+      "user_informativeness_mean": 0.234,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2712
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch7": {
+      "coherence_mean": 0.5723,
+      "re_informativeness_mean": 0.248,
+      "user_informativeness_mean": 0.2188,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2592
+    },
+    "run_library_system_experienced_methodical_vs_library_vague_novice_batch8": {
+      "coherence_mean": 0.5353,
+      "re_informativeness_mean": 0.2508,
+      "user_informativeness_mean": 0.2315,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2484
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert": {
+      "coherence_mean": 0.6686,
+      "re_informativeness_mean": 0.2577,
+      "user_informativeness_mean": 0.2329,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.2653
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch2": {
+      "coherence_mean": 0.6964,
+      "re_informativeness_mean": 0.2466,
+      "user_informativeness_mean": 0.2438,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2451
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch3": {
+      "coherence_mean": 0.6594,
+      "re_informativeness_mean": 0.2554,
+      "user_informativeness_mean": 0.2336,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.251
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch4": {
+      "coherence_mean": 0.7035,
+      "re_informativeness_mean": 0.2542,
+      "user_informativeness_mean": 0.2435,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2755
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch5": {
+      "coherence_mean": 0.6951,
+      "re_informativeness_mean": 0.2628,
+      "user_informativeness_mean": 0.2519,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.3064
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch6": {
+      "coherence_mean": 0.6852,
+      "re_informativeness_mean": 0.2492,
+      "user_informativeness_mean": 0.234,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2437
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch7": {
+      "coherence_mean": 0.7006,
+      "re_informativeness_mean": 0.233,
+      "user_informativeness_mean": 0.2418,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2487
+    },
+    "run_library_system_junior_inexperienced_vs_library_cooperative_expert_batch8": {
+      "coherence_mean": 0.6401,
+      "re_informativeness_mean": 0.2473,
+      "user_informativeness_mean": 0.24,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2492
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert": {
+      "coherence_mean": 0.5726,
+      "re_informativeness_mean": 0.2565,
+      "user_informativeness_mean": 0.2279,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.2594
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch2": {
+      "coherence_mean": 0.539,
+      "re_informativeness_mean": 0.2527,
+      "user_informativeness_mean": 0.2606,
+      "requirement_coverage": 0.7059,
+      "requirement_specificity_mean": 0.2759
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch3": {
+      "coherence_mean": 0.5771,
+      "re_informativeness_mean": 0.2555,
+      "user_informativeness_mean": 0.2514,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.262
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch4": {
+      "coherence_mean": 0.6748,
+      "re_informativeness_mean": 0.2566,
+      "user_informativeness_mean": 0.2516,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2812
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch5": {
+      "coherence_mean": 0.6698,
+      "re_informativeness_mean": 0.2701,
+      "user_informativeness_mean": 0.2591,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2961
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch6": {
+      "coherence_mean": 0.6569,
+      "re_informativeness_mean": 0.2574,
+      "user_informativeness_mean": 0.2481,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2782
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch7": {
+      "coherence_mean": 0.5608,
+      "re_informativeness_mean": 0.2627,
+      "user_informativeness_mean": 0.2593,
+      "requirement_coverage": 0.7647,
+      "requirement_specificity_mean": 0.2778
+    },
+    "run_library_system_junior_inexperienced_vs_library_resistant_expert_batch8": {
+      "coherence_mean": 0.5574,
+      "re_informativeness_mean": 0.2729,
+      "user_informativeness_mean": 0.2609,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2874
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice": {
+      "coherence_mean": 0.579,
+      "re_informativeness_mean": 0.2431,
+      "user_informativeness_mean": 0.2328,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2424
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch2": {
+      "coherence_mean": 0.6349,
+      "re_informativeness_mean": 0.2322,
+      "user_informativeness_mean": 0.2255,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.232
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch3": {
+      "coherence_mean": 0.6717,
+      "re_informativeness_mean": 0.2518,
+      "user_informativeness_mean": 0.223,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.239
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch4": {
+      "coherence_mean": 0.5484,
+      "re_informativeness_mean": 0.2412,
+      "user_informativeness_mean": 0.2077,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.3011
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch5": {
+      "coherence_mean": 0.6344,
+      "re_informativeness_mean": 0.2431,
+      "user_informativeness_mean": 0.2299,
+      "requirement_coverage": 0.8824,
+      "requirement_specificity_mean": 0.294
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch6": {
+      "coherence_mean": 0.5861,
+      "re_informativeness_mean": 0.252,
+      "user_informativeness_mean": 0.2162,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2412
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch7": {
+      "coherence_mean": 0.7054,
+      "re_informativeness_mean": 0.2651,
+      "user_informativeness_mean": 0.2252,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2774
+    },
+    "run_library_system_junior_inexperienced_vs_library_vague_novice_batch8": {
+      "coherence_mean": 0.643,
+      "re_informativeness_mean": 0.2524,
+      "user_informativeness_mean": 0.2307,
+      "requirement_coverage": 0.8235,
+      "requirement_specificity_mean": 0.2918
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert": {
+      "coherence_mean": 0.7035,
+      "re_informativeness_mean": 0.2326,
+      "user_informativeness_mean": 0.2496,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2435
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch2": {
+      "coherence_mean": 0.669,
+      "re_informativeness_mean": 0.2387,
+      "user_informativeness_mean": 0.2422,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2348
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch3": {
+      "coherence_mean": 0.7293,
+      "re_informativeness_mean": 0.248,
+      "user_informativeness_mean": 0.2478,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2783
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch4": {
+      "coherence_mean": 0.7737,
+      "re_informativeness_mean": 0.2433,
+      "user_informativeness_mean": 0.2361,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2324
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch5": {
+      "coherence_mean": 0.7067,
+      "re_informativeness_mean": 0.2366,
+      "user_informativeness_mean": 0.2331,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2953
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch6": {
+      "coherence_mean": 0.7431,
+      "re_informativeness_mean": 0.2374,
+      "user_informativeness_mean": 0.2358,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2599
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch7": {
+      "coherence_mean": 0.674,
+      "re_informativeness_mean": 0.2348,
+      "user_informativeness_mean": 0.2498,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2477
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_cooperative_expert_batch8": {
+      "coherence_mean": 0.7419,
+      "re_informativeness_mean": 0.2374,
+      "user_informativeness_mean": 0.2415,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2259
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert": {
+      "coherence_mean": 0.6377,
+      "re_informativeness_mean": 0.2439,
+      "user_informativeness_mean": 0.2274,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2889
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch2": {
+      "coherence_mean": 0.6108,
+      "re_informativeness_mean": 0.2549,
+      "user_informativeness_mean": 0.242,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2963
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch3": {
+      "coherence_mean": 0.6274,
+      "re_informativeness_mean": 0.243,
+      "user_informativeness_mean": 0.2531,
+      "requirement_coverage": 0.8125,
+      "requirement_specificity_mean": 0.2501
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch4": {
+      "coherence_mean": 0.6239,
+      "re_informativeness_mean": 0.2382,
+      "user_informativeness_mean": 0.2312,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2464
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch5": {
+      "coherence_mean": 0.6893,
+      "re_informativeness_mean": 0.2339,
+      "user_informativeness_mean": 0.2321,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2973
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch6": {
+      "coherence_mean": 0.5968,
+      "re_informativeness_mean": 0.2439,
+      "user_informativeness_mean": 0.2379,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2358
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch7": {
+      "coherence_mean": 0.669,
+      "re_informativeness_mean": 0.2371,
+      "user_informativeness_mean": 0.2169,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2229
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_resistant_expert_batch8": {
+      "coherence_mean": 0.6546,
+      "re_informativeness_mean": 0.2365,
+      "user_informativeness_mean": 0.2463,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2712
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice": {
+      "coherence_mean": 0.5392,
+      "re_informativeness_mean": 0.2329,
+      "user_informativeness_mean": 0.2218,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.3003
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch2": {
+      "coherence_mean": 0.5647,
+      "re_informativeness_mean": 0.2374,
+      "user_informativeness_mean": 0.212,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.3004
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch3": {
+      "coherence_mean": 0.4765,
+      "re_informativeness_mean": 0.2391,
+      "user_informativeness_mean": 0.2035,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2465
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch4": {
+      "coherence_mean": 0.555,
+      "re_informativeness_mean": 0.2382,
+      "user_informativeness_mean": 0.2191,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.3006
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch5": {
+      "coherence_mean": 0.5628,
+      "re_informativeness_mean": 0.2257,
+      "user_informativeness_mean": 0.2154,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2603
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch6": {
+      "coherence_mean": 0.5557,
+      "re_informativeness_mean": 0.227,
+      "user_informativeness_mean": 0.2073,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2659
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch7": {
+      "coherence_mean": 0.6688,
+      "re_informativeness_mean": 0.2256,
+      "user_informativeness_mean": 0.2317,
+      "requirement_coverage": 0.8125,
+      "requirement_specificity_mean": 0.2783
+    },
+    "run_student_portal_enhancement_adaptive_generalist_vs_portal_vague_novice_batch8": {
+      "coherence_mean": 0.5714,
+      "re_informativeness_mean": 0.2559,
+      "user_informativeness_mean": 0.2337,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2382
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert": {
+      "coherence_mean": 0.7616,
+      "re_informativeness_mean": 0.2304,
+      "user_informativeness_mean": 0.2454,
+      "requirement_coverage": 0.8125,
+      "requirement_specificity_mean": 0.2498
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch2": {
+      "coherence_mean": 0.7064,
+      "re_informativeness_mean": 0.2272,
+      "user_informativeness_mean": 0.2551,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2741
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch3": {
+      "coherence_mean": 0.7322,
+      "re_informativeness_mean": 0.2321,
+      "user_informativeness_mean": 0.242,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2515
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch4": {
+      "coherence_mean": 0.7004,
+      "re_informativeness_mean": 0.2147,
+      "user_informativeness_mean": 0.2578,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2589
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch5": {
+      "coherence_mean": 0.782,
+      "re_informativeness_mean": 0.2392,
+      "user_informativeness_mean": 0.2339,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2556
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch6": {
+      "coherence_mean": 0.6908,
+      "re_informativeness_mean": 0.2345,
+      "user_informativeness_mean": 0.2421,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2245
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch7": {
+      "coherence_mean": 0.6881,
+      "re_informativeness_mean": 0.2348,
+      "user_informativeness_mean": 0.2479,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2591
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_cooperative_expert_batch8": {
+      "coherence_mean": 0.717,
+      "re_informativeness_mean": 0.2303,
+      "user_informativeness_mean": 0.2407,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2495
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert": {
+      "coherence_mean": 0.7054,
+      "re_informativeness_mean": 0.2375,
+      "user_informativeness_mean": 0.2512,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.204
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch2": {
+      "coherence_mean": 0.6498,
+      "re_informativeness_mean": 0.2506,
+      "user_informativeness_mean": 0.2565,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2569
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch3": {
+      "coherence_mean": 0.5864,
+      "re_informativeness_mean": 0.2418,
+      "user_informativeness_mean": 0.2653,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2529
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch4": {
+      "coherence_mean": 0.707,
+      "re_informativeness_mean": 0.2508,
+      "user_informativeness_mean": 0.2436,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2791
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch5": {
+      "coherence_mean": 0.689,
+      "re_informativeness_mean": 0.2445,
+      "user_informativeness_mean": 0.2344,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2434
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch6": {
+      "coherence_mean": 0.6597,
+      "re_informativeness_mean": 0.2405,
+      "user_informativeness_mean": 0.2434,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2642
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch7": {
+      "coherence_mean": 0.675,
+      "re_informativeness_mean": 0.2367,
+      "user_informativeness_mean": 0.2446,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2337
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_resistant_expert_batch8": {
+      "coherence_mean": 0.6117,
+      "re_informativeness_mean": 0.2553,
+      "user_informativeness_mean": 0.2444,
+      "requirement_coverage": 0.8125,
+      "requirement_specificity_mean": 0.3638
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice": {
+      "coherence_mean": 0.5297,
+      "re_informativeness_mean": 0.2464,
+      "user_informativeness_mean": 0.237,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2451
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch2": {
+      "coherence_mean": 0.5211,
+      "re_informativeness_mean": 0.247,
+      "user_informativeness_mean": 0.2384,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.3176
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch3": {
+      "coherence_mean": 0.5628,
+      "re_informativeness_mean": 0.2267,
+      "user_informativeness_mean": 0.2255,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.3062
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch4": {
+      "coherence_mean": 0.5907,
+      "re_informativeness_mean": 0.2341,
+      "user_informativeness_mean": 0.2245,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2624
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch5": {
+      "coherence_mean": 0.6615,
+      "re_informativeness_mean": 0.2366,
+      "user_informativeness_mean": 0.2371,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2565
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch6": {
+      "coherence_mean": 0.5841,
+      "re_informativeness_mean": 0.2363,
+      "user_informativeness_mean": 0.2197,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2274
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch7": {
+      "coherence_mean": 0.4853,
+      "re_informativeness_mean": 0.2461,
+      "user_informativeness_mean": 0.2529,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2563
+    },
+    "run_student_portal_enhancement_experienced_methodical_vs_portal_vague_novice_batch8": {
+      "coherence_mean": 0.6001,
+      "re_informativeness_mean": 0.2434,
+      "user_informativeness_mean": 0.2308,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2646
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert": {
+      "coherence_mean": 0.7488,
+      "re_informativeness_mean": 0.2277,
+      "user_informativeness_mean": 0.2443,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2363
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch2": {
+      "coherence_mean": 0.7388,
+      "re_informativeness_mean": 0.2289,
+      "user_informativeness_mean": 0.2413,
+      "requirement_coverage": 0.6875,
+      "requirement_specificity_mean": 0.2457
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch3": {
+      "coherence_mean": 0.7148,
+      "re_informativeness_mean": 0.2421,
+      "user_informativeness_mean": 0.2448,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2689
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch4": {
+      "coherence_mean": 0.6605,
+      "re_informativeness_mean": 0.2401,
+      "user_informativeness_mean": 0.2474,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2356
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch5": {
+      "coherence_mean": 0.7421,
+      "re_informativeness_mean": 0.2455,
+      "user_informativeness_mean": 0.2402,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2493
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch6": {
+      "coherence_mean": 0.739,
+      "re_informativeness_mean": 0.2335,
+      "user_informativeness_mean": 0.2358,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2537
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch7": {
+      "coherence_mean": 0.6583,
+      "re_informativeness_mean": 0.2497,
+      "user_informativeness_mean": 0.2556,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2257
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_cooperative_expert_batch8": {
+      "coherence_mean": 0.7034,
+      "re_informativeness_mean": 0.2352,
+      "user_informativeness_mean": 0.2378,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.258
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert": {
+      "coherence_mean": 0.6924,
+      "re_informativeness_mean": 0.2462,
+      "user_informativeness_mean": 0.2257,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2268
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch2": {
+      "coherence_mean": 0.584,
+      "re_informativeness_mean": 0.2494,
+      "user_informativeness_mean": 0.2554,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2491
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch3": {
+      "coherence_mean": 0.6572,
+      "re_informativeness_mean": 0.2226,
+      "user_informativeness_mean": 0.2233,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2646
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch4": {
+      "coherence_mean": 0.5597,
+      "re_informativeness_mean": 0.2299,
+      "user_informativeness_mean": 0.2523,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2663
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch5": {
+      "coherence_mean": 0.6702,
+      "re_informativeness_mean": 0.2302,
+      "user_informativeness_mean": 0.2489,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2426
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch6": {
+      "coherence_mean": 0.6019,
+      "re_informativeness_mean": 0.2539,
+      "user_informativeness_mean": 0.2339,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2683
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch7": {
+      "coherence_mean": 0.6579,
+      "re_informativeness_mean": 0.2452,
+      "user_informativeness_mean": 0.2295,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2118
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_resistant_expert_batch8": {
+      "coherence_mean": 0.5842,
+      "re_informativeness_mean": 0.239,
+      "user_informativeness_mean": 0.232,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2299
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice": {
+      "coherence_mean": 0.5553,
+      "re_informativeness_mean": 0.2488,
+      "user_informativeness_mean": 0.2241,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2493
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch2": {
+      "coherence_mean": 0.5278,
+      "re_informativeness_mean": 0.2387,
+      "user_informativeness_mean": 0.2218,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.245
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch3": {
+      "coherence_mean": 0.6024,
+      "re_informativeness_mean": 0.2505,
+      "user_informativeness_mean": 0.2226,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2665
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch4": {
+      "coherence_mean": 0.5855,
+      "re_informativeness_mean": 0.2403,
+      "user_informativeness_mean": 0.2261,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2428
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch5": {
+      "coherence_mean": 0.6331,
+      "re_informativeness_mean": 0.2352,
+      "user_informativeness_mean": 0.2367,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.2975
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch6": {
+      "coherence_mean": 0.5949,
+      "re_informativeness_mean": 0.2441,
+      "user_informativeness_mean": 0.2094,
+      "requirement_coverage": 1.0,
+      "requirement_specificity_mean": 0.2713
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch7": {
+      "coherence_mean": 0.6004,
+      "re_informativeness_mean": 0.2475,
+      "user_informativeness_mean": 0.2087,
+      "requirement_coverage": 0.875,
+      "requirement_specificity_mean": 0.309
+    },
+    "run_student_portal_enhancement_junior_inexperienced_vs_portal_vague_novice_batch8": {
+      "coherence_mean": 0.6385,
+      "re_informativeness_mean": 0.2496,
+      "user_informativeness_mean": 0.2284,
+      "requirement_coverage": 0.9375,
+      "requirement_specificity_mean": 0.2681
+    }
+  }
+}

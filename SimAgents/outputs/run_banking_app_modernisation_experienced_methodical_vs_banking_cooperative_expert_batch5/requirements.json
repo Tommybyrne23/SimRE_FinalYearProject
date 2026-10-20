@@ -1,0 +1,176 @@
+{
+  "run_id": "run_banking_app_modernisation_experienced_methodical_vs_banking_cooperative_expert_batch5",
+  "extraction_method": "LLM-direct",
+  "model": "gpt-4o-mini",
+  "total_requirements": 28,
+  "requirements": [
+    {
+      "id": "REQ_001",
+      "text": "Enhance customer experience to compete with fintechs.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_002",
+      "text": "Implement real-time transaction notifications that include transaction details and remaining balances.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_003",
+      "text": "Support biometric authentication methods such as fingerprint and facial recognition for secure logins.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_004",
+      "text": "Provide budgeting tools, including automated spending breakdowns and personalized budget alerts.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_005",
+      "text": "Make lending options available within the app for customers to apply for loans or credit limit changes.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_006",
+      "text": "Ensure compliance with PSD2 and GDPR regulations.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_007",
+      "text": "Integrate smoothly with the legacy core banking system without requiring major changes.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_008",
+      "text": "Each notification must include the transaction amount, merchant name, and customer's remaining balance immediately after the transaction.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_009",
+      "text": "Notifications should be presented in a concise and visually appealing format, including both push notifications and an in-app notification center.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_010",
+      "text": "Customers should have the option to customize notifications based on transaction amounts or specific categories for enhanced personalization.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_011",
+      "text": "Notifications should be processed and delivered within five seconds of the transaction completion.",
+      "type": "NonFunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_012",
+      "text": "Support both fingerprint and facial recognition as primary methods for login.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_013",
+      "text": "Prompt users to set up biometric authentication during the onboarding process.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_014",
+      "text": "Use biometric authentication for sensitive actions within the app, such as approving transactions and accessing detailed account information.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_015",
+      "text": "Provide alternative login options, such as traditional passwords or PINs, for users who prefer not to use biometric methods.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_016",
+      "text": "Store biometric data securely and ensure compliance with regulations like GDPR.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_017",
+      "text": "Provide automated monthly spending breakdowns categorised by merchant type with visual aids like pie charts or bar graphs.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_018",
+      "text": "Allow customers to set personalized monthly budgets for each spending category.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_019",
+      "text": "Implement alerts to notify users when they are approaching or exceeding set budgets.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_020",
+      "text": "Offer tips or insights on adjusting spending or saving more based on budget performance.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_021",
+      "text": "Integrate budgeting tools with real-time transaction notifications for immediate alerts if a transaction pushes users over their budget.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_022",
+      "text": "Present clear options for different types of lending products with straightforward terms and conditions.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_023",
+      "text": "Provide a seamless and guided application process for lending products within the app.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_024",
+      "text": "Implement a pre-approval feature for customers to see if they qualify for a loan or credit increase before formally applying.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_025",
+      "text": "Keep customers informed with real-time updates on the status of their lending applications.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_026",
+      "text": "Ensure compliance with responsible lending practices and affordability assessments.",
+      "type": "Constraint",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_027",
+      "text": "Allow customers to manage their repayments easily within the app, including setting up automatic repayments and viewing repayment schedules.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    },
+    {
+      "id": "REQ_028",
+      "text": "Provide reminders before repayments are due.",
+      "type": "FunctionalRequirement",
+      "source": "User_banking_cooperative_expert"
+    }
+  ]
+}
